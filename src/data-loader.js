@@ -15,13 +15,27 @@ async function fetchJson(path) {
   return response.json();
 }
 
+function normalizeHolding(holding) {
+  return {
+    ...holding,
+    etfCode: holding.etfCode || holding.etf_code || "",
+    etfName: holding.etfName || holding.etf_name || "",
+    stockCode: holding.stockCode || holding.stock_code || "",
+    stockName: holding.stockName || holding.stock_name || "",
+    weight: Number(holding.weight) || 0,
+    shares: Number(holding.shares) || 0
+  };
+}
+
 export async function loadDashboardData() {
-  const [etfs, holdings, trades, prices] = await Promise.all([
+  const [etfs, rawHoldings, trades, prices] = await Promise.all([
     fetchJson(DATA_FILES.etfs),
     fetchJson(DATA_FILES.holdings),
     fetchJson(DATA_FILES.trades),
     fetchJson(DATA_FILES.prices)
   ]);
+
+  const holdings = rawHoldings.map(normalizeHolding);
 
   return { etfs, holdings, trades, prices };
 }
