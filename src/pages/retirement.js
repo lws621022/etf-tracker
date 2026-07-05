@@ -1,4 +1,5 @@
 import { renderLineChart } from "../charts.js";
+import { enhanceDataTables } from "../table-utils.js";
 
 const currency = new Intl.NumberFormat("zh-TW", {
   style: "currency",
@@ -31,8 +32,8 @@ function renderRows(rows) {
     <tr>
       <td>${row.age} 歲</td>
       <td>${currency.format(row.contribution)}</td>
-      <td>${currency.format(row.balance)}</td>
-      <td>${currency.format(row.gain)}</td>
+      <td class="num-strong">${currency.format(row.balance)}</td>
+      <td class="${row.gain >= 0 ? "up" : "down"}">${currency.format(row.gain)}</td>
     </tr>
   `).join("");
 }
@@ -101,4 +102,5 @@ export function renderRetirementPage(container) {
   form.addEventListener("input", update);
   form.addEventListener("submit", (event) => event.preventDefault());
   update();
+  enhanceDataTables(container);
 }

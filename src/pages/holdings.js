@@ -1,3 +1,5 @@
+import { enhanceDataTables } from "../table-utils.js";
+
 export function renderHoldingsPage(container, data) {
   const topHoldings = [...data.holdings].sort((a, b) => b.weight - a.weight).slice(0, 12);
 
@@ -16,9 +18,9 @@ export function renderHoldingsPage(container, data) {
           <tbody>
             ${topHoldings.map((item) => `
               <tr>
-                <td>${item.stockCode} ${item.stockName}</td>
-                <td>${item.etfCode} ${item.etfName}</td>
-                <td>${item.weight}%</td>
+                <td><strong>${item.stockCode}</strong> ${item.stockName}</td>
+                <td><strong>${item.etfCode}</strong> ${item.etfName}</td>
+                <td class="num-strong">${item.weight}%</td>
                 <td>${item.shares.toLocaleString("zh-TW")}</td>
               </tr>
             `).join("")}
@@ -27,4 +29,6 @@ export function renderHoldingsPage(container, data) {
       </div>
     </section>
   `;
+
+  enhanceDataTables(container);
 }

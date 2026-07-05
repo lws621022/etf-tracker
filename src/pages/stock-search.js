@@ -1,3 +1,5 @@
+import { enhanceDataTables } from "../table-utils.js";
+
 function renderResults(results) {
   if (!results.length) {
     return `<div class="empty-state">查無符合的 ETF 持股，請改用股票代號或名稱搜尋。</div>`;
@@ -18,10 +20,10 @@ function renderResults(results) {
         <tbody>
           ${results.map((item) => `
             <tr>
-              <td>${item.stockCode} ${item.stockName}</td>
-              <td>${item.etfCode}</td>
+              <td><strong>${item.stockCode}</strong> ${item.stockName}</td>
+              <td><strong>${item.etfCode}</strong></td>
               <td>${item.etfName}</td>
-              <td>${item.weight}%</td>
+              <td class="num-strong">${item.weight}%</td>
               <td>${item.shares.toLocaleString("zh-TW")}</td>
             </tr>
           `).join("")}
@@ -59,6 +61,7 @@ export function renderStockSearchPage(container, data) {
       : data.holdings.slice(0, 8);
 
     results.innerHTML = renderResults(matches);
+    enhanceDataTables(results);
   };
 
   input.addEventListener("input", update);

@@ -1,3 +1,5 @@
+import { enhanceDataTables } from "../table-utils.js";
+
 const formatNumber = new Intl.NumberFormat("zh-TW");
 
 function renderCards(etfs) {
@@ -38,11 +40,11 @@ function renderTable(etfs) {
         <tbody>
           ${etfs.map((etf) => `
             <tr>
-              <td>${etf.code}</td>
+              <td><strong>${etf.code}</strong></td>
               <td>${etf.name}</td>
               <td>${etf.type}</td>
               <td>${etf.issuer}</td>
-              <td>${etf.price}</td>
+              <td class="num-strong">${etf.price}</td>
               <td>${formatNumber.format(etf.aum)} 億</td>
               <td>${etf.expenseRatio}%</td>
               <td>${etf.yield}%</td>
@@ -86,6 +88,7 @@ export function renderOverviewPage(container, data) {
 
       content.className = "panel";
       content.innerHTML = renderTable(data.etfs);
+      enhanceDataTables(content);
     });
   });
 }

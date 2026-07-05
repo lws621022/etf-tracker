@@ -1,3 +1,5 @@
+import { enhanceDataTables } from "../table-utils.js";
+
 const rangeLabels = {
   day: "當日",
   "5d": "5日",
@@ -19,9 +21,9 @@ function rankingTable(items, type) {
           <tbody>
             ${sorted.map((item) => `
               <tr>
-                <td>${item.code} ${item.name}</td>
+                <td><strong>${item.code}</strong> ${item.name}</td>
                 <td class="${item.buySell >= 0 ? "up" : "down"}">${item.buySell.toLocaleString("zh-TW")}</td>
-                <td>${item.amount.toLocaleString("zh-TW")} 百萬</td>
+                <td class="num-strong">${item.amount.toLocaleString("zh-TW")} 百萬</td>
               </tr>
             `).join("")}
           </tbody>
@@ -54,6 +56,7 @@ export function renderInvestmentTrustPage(container, data) {
   const update = (range) => {
     const items = data.trades.investmentTrust[range];
     rankings.innerHTML = rankingTable(items, "buy") + rankingTable(items, "sell");
+    enhanceDataTables(rankings);
   };
 
   buttons.forEach((button) => {
@@ -95,4 +98,6 @@ export function renderThreeInstitutionsPage(container, data) {
       </div>
     </section>
   `;
+
+  enhanceDataTables(container);
 }

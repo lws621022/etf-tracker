@@ -1,3 +1,5 @@
+import { enhanceDataTables } from "../table-utils.js";
+
 export function renderActiveEtfPage(container, data) {
   const activeEtfs = data.etfs.filter((etf) => etf.isActive);
 
@@ -14,7 +16,7 @@ export function renderActiveEtfPage(container, data) {
         <article class="etf-card">
           <div class="card-topline"><span class="code-pill">${etf.code}</span><span class="tag">主動式</span></div>
           <h3>${etf.name}</h3>
-          <p>${etf.issuer}｜規模 ${etf.aum} 億｜費用率 ${etf.expenseRatio}%</p>
+          <p>${etf.issuer}｜規模 <strong class="num-strong">${etf.aum}</strong> 億｜費用率 <strong class="num-strong">${etf.expenseRatio}%</strong></p>
         </article>
       `).join("")}
     </section>
@@ -25,8 +27,8 @@ export function renderActiveEtfPage(container, data) {
           <tbody>
             ${data.trades.activeEtfFlows.map((item) => `
               <tr>
-                <td>${item.etfCode} ${item.etfName}</td>
-                <td>${item.stockCode} ${item.stockName}</td>
+                <td><strong>${item.etfCode}</strong> ${item.etfName}</td>
+                <td><strong>${item.stockCode}</strong> ${item.stockName}</td>
                 <td><span class="tag ${item.action === "減碼" ? "danger" : "success"}">${item.action}</span></td>
                 <td class="${item.weightChange >= 0 ? "up" : "down"}">${item.weightChange}%</td>
                 <td class="${item.sharesChange >= 0 ? "up" : "down"}">${item.sharesChange.toLocaleString("zh-TW")}</td>
@@ -37,4 +39,6 @@ export function renderActiveEtfPage(container, data) {
       </div>
     </section>
   `;
+
+  enhanceDataTables(container);
 }
