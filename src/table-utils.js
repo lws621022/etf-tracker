@@ -4,8 +4,16 @@ function normalizeText(value) {
 
 function readCellValue(row, index) {
   const text = normalizeText(row.cells[index]?.textContent || "");
-  const numeric = Number.parseFloat(text.replace(/[^0-9.-]/g, ""));
-  return Number.isNaN(numeric) ? text : numeric;
+  const numericText = text
+    .replace(/nt\$/gi, "")
+    .replace(/[,%$\s]/g, "")
+    .replace(/億|百萬|張|歲/g, "");
+
+  if (/^[+-]?\d+(\.\d+)?$/.test(numericText)) {
+    return Number.parseFloat(numericText);
+  }
+
+  return text;
 }
 
 function sortTable(table, columnIndex, direction) {
