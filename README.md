@@ -38,8 +38,14 @@ etf-tracker/
 │  ├─ etf_holdings.json
 │  ├─ institution_trades.json
 │  └─ price_history.json
+├─ sources/
+│  ├─ etf_list.csv
+│  ├─ etf_holdings.csv
+│  ├─ institution_trades.csv
+│  └─ price_history.csv
 ├─ scripts/
 │  └─ update_data.py
+├─ 更新網站資料.bat
 ├─ package.json
 └─ README.md
 ```
@@ -75,9 +81,43 @@ python -m http.server 8000
 
 ## 資料更新
 
-目前 `data/` 內是範例資料。未來可擴充 `scripts/update_data.py`，把正式資料來源轉換成相同 JSON 格式後覆蓋：
+目前 `sources/` 內是範例 CSV。執行更新流程後，`scripts/update_data.py` 會把 CSV 轉成網站使用的 JSON，並覆蓋 `data/` 內的資料檔：
 
 - `data/etf_list.json`
 - `data/etf_holdings.json`
 - `data/institution_trades.json`
 - `data/price_history.json`
+
+### Windows 更新方式
+
+在 Windows 可直接執行根目錄的 `更新網站資料.bat`，內容會執行：
+
+```bat
+python scripts/update_data.py
+```
+
+成功後會顯示「更新完成。」。
+
+### 手動更新方式
+
+也可以在終端機執行：
+
+```bash
+python scripts/update_data.py
+```
+
+腳本只使用 Python 標準函式庫，不需要另外安裝套件。
+
+### CSV 檔案說明
+
+`etf_list.csv`：ETF 基本資料，會輸出成 `data/etf_list.json`。
+
+`etf_holdings.csv`：ETF 持股資料，會輸出成 `data/etf_holdings.json`。
+
+`institution_trades.csv`：法人與主動式 ETF 進出資料，使用 `recordType` 區分：
+
+- `investment_trust`：投信買賣超排行，需填 `range`、`code`、`name`、`buySell`、`amount`
+- `three_institutions`：三大法人每日買賣超，需填 `date`、`foreign`、`investmentTrust`、`dealer`、`total`
+- `active_etf_flow`：主動式 ETF 進出，需填 `etfCode`、`etfName`、`stockCode`、`stockName`、`action`、`weightChange`、`sharesChange`
+
+`price_history.csv`：ETF 淨值與價格歷史，需填 `date`、`etfCode`、`price`，可選填 `nav`。輸出時會保留網站目前使用的 `dates` 與 `series`，若有填 `nav` 也會另外輸出 `navSeries`。
