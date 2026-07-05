@@ -37,7 +37,7 @@ function renderResults(results, hasQuery) {
           ${results.map((item) => `
             <tr>
               <td><strong>${item.etfCode}</strong></td>
-              <td><button class="text-link etf-detail-link" type="button" data-etf-code="${item.etfCode}">${item.etfName}</button></td>
+              <td><button class="tag etf-detail-link" type="button" data-etf-code="${item.etfCode}">${item.etfName}</button></td>
               <td><strong>${item.stockCode}</strong></td>
               <td>${item.stockName}</td>
               <td class="num-strong">${item.weight}%</td>
@@ -64,7 +64,7 @@ function renderEtfDetail(holdings, etfCode) {
 
   return `
     <section class="panel etf-detail-panel">
-      <div class="detail-heading">
+      <div class="page-heading">
         <div>
           <p class="eyebrow">ETF Holdings</p>
           <h3>${etfCode} ${etfName} 持股明細</h3>
