@@ -48,6 +48,13 @@ def require(row: dict[str, str], fields: Iterable[str], source: str) -> None:
         raise ValueError(f"{source} row is missing required field(s): {', '.join(missing)}")
 
 
+def get_value(row: dict[str, str], *fields: str) -> str:
+    for field in fields:
+        if row.get(field):
+            return row[field]
+    return ""
+
+
 def to_float(value: str, default: float = 0.0) -> float:
     if value == "":
         return default
@@ -95,13 +102,22 @@ def build_etf_holdings() -> list[dict[str, object]]:
     holdings: list[dict[str, object]] = []
 
     for row in rows:
-        require(row, ["etfCode", "etfName", "stockCode", "stockName"], "etf_holdings.csv")
+        required_groups = {
+            "etf_code": get_value(row, "etf_code", "etfCode"),
+            "etf_name": get_value(row, "etf_name", "etfName"),
+            "stock_code": get_value(row, "stock_code", "stockCode"),
+            "stock_name": get_value(row, "stock_name", "stockName"),
+        }
+        missing = [field for field, value in required_groups.items() if not value]
+        if missing:
+            raise ValueError(f"etf_holdings.csv row is missing required field(s): {', '.join(missing)}")
+
         holdings.append(
             {
-                "etfCode": row["etfCode"],
-                "etfName": row["etfName"],
-                "stockCode": row["stockCode"],
-                "stockName": row["stockName"],
+                "etf_code": required_groups["etf_code"],
+                "etf_name": required_groups["etf_name"],
+                "stock_code": required_groups["stock_code"],
+                "stock_name": required_groups["stock_name"],
                 "weight": to_float(row.get("weight", "")),
                 "shares": to_int(row.get("shares", "")),
             }
