@@ -1,4 +1,4 @@
-etfCode,etfName,stockCode,stockName,weight,shares
+etf_code,etf_name,stock_code,stock_name,weight,shares
 0050,元大台灣50,2330,台積電,52.4,128500
 0050,元大台灣50,2317,鴻海,5.8,67200
 0050,元大台灣50,2454,聯發科,4.7,9800
