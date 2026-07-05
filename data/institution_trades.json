@@ -1,0 +1,46 @@
+{
+  "updatedAt": "2026-07-05",
+  "ranges": ["day", "5d", "20d", "60d"],
+  "investmentTrust": {
+    "day": [
+      { "code": "2330", "name": "台積電", "buySell": 4280, "amount": 4180 },
+      { "code": "2382", "name": "廣達", "buySell": 2860, "amount": 785 },
+      { "code": "2303", "name": "聯電", "buySell": 2210, "amount": 112 },
+      { "code": "3231", "name": "緯創", "buySell": -1920, "amount": -218 },
+      { "code": "2891", "name": "中信金", "buySell": -1560, "amount": -62 }
+    ],
+    "5d": [
+      { "code": "2330", "name": "台積電", "buySell": 12800, "amount": 12400 },
+      { "code": "2382", "name": "廣達", "buySell": 6420, "amount": 1760 },
+      { "code": "3017", "name": "奇鋐", "buySell": 3550, "amount": 2260 },
+      { "code": "3231", "name": "緯創", "buySell": -4880, "amount": -552 },
+      { "code": "2886", "name": "兆豐金", "buySell": -3800, "amount": -155 }
+    ],
+    "20d": [
+      { "code": "2330", "name": "台積電", "buySell": 40500, "amount": 39100 },
+      { "code": "6669", "name": "緯穎", "buySell": 5100, "amount": 11200 },
+      { "code": "3661", "name": "世芯-KY", "buySell": 1680, "amount": 6400 },
+      { "code": "2303", "name": "聯電", "buySell": -13800, "amount": -712 },
+      { "code": "2891", "name": "中信金", "buySell": -10600, "amount": -420 }
+    ],
+    "60d": [
+      { "code": "2330", "name": "台積電", "buySell": 80500, "amount": 77800 },
+      { "code": "2382", "name": "廣達", "buySell": 22100, "amount": 6080 },
+      { "code": "3017", "name": "奇鋐", "buySell": 8200, "amount": 5180 },
+      { "code": "2303", "name": "聯電", "buySell": -33200, "amount": -1710 },
+      { "code": "2886", "name": "兆豐金", "buySell": -18400, "amount": -748 }
+    ]
+  },
+  "threeInstitutions": [
+    { "date": "2026-07-05", "foreign": 86.4, "investmentTrust": 24.8, "dealer": -11.2, "total": 100.0 },
+    { "date": "2026-07-04", "foreign": -42.3, "investmentTrust": 18.6, "dealer": 6.4, "total": -17.3 },
+    { "date": "2026-07-03", "foreign": 122.5, "investmentTrust": 31.7, "dealer": 9.1, "total": 163.3 },
+    { "date": "2026-07-02", "foreign": -18.6, "investmentTrust": 12.4, "dealer": -5.8, "total": -12.0 }
+  ],
+  "activeEtfFlows": [
+    { "etfCode": "00981A", "etfName": "主動統一台股增長", "stockCode": "6669", "stockName": "緯穎", "action": "新增", "weightChange": 1.4, "sharesChange": 320 },
+    { "etfCode": "00981A", "etfName": "主動統一台股增長", "stockCode": "3661", "stockName": "世芯-KY", "action": "加碼", "weightChange": 0.8, "sharesChange": 120 },
+    { "etfCode": "00982A", "etfName": "主動群益台灣強棒", "stockCode": "2382", "stockName": "廣達", "action": "加碼", "weightChange": 1.1, "sharesChange": 640 },
+    { "etfCode": "00982A", "etfName": "主動群益台灣強棒", "stockCode": "3231", "stockName": "緯創", "action": "減碼", "weightChange": -0.9, "sharesChange": -850 }
+  ]
+}
