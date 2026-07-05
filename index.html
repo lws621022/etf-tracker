@@ -3,105 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ETF 定期定額試算</title>
-  <link rel="stylesheet" href="style.css">
+  <title>籌碼小宇｜台股 ETF 持股追蹤</title>
+  <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-  <main class="app-shell">
-    <section class="hero" aria-labelledby="page-title">
+  <div class="app-shell">
+    <header class="site-header">
       <div>
-        <p class="eyebrow">ETF 定期定額試算</p>
-        <h1 id="page-title">看見每月投入，如何累積成長期資產</h1>
-        <p class="hero-copy">輸入每月投入金額、投資年限與預估年化報酬率，快速估算總投入、預估累積金額與投資收益。</p>
+        <p class="eyebrow">Taiwan ETF Intelligence</p>
+        <h1>籌碼小宇｜台股 ETF 持股追蹤</h1>
+        <p class="lead">用 ETF 持股、法人籌碼、績效比較與退休試算，快速看懂台股 ETF 資金動向。</p>
       </div>
-    </section>
+    </header>
 
-    <section class="calculator-grid" aria-label="ETF 定期定額試算器">
-      <form class="input-panel" id="calculator-form">
-        <div class="section-heading">
-          <h2>試算條件</h2>
-          <p>所有計算都在瀏覽器端完成，不需要登入。</p>
-        </div>
+    <nav class="tab-nav" id="tab-nav" aria-label="主要分頁"></nav>
 
-        <div class="preset-row" aria-label="常用 ETF 範例設定">
-          <button type="button" class="preset-button" data-monthly="10000" data-years="20" data-return="8">VOO 範例</button>
-          <button type="button" class="preset-button" data-monthly="10000" data-years="20" data-return="10">QQQ 範例</button>
-          <button type="button" class="preset-button" data-monthly="5000" data-years="15" data-return="7">0050 範例</button>
-          <button type="button" class="preset-button" data-monthly="5000" data-years="15" data-return="7">006208 範例</button>
-        </div>
+    <main id="app" class="page-root" aria-live="polite">
+      <section class="loading-panel">資料載入中...</section>
+    </main>
+  </div>
 
-        <label class="field" for="monthly-investment">
-          <span>每月投入金額</span>
-          <div class="input-wrap">
-            <span class="prefix">NT$</span>
-            <input id="monthly-investment" name="monthlyInvestment" type="number" min="0" step="100" value="10000" required>
-          </div>
-        </label>
-
-        <label class="field" for="investment-years">
-          <span>投資年限</span>
-          <div class="input-wrap">
-            <input id="investment-years" name="investmentYears" type="number" min="1" max="60" step="1" value="20" required>
-            <span class="suffix">年</span>
-          </div>
-        </label>
-
-        <label class="field" for="annual-return">
-          <span>預估年化報酬率</span>
-          <div class="input-wrap">
-            <input id="annual-return" name="annualReturn" type="number" min="-50" max="100" step="0.1" value="8" required>
-            <span class="suffix">%</span>
-          </div>
-        </label>
-
-        <p class="note">試算假設每月月底投入，並以月複利估算；結果僅供規劃參考，不代表實際報酬。</p>
-      </form>
-
-      <section class="result-panel" aria-live="polite">
-        <div class="section-heading">
-          <h2>試算結果</h2>
-          <p id="summary-text">依目前條件估算的長期累積成果。</p>
-        </div>
-
-        <div class="result-cards">
-          <article class="result-card">
-            <span>總投入金額</span>
-            <strong id="total-contribution">NT$0</strong>
-          </article>
-          <article class="result-card primary">
-            <span>預估累積金額</span>
-            <strong id="future-value">NT$0</strong>
-          </article>
-          <article class="result-card">
-            <span>投資收益</span>
-            <strong id="investment-gain">NT$0</strong>
-          </article>
-        </div>
-      </section>
-    </section>
-
-    <section class="table-section" aria-labelledby="yearly-title">
-      <div class="section-heading compact">
-        <h2 id="yearly-title">每年累積資產變化</h2>
-        <p>逐年查看投入本金、預估資產與累積收益。</p>
-      </div>
-
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">年份</th>
-              <th scope="col">累積投入</th>
-              <th scope="col">預估資產</th>
-              <th scope="col">累積收益</th>
-            </tr>
-          </thead>
-          <tbody id="yearly-results"></tbody>
-        </table>
-      </div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <script type="module" src="src/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "etf-tracker",
+  "version": "0.2.0",
+  "private": true,
+  "description": "籌碼小宇｜台股 ETF 持股追蹤純前端網站",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "echo Static site - no build step required"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
