@@ -11,7 +11,11 @@ function matchesStock(item, query) {
     || item.stockName.toLowerCase().includes(normalizedQuery);
 }
 
-function renderResults(results) {
+function renderResults(results, hasQuery) {
+  if (!hasQuery) {
+    return `<div class="empty-state">請輸入股票代號或名稱開始查詢。</div>`;
+  }
+
   if (!results.length) {
     return `<div class="empty-state">查無持有此股票的 ETF</div>`;
   }
@@ -129,7 +133,7 @@ export function renderStockSearchPage(container, data) {
       ? sortByWeight(data.holdings.filter((item) => matchesStock(item, query)))
       : [];
 
-    results.innerHTML = renderResults(matches);
+    results.innerHTML = renderResults(matches, query !== "");
     selectedEtfCode = matches.some((item) => item.etfCode === selectedEtfCode) ? selectedEtfCode : "";
     renderDetail();
     enhanceDataTables(results);
