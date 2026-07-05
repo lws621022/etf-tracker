@@ -1,0 +1,22 @@
+[
+  { "etfCode": "0050", "etfName": "元大台灣50", "stockCode": "2330", "stockName": "台積電", "weight": 52.4, "shares": 128500 },
+  { "etfCode": "0050", "etfName": "元大台灣50", "stockCode": "2317", "stockName": "鴻海", "weight": 5.8, "shares": 67200 },
+  { "etfCode": "0050", "etfName": "元大台灣50", "stockCode": "2454", "stockName": "聯發科", "weight": 4.7, "shares": 9800 },
+  { "etfCode": "0050", "etfName": "元大台灣50", "stockCode": "2308", "stockName": "台達電", "weight": 3.2, "shares": 13600 },
+  { "etfCode": "006208", "etfName": "富邦台50", "stockCode": "2330", "stockName": "台積電", "weight": 52.1, "shares": 78600 },
+  { "etfCode": "006208", "etfName": "富邦台50", "stockCode": "2317", "stockName": "鴻海", "weight": 5.7, "shares": 40200 },
+  { "etfCode": "006208", "etfName": "富邦台50", "stockCode": "2454", "stockName": "聯發科", "weight": 4.6, "shares": 6200 },
+  { "etfCode": "00878", "etfName": "國泰永續高股息", "stockCode": "2303", "stockName": "聯電", "weight": 5.9, "shares": 98500 },
+  { "etfCode": "00878", "etfName": "國泰永續高股息", "stockCode": "2891", "stockName": "中信金", "weight": 4.8, "shares": 176000 },
+  { "etfCode": "00878", "etfName": "國泰永續高股息", "stockCode": "2886", "stockName": "兆豐金", "weight": 4.2, "shares": 115000 },
+  { "etfCode": "00919", "etfName": "群益台灣精選高息", "stockCode": "2382", "stockName": "廣達", "weight": 6.2, "shares": 45200 },
+  { "etfCode": "00919", "etfName": "群益台灣精選高息", "stockCode": "3231", "stockName": "緯創", "weight": 5.4, "shares": 76500 },
+  { "etfCode": "00919", "etfName": "群益台灣精選高息", "stockCode": "2891", "stockName": "中信金", "weight": 4.9, "shares": 132000 },
+  { "etfCode": "00929", "etfName": "復華台灣科技優息", "stockCode": "2379", "stockName": "瑞昱", "weight": 5.1, "shares": 9100 },
+  { "etfCode": "00929", "etfName": "復華台灣科技優息", "stockCode": "3034", "stockName": "聯詠", "weight": 4.8, "shares": 8200 },
+  { "etfCode": "00981A", "etfName": "主動統一台股增長", "stockCode": "2330", "stockName": "台積電", "weight": 28.4, "shares": 10600 },
+  { "etfCode": "00981A", "etfName": "主動統一台股增長", "stockCode": "3661", "stockName": "世芯-KY", "weight": 7.9, "shares": 860 },
+  { "etfCode": "00981A", "etfName": "主動統一台股增長", "stockCode": "6669", "stockName": "緯穎", "weight": 6.5, "shares": 1200 },
+  { "etfCode": "00982A", "etfName": "主動群益台灣強棒", "stockCode": "2382", "stockName": "廣達", "weight": 9.2, "shares": 8900 },
+  { "etfCode": "00982A", "etfName": "主動群益台灣強棒", "stockCode": "3017", "stockName": "奇鋐", "weight": 6.8, "shares": 3100 }
+]
