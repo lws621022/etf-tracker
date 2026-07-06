@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "echo Static site - no build step required"
+    "build": "echo Static site - no build step required",
+    "test:update-holdings": "python scripts/update_holdings.py",
+    "test:update-all": "python scripts/update_all.py"
   },
   "devDependencies": {
     "vite": "^5.4.0"
