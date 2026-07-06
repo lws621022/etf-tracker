@@ -37,6 +37,8 @@ etf-tracker/
 │  ├─ etf_list.json
 │  ├─ etf_holdings.json
 │  ├─ institution_trades.json
+│  ├─ investment_trust_trades.json
+│  ├─ last_updated.json
 │  └─ price_history.json
 ├─ sources/
 │  ├─ etf_list.csv
@@ -44,6 +46,7 @@ etf-tracker/
 │  ├─ institution_trades.csv
 │  └─ price_history.csv
 ├─ scripts/
+│  ├─ update_all.py
 │  └─ update_data.py
 ├─ 更新網站資料.bat
 ├─ package.json
@@ -87,6 +90,24 @@ python -m http.server 8000
 - `data/etf_holdings.json`
 - `data/institution_trades.json`
 - `data/price_history.json`
+
+### 從 TWSE 自動更新法人資料
+
+`scripts/update_all.py` 會從臺灣證券交易所 TWSE「三大法人買賣超日報」抓取最近一個有效交易日的資料。如果今天是假日或尚未收盤沒有資料，腳本會自動往前找最近一個有資料的交易日。
+
+手動執行：
+
+```bash
+python scripts/update_all.py
+```
+
+成功後會更新：
+
+- `data/institution_trades.json`：網站目前三大法人與投信買賣超頁面使用的相容格式
+- `data/investment_trust_trades.json`：投信買賣超排行，包含買超、賣超與完整清單
+- `data/last_updated.json`：更新時間、資料來源、交易日期與狀態
+
+若單一天沒有資料，腳本會繼續往前查詢，不會因為假日或尚未收盤就中斷整個流程。若回溯期間內都沒有有效資料，會在 `data/last_updated.json` 寫入 `failed` 狀態與錯誤訊息。
 
 ### Windows 更新方式
 
