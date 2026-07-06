@@ -50,9 +50,14 @@ function getHoldingsStatus(holdingsReport) {
   const success = Number(summary.success) || 0;
   const fallbackCsv = Number(summary.fallback_csv) || 0;
   const failed = Number(summary.failed) || 0;
-  const total = success + fallbackCsv + failed + (Number(summary.skipped) || 0);
+  const skipped = Number(summary.skipped) || 0;
+  const total = success + fallbackCsv + failed + skipped;
 
-  if (!total || failed > 0 || holdingsReport?.status === "failed") {
+  if (!total || holdingsReport?.status === "failed" || holdingsReport?.error) {
+    return { text: "ETF 持股資料：更新失敗", warning: true };
+  }
+
+  if (failed > 0) {
     return { text: "ETF 持股資料：使用最近一次資料", warning: true };
   }
 
@@ -88,7 +93,7 @@ function renderLoading() {
 }
 
 function renderError(error) {
-  dataStatus.textContent = "資料更新日期：無法確認｜使用最近一次資料｜ETF 持股資料：使用最近一次資料";
+  dataStatus.textContent = "資料更新日期：無法確認｜使用最近一次資料｜ETF 持股資料：更新失敗";
   dataStatus.classList.add("warning");
   app.innerHTML = `
     <section class="error-panel">
