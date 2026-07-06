@@ -18,6 +18,9 @@
 
 ```text
 etf-tracker/
+├─ .github/
+│  └─ workflows/
+│     └─ update-data.yml
 ├─ index.html
 ├─ src/
 │  ├─ main.js
@@ -48,6 +51,7 @@ etf-tracker/
 ├─ scripts/
 │  ├─ update_all.py
 │  └─ update_data.py
+├─ requirements.txt
 ├─ 更新網站資料.bat
 ├─ package.json
 └─ README.md
@@ -108,6 +112,34 @@ python scripts/update_all.py
 - `data/last_updated.json`：更新時間、資料來源、交易日期與狀態
 
 若單一天沒有資料，腳本會繼續往前查詢，不會因為假日或尚未收盤就中斷整個流程。若回溯期間內都沒有有效資料，會在 `data/last_updated.json` 寫入 `failed` 狀態與錯誤訊息。
+
+### GitHub Actions 自動更新
+
+`.github/workflows/update-data.yml` 會在週一到週五台灣時間下午 4:30 自動執行。GitHub Actions 使用 UTC，因此排程設定為 `30 8 * * 1-5`。
+
+workflow 會執行：
+
+```bash
+pip install -r requirements.txt
+python scripts/update_all.py
+```
+
+若 `data/*.json` 有變更，GitHub Actions 會自動 commit 並 push 回 `main`，commit message 為：
+
+```text
+chore: update market data
+```
+
+若沒有資料變更，workflow 會略過 commit，不會產生空 commit。
+
+啟用前請確認 GitHub repository 的 Actions 權限允許 workflow 寫入：
+
+1. 進入 GitHub repo 的 `Settings`。
+2. 選擇 `Actions` → `General`。
+3. 在 `Workflow permissions` 選擇 `Read and write permissions`。
+4. 儲存後，合併此 workflow 到 `main` 即會依排程執行。
+
+也可以手動執行：進入 GitHub repo 的 `Actions` → `Update market data` → `Run workflow`。
 
 ### Windows 更新方式
 
