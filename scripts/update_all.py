@@ -92,13 +92,18 @@ def build_t86_url(trade_date: date) -> str:
     return f"{TWSE_T86_ENDPOINT}?{query}"
 
 
+def is_ssl_verification_error(error: URLError) -> bool:
+    reason = getattr(error, "reason", None)
+    message = f"{reason} {error}".lower()
+    return isinstance(reason, ssl.SSLError) or "certificate_verify_failed" in message or "certificate verify failed" in message
+
+
 def open_twse(request: Request) -> bytes:
     try:
         with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
             return response.read()
     except URLError as error:
-        reason = getattr(error, "reason", None)
-        if not isinstance(reason, ssl.SSLError):
+        if not is_ssl_verification_error(error):
             raise
 
         print("TWSE SSL verification failed; retrying this request with relaxed SSL verification.")
