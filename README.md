@@ -41,13 +41,16 @@ etf-tracker/
 │  ├─ etf_holdings.json
 │  ├─ institution_trades.json
 │  ├─ investment_trust_trades.json
+│  ├─ holdings_update_report.json
 │  ├─ last_updated.json
 │  └─ price_history.json
 ├─ sources/
 │  ├─ holdings/
-│  │  ├─ 0050_yuanta.csv
-│  │  ├─ 00878_cathay.csv
-│  │  └─ 00919_capital.csv
+│  │  ├─ 0050.csv
+│  │  ├─ 0056.csv
+│  │  ├─ 006208.csv
+│  │  ├─ 00878.csv
+│  │  └─ 00919.csv
 │  ├─ etf_list.csv
 │  ├─ etf_holdings.csv
 │  ├─ institution_trades.csv
@@ -55,7 +58,8 @@ etf-tracker/
 ├─ scripts/
 │  ├─ convert_holdings.py
 │  ├─ update_all.py
-│  └─ update_data.py
+│  ├─ update_data.py
+│  └─ update_holdings.py
 ├─ requirements.txt
 ├─ 更新網站資料.bat
 ├─ package.json
@@ -100,44 +104,79 @@ python -m http.server 8000
 - `data/institution_trades.json`
 - `data/price_history.json`
 
-### ETF 持股資料半自動更新
+### ETF 持股資料備援更新
 
-先手動從各投信下載 ETF 持股 CSV，放到 `sources/holdings/`。檔名請用 ETF 代號開頭，例如：
+`scripts/update_holdings.py` 會更新 `data/etf_holdings.json`，第一版支援以下 ETF：
+
+- `0050` 元大台灣50
+- `0056` 元大高股息
+- `006208` 富邦台50
+- `00878` 國泰永續高股息
+- `00919` 群益台灣精選高息
+
+目前自動抓取來源保留為可擴充架構。若某一檔 ETF 自動抓取失敗，腳本會改讀 `sources/holdings/` 裡的 CSV；若 CSV 也不存在或格式無法辨識，會保留 `data/etf_holdings.json` 中該 ETF 的最近一次資料，不會清空原本持股。
+
+手動 CSV 請放在：
 
 ```text
-sources/holdings/0050_yuanta.csv
-sources/holdings/00878_cathay.csv
-sources/holdings/00919_capital.csv
+sources/holdings/
 ```
 
-接著執行：
+檔名請使用 ETF 代號加 `.csv`，目前支援：
+
+```text
+sources/holdings/0050.csv
+sources/holdings/0056.csv
+sources/holdings/006208.csv
+sources/holdings/00878.csv
+sources/holdings/00919.csv
+```
+
+CSV 欄位會盡量辨識常見名稱：
+
+- 股票代號：`股票代號`、`stock_code`、`code`
+- 股票名稱：`股票名稱`、`stock_name`、`name`
+- 持股比例：`持股比例`、`weight`、`ratio`
+- 持有股數：`持有股數`、`shares`
+- 持有張數：`持有張數`、`lots`
+
+如果 CSV 提供的是「持有張數」，腳本會自動換算成股數：
+
+```text
+shares = lots * 1000
+```
+
+手動執行：
+
+```bash
+python scripts/update_holdings.py
+```
+
+成功後會更新：
+
+- `data/etf_holdings.json`：網站使用的 ETF 持股資料
+- `data/holdings_update_report.json`：每檔 ETF 的更新狀態與備援結果
+
+可以打開 `data/holdings_update_report.json` 檢查每檔 ETF 的狀態：
+
+- `success`：自動更新成功
+- `fallback_csv`：自動抓取失敗，已使用 CSV 備援
+- `failed`：自動與 CSV 都失敗，已盡量保留最近一次資料
+- `skipped`：保留欄位，目前預設為 0
+
+網站首頁的資料狀態區塊會依報表顯示：
+
+- `ETF 持股資料：已更新`
+- `ETF 持股資料：部分使用 CSV 備援`
+- `ETF 持股資料：使用最近一次資料`
+
+### ETF 持股資料半自動轉檔
+
+`scripts/convert_holdings.py` 是舊版批次轉檔工具，會讀取 `sources/holdings/` 內所有 CSV，統一輸出成 `data/etf_holdings.json`。若只是要更新目前網站使用的五檔 ETF，建議優先使用 `python scripts/update_holdings.py`，因為它會產生更新報表並保留失敗 ETF 的既有資料。
 
 ```bash
 python scripts/convert_holdings.py
 ```
-
-腳本會讀取 `sources/holdings/` 內所有 CSV，統一輸出成：
-
-```text
-data/etf_holdings.json
-```
-
-輸出格式為：
-
-```json
-[
-  {
-    "etf_code": "0050",
-    "etf_name": "元大台灣50",
-    "stock_code": "2330",
-    "stock_name": "台積電",
-    "weight": 52.3,
-    "shares": 123456
-  }
-]
-```
-
-`convert_holdings.py` 會嘗試辨識不同投信常見欄位名稱，例如 `證券代號`、`股票代號`、`stock_code`、`持股比例`、`權重`、`持有股數`、`股數`、`shares`。如果必要欄位無法辨識，會輸出錯誤訊息並指出要檢查哪個檔案。
 
 目前第一版支援 CSV。若下載的是 Excel，請先另存為 CSV 後再放入 `sources/holdings/`。
 
@@ -156,8 +195,12 @@ python scripts/update_all.py
 - `data/institution_trades.json`：網站目前三大法人與投信買賣超頁面使用的相容格式
 - `data/investment_trust_trades.json`：投信買賣超排行，包含買超、賣超與完整清單
 - `data/last_updated.json`：更新時間、資料來源、交易日期與狀態
+- `data/etf_holdings.json`：ETF 持股資料，若單檔失敗會改用 CSV 或最近一次資料
+- `data/holdings_update_report.json`：ETF 持股更新報表
 
-若單一天沒有資料，腳本會繼續往前查詢，不會因為假日或尚未收盤就中斷整個流程。若回溯期間內都沒有有效資料，會在 `data/last_updated.json` 寫入 `failed` 狀態與錯誤訊息。
+若 ETF 持股更新失敗，`update_all.py` 只會輸出錯誤訊息，不會讓整個法人資料更新流程中斷。
+
+若單一天沒有 TWSE 法人資料，腳本會繼續往前查詢，不會因為假日或尚未收盤就中斷整個流程。若回溯期間內都沒有有效資料，會在 `data/last_updated.json` 寫入 `failed` 狀態與錯誤訊息。
 
 ### GitHub Actions 自動更新
 
