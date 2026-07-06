@@ -281,6 +281,33 @@ def build_last_updated(trade_date: date, status: str, error: str | None = None) 
     return payload
 
 
+def read_json_payload(path: Path) -> dict[str, Any] | None:
+    try:
+        with path.open("r", encoding="utf-8") as json_file:
+            payload = json.load(json_file)
+    except (OSError, json.JSONDecodeError):
+        return None
+
+    return payload if isinstance(payload, dict) else None
+
+
+def summarize_holdings_update() -> str:
+    report = read_json_payload(DATA_DIR / "holdings_update_report.json")
+    if not report:
+        return "ETF 持股更新失敗，使用最近一次資料"
+
+    summary = report.get("summary") or {}
+    success = int(summary.get("success") or 0)
+    fallback_csv = int(summary.get("fallback_csv") or 0)
+    failed = int(summary.get("failed") or 0)
+
+    if fallback_csv > 0:
+        return "ETF 持股部分使用 CSV 備援"
+    if success > 0 and failed == 0:
+        return "ETF 持股更新完成"
+    return "ETF 持股更新失敗，使用最近一次資料"
+
+
 def run_holdings_update() -> None:
     script_path = ROOT_DIR / "scripts" / "update_holdings.py"
 
@@ -294,6 +321,7 @@ def run_holdings_update() -> None:
         )
     except OSError as error:
         print(f"ETF holdings update failed: {error}", file=sys.stderr)
+        print("ETF 持股更新失敗，使用最近一次資料", file=sys.stderr)
         return
 
     if result.stdout.strip():
@@ -301,7 +329,10 @@ def run_holdings_update() -> None:
     if result.stderr.strip():
         print(result.stderr.strip(), file=sys.stderr)
     if result.returncode != 0:
-        print("ETF holdings update failed; keeping existing holdings data where possible.", file=sys.stderr)
+        print("ETF 持股更新失敗，使用最近一次資料", file=sys.stderr)
+        return
+
+    print(summarize_holdings_update())
 
 
 def update_all() -> None:

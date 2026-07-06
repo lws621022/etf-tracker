@@ -116,6 +116,15 @@ python -m http.server 8000
 
 目前自動抓取來源保留為可擴充架構。若某一檔 ETF 自動抓取失敗，腳本會改讀 `sources/holdings/` 裡的 CSV；若 CSV 也不存在或格式無法辨識，會保留 `data/etf_holdings.json` 中該 ETF 的最近一次資料，不會清空原本持股。
 
+本次已提供兩份測試 CSV，不需要手動建立即可測試：
+
+```text
+sources/holdings/0050.csv
+sources/holdings/00878.csv
+```
+
+`0050.csv` 使用中文欄位與「持有張數」，`00878.csv` 使用英文欄位與 `shares`，可用來驗證欄位辨識與張數轉股數。
+
 手動 CSV 請放在：
 
 ```text
@@ -152,6 +161,12 @@ shares = lots * 1000
 python scripts/update_holdings.py
 ```
 
+或使用 npm 測試指令：
+
+```bash
+npm run test:update-holdings
+```
+
 成功後會更新：
 
 - `data/etf_holdings.json`：網站使用的 ETF 持股資料
@@ -169,6 +184,7 @@ python scripts/update_holdings.py
 - `ETF 持股資料：已更新`
 - `ETF 持股資料：部分使用 CSV 備援`
 - `ETF 持股資料：使用最近一次資料`
+- `ETF 持股資料：更新失敗`
 
 ### ETF 持股資料半自動轉檔
 
@@ -190,6 +206,12 @@ python scripts/convert_holdings.py
 python scripts/update_all.py
 ```
 
+或使用 npm 測試指令：
+
+```bash
+npm run test:update-all
+```
+
 成功後會更新：
 
 - `data/institution_trades.json`：網站目前三大法人與投信買賣超頁面使用的相容格式
@@ -198,9 +220,23 @@ python scripts/update_all.py
 - `data/etf_holdings.json`：ETF 持股資料，若單檔失敗會改用 CSV 或最近一次資料
 - `data/holdings_update_report.json`：ETF 持股更新報表
 
-若 ETF 持股更新失敗，`update_all.py` 只會輸出錯誤訊息，不會讓整個法人資料更新流程中斷。
+若 ETF 持股更新失敗，`update_all.py` 只會輸出錯誤訊息，不會讓整個法人資料更新流程中斷。console 會顯示簡單結果，例如：
+
+- `ETF 持股更新完成`
+- `ETF 持股部分使用 CSV 備援`
+- `ETF 持股更新失敗，使用最近一次資料`
 
 若單一天沒有 TWSE 法人資料，腳本會繼續往前查詢，不會因為假日或尚未收盤就中斷整個流程。若回溯期間內都沒有有效資料，會在 `data/last_updated.json` 寫入 `failed` 狀態與錯誤訊息。
+
+### 如何檢查測試結果
+
+執行 `npm run test:update-holdings` 後，請檢查：
+
+- `data/etf_holdings.json` 不是空陣列
+- `data/holdings_update_report.json` 的 `summary.fallback_csv` 至少為 `2`
+- `0050` 的 `2330` 若 CSV 是 `123` 張，輸出的 `shares` 會是 `123000`
+- `00878` 的 `shares` 會保留 CSV 中填寫的股數
+- 首頁資料狀態區塊可讀取 `data/holdings_update_report.json` 並顯示 ETF 持股資料狀態
 
 ### GitHub Actions 自動更新
 
