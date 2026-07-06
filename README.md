@@ -44,11 +44,16 @@ etf-tracker/
 │  ├─ last_updated.json
 │  └─ price_history.json
 ├─ sources/
+│  ├─ holdings/
+│  │  ├─ 0050_yuanta.csv
+│  │  ├─ 00878_cathay.csv
+│  │  └─ 00919_capital.csv
 │  ├─ etf_list.csv
 │  ├─ etf_holdings.csv
 │  ├─ institution_trades.csv
 │  └─ price_history.csv
 ├─ scripts/
+│  ├─ convert_holdings.py
 │  ├─ update_all.py
 │  └─ update_data.py
 ├─ requirements.txt
@@ -94,6 +99,47 @@ python -m http.server 8000
 - `data/etf_holdings.json`
 - `data/institution_trades.json`
 - `data/price_history.json`
+
+### ETF 持股資料半自動更新
+
+先手動從各投信下載 ETF 持股 CSV，放到 `sources/holdings/`。檔名請用 ETF 代號開頭，例如：
+
+```text
+sources/holdings/0050_yuanta.csv
+sources/holdings/00878_cathay.csv
+sources/holdings/00919_capital.csv
+```
+
+接著執行：
+
+```bash
+python scripts/convert_holdings.py
+```
+
+腳本會讀取 `sources/holdings/` 內所有 CSV，統一輸出成：
+
+```text
+data/etf_holdings.json
+```
+
+輸出格式為：
+
+```json
+[
+  {
+    "etf_code": "0050",
+    "etf_name": "元大台灣50",
+    "stock_code": "2330",
+    "stock_name": "台積電",
+    "weight": 52.3,
+    "shares": 123456
+  }
+]
+```
+
+`convert_holdings.py` 會嘗試辨識不同投信常見欄位名稱，例如 `證券代號`、`股票代號`、`stock_code`、`持股比例`、`權重`、`持有股數`、`股數`、`shares`。如果必要欄位無法辨識，會輸出錯誤訊息並指出要檢查哪個檔案。
+
+目前第一版支援 CSV。若下載的是 Excel，請先另存為 CSV 後再放入 `sources/holdings/`。
 
 ### 從 TWSE 自動更新法人資料
 
