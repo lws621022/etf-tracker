@@ -11,6 +11,7 @@ until it finds the most recent TWSE T86 trading day with data, then writes:
 from __future__ import annotations
 
 import json
+import ssl
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -91,6 +92,21 @@ def build_t86_url(trade_date: date) -> str:
     return f"{TWSE_T86_ENDPOINT}?{query}"
 
 
+def open_twse(request: Request) -> bytes:
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
+            return response.read()
+    except URLError as error:
+        reason = getattr(error, "reason", None)
+        if not isinstance(reason, ssl.SSLError):
+            raise
+
+        print("TWSE SSL verification failed; retrying this request with relaxed SSL verification.")
+        context = ssl._create_unverified_context()
+        with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS, context=context) as response:
+            return response.read()
+
+
 def fetch_t86(trade_date: date) -> dict[str, Any] | None:
     url = build_t86_url(trade_date)
     request = Request(
@@ -102,8 +118,7 @@ def fetch_t86(trade_date: date) -> dict[str, Any] | None:
     )
 
     try:
-        with urlopen(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
-            return json.loads(response.read().decode("utf-8"))
+        return json.loads(open_twse(request).decode("utf-8"))
     except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as error:
         print(f"Skip {trade_date.isoformat()}: {error}")
         return None
