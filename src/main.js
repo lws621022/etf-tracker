@@ -45,13 +45,32 @@ function formatDate(value) {
   return datePart || "尚未更新";
 }
 
-function renderDataStatus(lastUpdated) {
+function getHoldingsStatus(holdingsReport) {
+  const summary = holdingsReport?.summary || {};
+  const success = Number(summary.success) || 0;
+  const fallbackCsv = Number(summary.fallback_csv) || 0;
+  const failed = Number(summary.failed) || 0;
+  const total = success + fallbackCsv + failed + (Number(summary.skipped) || 0);
+
+  if (!total || failed > 0 || holdingsReport?.status === "failed") {
+    return { text: "ETF 持股資料：使用最近一次資料", warning: true };
+  }
+
+  if (fallbackCsv > 0) {
+    return { text: "ETF 持股資料：部分使用 CSV 備援", warning: true };
+  }
+
+  return { text: "ETF 持股資料：已更新", warning: false };
+}
+
+function renderDataStatus(lastUpdated, holdingsReport) {
   const tradeDate = formatDate(lastUpdated?.trade_date || lastUpdated?.updated_at);
   const isSuccess = lastUpdated?.status === "success";
   const staleNotice = isSuccess ? "" : "｜使用最近一次資料";
+  const holdingsStatus = getHoldingsStatus(holdingsReport);
 
-  dataStatus.textContent = `資料更新日期：${tradeDate}${staleNotice}`;
-  dataStatus.classList.toggle("warning", !isSuccess);
+  dataStatus.textContent = `資料更新日期：${tradeDate}${staleNotice}｜${holdingsStatus.text}`;
+  dataStatus.classList.toggle("warning", !isSuccess || holdingsStatus.warning);
 }
 
 function renderLoading() {
@@ -69,7 +88,7 @@ function renderLoading() {
 }
 
 function renderError(error) {
-  dataStatus.textContent = "資料更新日期：無法確認｜使用最近一次資料";
+  dataStatus.textContent = "資料更新日期：無法確認｜使用最近一次資料｜ETF 持股資料：使用最近一次資料";
   dataStatus.classList.add("warning");
   app.innerHTML = `
     <section class="error-panel">
@@ -99,7 +118,7 @@ async function bootstrap() {
 
   try {
     dashboardData = await loadDashboardData();
-    renderDataStatus(dashboardData.lastUpdated);
+    renderDataStatus(dashboardData.lastUpdated, dashboardData.holdingsReport);
     renderRoute();
     window.addEventListener("hashchange", renderRoute);
   } catch (error) {

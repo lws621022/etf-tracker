@@ -1,0 +1,10 @@
+{
+  "updated_at": "",
+  "summary": {
+    "success": 0,
+    "fallback_csv": 0,
+    "failed": 0,
+    "skipped": 0
+  },
+  "items": []
+}

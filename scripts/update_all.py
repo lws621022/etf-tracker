@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import ssl
+import subprocess
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -280,6 +281,29 @@ def build_last_updated(trade_date: date, status: str, error: str | None = None) 
     return payload
 
 
+def run_holdings_update() -> None:
+    script_path = ROOT_DIR / "scripts" / "update_holdings.py"
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script_path)],
+            cwd=ROOT_DIR,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+    except OSError as error:
+        print(f"ETF holdings update failed: {error}", file=sys.stderr)
+        return
+
+    if result.stdout.strip():
+        print(result.stdout.strip())
+    if result.stderr.strip():
+        print(result.stderr.strip(), file=sys.stderr)
+    if result.returncode != 0:
+        print("ETF holdings update failed; keeping existing holdings data where possible.", file=sys.stderr)
+
+
 def update_all() -> None:
     start_date = today_taipei()
     trade_date, payload = find_latest_trading_payload(start_date)
@@ -291,6 +315,7 @@ def update_all() -> None:
     write_json(DATA_DIR / "institution_trades.json", build_institution_payload(records, trade_date))
     write_json(DATA_DIR / "investment_trust_trades.json", build_investment_trust_payload(records, trade_date))
     write_json(DATA_DIR / "last_updated.json", build_last_updated(trade_date, "success"))
+    run_holdings_update()
 
     print(f"Updated TWSE data for {trade_date.isoformat()}.")
     print("Updated data/institution_trades.json")
