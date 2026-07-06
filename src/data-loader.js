@@ -2,7 +2,8 @@ const DATA_FILES = {
   etfs: "data/etf_list.json",
   holdings: "data/etf_holdings.json",
   trades: "data/institution_trades.json",
-  prices: "data/price_history.json"
+  prices: "data/price_history.json",
+  lastUpdated: "data/last_updated.json"
 };
 
 async function fetchJson(path) {
@@ -13,6 +14,14 @@ async function fetchJson(path) {
   }
 
   return response.json();
+}
+
+async function fetchOptionalJson(path, fallback) {
+  try {
+    return await fetchJson(path);
+  } catch (error) {
+    return { ...fallback, error: error.message };
+  }
 }
 
 function normalizeHolding(holding) {
@@ -28,16 +37,22 @@ function normalizeHolding(holding) {
 }
 
 export async function loadDashboardData() {
-  const [etfs, rawHoldings, trades, prices] = await Promise.all([
+  const [etfs, rawHoldings, trades, prices, lastUpdated] = await Promise.all([
     fetchJson(DATA_FILES.etfs),
     fetchJson(DATA_FILES.holdings),
     fetchJson(DATA_FILES.trades),
-    fetchJson(DATA_FILES.prices)
+    fetchJson(DATA_FILES.prices),
+    fetchOptionalJson(DATA_FILES.lastUpdated, {
+      updated_at: "",
+      source: "",
+      trade_date: "",
+      status: "failed"
+    })
   ]);
 
   const holdings = rawHoldings.map(normalizeHolding);
 
-  return { etfs, holdings, trades, prices };
+  return { etfs, holdings, trades, prices, lastUpdated };
 }
 
 export function findEtf(data, code) {
