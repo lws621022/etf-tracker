@@ -22,6 +22,7 @@ const routes = [
 
 const app = document.querySelector("#app");
 const nav = document.querySelector("#tab-nav");
+const dataStatus = document.querySelector("#data-status");
 let dashboardData = null;
 
 function getCurrentRoute() {
@@ -35,7 +36,27 @@ function renderNav(activeRouteId) {
   `).join("");
 }
 
+function formatDate(value) {
+  if (!value) {
+    return "尚未更新";
+  }
+
+  const datePart = String(value).slice(0, 10);
+  return datePart || "尚未更新";
+}
+
+function renderDataStatus(lastUpdated) {
+  const tradeDate = formatDate(lastUpdated?.trade_date || lastUpdated?.updated_at);
+  const isSuccess = lastUpdated?.status === "success";
+  const staleNotice = isSuccess ? "" : "｜使用最近一次資料";
+
+  dataStatus.textContent = `資料更新日期：${tradeDate}${staleNotice}`;
+  dataStatus.classList.toggle("warning", !isSuccess);
+}
+
 function renderLoading() {
+  dataStatus.textContent = "資料更新日期：載入中";
+  dataStatus.classList.remove("warning");
   app.innerHTML = `
     <section class="loading-panel">
       <span class="spinner" aria-hidden="true"></span>
@@ -48,13 +69,15 @@ function renderLoading() {
 }
 
 function renderError(error) {
+  dataStatus.textContent = "資料更新日期：無法確認｜使用最近一次資料";
+  dataStatus.classList.add("warning");
   app.innerHTML = `
     <section class="error-panel">
       <span class="status-icon" aria-hidden="true">!</span>
       <div>
         <h2>資料載入失敗</h2>
         <p>${error.message}</p>
-        <p>請確認使用本機伺服器開啟網站，而不是直接用檔案模式開啟 index.html。</p>
+        <p>使用最近一次資料。請確認使用本機伺服器開啟網站，而不是直接用檔案模式開啟 index.html。</p>
         <button class="primary-action" type="button" id="retry-load">重新載入</button>
       </div>
     </section>
@@ -76,6 +99,7 @@ async function bootstrap() {
 
   try {
     dashboardData = await loadDashboardData();
+    renderDataStatus(dashboardData.lastUpdated);
     renderRoute();
     window.addEventListener("hashchange", renderRoute);
   } catch (error) {
