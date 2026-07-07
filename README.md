@@ -114,7 +114,16 @@ python -m http.server 8000
 - `00878` 國泰永續高股息
 - `00919` 群益台灣精選高息
 
-目前自動抓取來源保留為可擴充架構。若某一檔 ETF 自動抓取失敗，腳本會改讀 `sources/holdings/` 裡的 CSV；若 CSV 也不存在或格式無法辨識，會保留 `data/etf_holdings.json` 中該 ETF 的最近一次資料，不會清空原本持股。
+目前自動抓取先支援元大投信 ETF：`0050`、`0056`。腳本會讀取元大投信 ETF 持股比重頁的完整股票持股資料，並輸出 `source: "auto"` 與元大來源網址。
+
+自動來源：
+
+```text
+https://www.yuantaetfs.com/product/detail/0050/ratio
+https://www.yuantaetfs.com/product/detail/0056/ratio
+```
+
+若某一檔 ETF 自動抓取失敗，腳本會改讀 `sources/holdings/` 裡的 CSV；若 CSV 也不存在或格式無法辨識，會保留 `data/etf_holdings.json` 中該 ETF 的最近一次資料，不會清空原本持股。`006208`、`00878`、`00919` 目前仍使用第九次建立的 CSV 或最近一次資料備援流程。
 
 本次已提供兩份測試 CSV，不需要手動建立即可測試：
 
@@ -123,7 +132,7 @@ sources/holdings/0050.csv
 sources/holdings/00878.csv
 ```
 
-`0050.csv` 使用中文欄位與「持有張數」，`00878.csv` 使用英文欄位與 `shares`，可用來驗證欄位辨識與張數轉股數。
+`0050.csv` 使用中文欄位與「持有張數」，可在元大自動抓取失敗時測試 CSV 備援；`00878.csv` 使用英文欄位與 `shares`，可用來驗證欄位辨識與股數保留。
 
 手動 CSV 請放在：
 
@@ -233,8 +242,8 @@ npm run test:update-all
 執行 `npm run test:update-holdings` 後，請檢查：
 
 - `data/etf_holdings.json` 不是空陣列
-- `data/holdings_update_report.json` 的 `summary.fallback_csv` 至少為 `2`
-- `0050` 的 `2330` 若 CSV 是 `123` 張，輸出的 `shares` 會是 `123000`
+- `data/holdings_update_report.json` 的 `summary.success` 至少為 `2`，代表 `0050`、`0056` 已成功使用元大自動來源
+- `0050` 的資料來源應為 `auto`，若元大自動來源失敗才會改用 `sources/holdings/0050.csv`
 - `00878` 的 `shares` 會保留 CSV 中填寫的股數
 - 首頁資料狀態區塊可讀取 `data/holdings_update_report.json` 並顯示 ETF 持股資料狀態
 
