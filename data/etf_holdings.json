@@ -6,7 +6,7 @@
     "stock_name": "台積電",
     "weight": 52.3,
     "shares": 123000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/0050.csv"
   },
@@ -17,7 +17,7 @@
     "stock_name": "鴻海",
     "weight": 5.8,
     "shares": 45000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/0050.csv"
   },
@@ -28,7 +28,7 @@
     "stock_name": "聯發科",
     "weight": 4.7,
     "shares": 8000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/0050.csv"
   },
@@ -72,7 +72,7 @@
     "stock_name": "台積電",
     "weight": 8.2,
     "shares": 88000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/00878.csv"
   },
@@ -83,7 +83,7 @@
     "stock_name": "鴻海",
     "weight": 6.1,
     "shares": 56000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/00878.csv"
   },
@@ -94,7 +94,7 @@
     "stock_name": "聯發科",
     "weight": 4.9,
     "shares": 12000,
-    "data_date": "2026-07-06",
+    "data_date": "2026-07-07",
     "source": "csv",
     "source_url": "sources/holdings/00878.csv"
   },

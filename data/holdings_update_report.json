@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T22:18:43+08:00",
+  "updated_at": "2026-07-07T19:25:43+08:00",
   "summary": {
     "success": 0,
     "fallback_csv": 2,
@@ -12,7 +12,7 @@
       "etf_name": "元大台灣50",
       "status": "fallback_csv",
       "source": "sources/holdings/0050.csv",
-      "data_date": "2026-07-06",
+      "data_date": "2026-07-07",
       "message": "自動抓取失敗，已改用 CSV 備援資料"
     },
     {
@@ -28,7 +28,7 @@
       "etf_name": "富邦台50",
       "status": "failed",
       "source": "previous",
-      "data_date": "2026-07-06",
+      "data_date": "2026-07-07",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/006208.csv。使用最近一次資料"
     },
     {
@@ -36,7 +36,7 @@
       "etf_name": "國泰永續高股息",
       "status": "fallback_csv",
       "source": "sources/holdings/00878.csv",
-      "data_date": "2026-07-06",
+      "data_date": "2026-07-07",
       "message": "自動抓取失敗，已改用 CSV 備援資料"
     },
     {
@@ -44,7 +44,7 @@
       "etf_name": "群益台灣精選高息",
       "status": "failed",
       "source": "previous",
-      "data_date": "2026-07-06",
+      "data_date": "2026-07-07",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/00919.csv。使用最近一次資料"
     }
   ]
