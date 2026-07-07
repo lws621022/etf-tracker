@@ -1,33 +1,36 @@
 {
-  "updated_at": "2026-07-07T19:25:43+08:00",
+  "updated_at": "2026-07-07T21:31:40+08:00",
   "summary": {
-    "success": 0,
-    "fallback_csv": 2,
-    "failed": 3,
+    "success": 2,
+    "fallback_csv": 1,
+    "failed": 2,
     "skipped": 0
   },
   "items": [
     {
       "etf_code": "0050",
       "etf_name": "元大台灣50",
-      "status": "fallback_csv",
-      "source": "sources/holdings/0050.csv",
+      "status": "success",
+      "source": "auto",
+      "source_url": "https://www.yuantaetfs.com/product/detail/0050/ratio",
       "data_date": "2026-07-07",
-      "message": "自動抓取失敗，已改用 CSV 備援資料"
+      "message": ""
     },
     {
       "etf_code": "0056",
       "etf_name": "元大高股息",
-      "status": "failed",
-      "source": "",
-      "data_date": "",
-      "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/0056.csv"
+      "status": "success",
+      "source": "auto",
+      "source_url": "https://www.yuantaetfs.com/product/detail/0056/ratio",
+      "data_date": "2026-07-07",
+      "message": ""
     },
     {
       "etf_code": "006208",
       "etf_name": "富邦台50",
       "status": "failed",
       "source": "previous",
+      "source_url": "",
       "data_date": "2026-07-07",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/006208.csv。使用最近一次資料"
     },
@@ -36,6 +39,7 @@
       "etf_name": "國泰永續高股息",
       "status": "fallback_csv",
       "source": "sources/holdings/00878.csv",
+      "source_url": "sources/holdings/00878.csv",
       "data_date": "2026-07-07",
       "message": "自動抓取失敗，已改用 CSV 備援資料"
     },
@@ -44,6 +48,7 @@
       "etf_name": "群益台灣精選高息",
       "status": "failed",
       "source": "previous",
+      "source_url": "",
       "data_date": "2026-07-07",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/00919.csv。使用最近一次資料"
     }

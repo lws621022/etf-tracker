@@ -1,9 +1,10 @@
 """Update ETF holdings data with auto sources, CSV fallback, and preservation rules.
 
-0050 and 0056 are fetched from Yuanta's ETF holdings pages. When an auto source
-is not configured, or when an auto fetch fails, the script looks for a manual
-CSV file in sources/holdings/{etf_code}.csv. If that also fails, existing
-holdings for that ETF are preserved so one broken source does not clear data.
+0050 and 0056 are fetched from Yuanta's ETF holdings pages through
+scripts/parsers/yuanta.py. When an auto source is not configured, or when an
+auto fetch fails, the script looks for a manual CSV file in
+sources/holdings/{etf_code}.csv. If that also fails, existing holdings for that
+ETF are preserved so one broken source does not clear data.
 """
 
 from __future__ import annotations
@@ -21,13 +22,14 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+from parsers.yuanta import YUANTA_RATIO_URL, fetch_yuanta_holdings
+
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT_DIR / "data"
 SOURCES_DIR = ROOT_DIR / "sources" / "holdings"
 HOLDINGS_PATH = DATA_DIR / "etf_holdings.json"
 REPORT_PATH = DATA_DIR / "holdings_update_report.json"
 REQUEST_TIMEOUT_SECONDS = 20
-YUANTA_RATIO_URL = "https://www.yuantaetfs.com/product/detail/{etf_code}/ratio"
 
 SUPPORTED_ETFS: dict[str, dict[str, str]] = {
     "0050": {
@@ -259,190 +261,9 @@ def open_auto_source(url: str) -> bytes:
             return response.read()
 
 
-def find_matching_js(text: str, start: int, open_char: str, close_char: str) -> int:
-    depth = 0
-    quote = ""
-    escape = False
-
-    for index in range(start, len(text)):
-        char = text[index]
-        if quote:
-            if escape:
-                escape = False
-            elif char == "\\":
-                escape = True
-            elif char == quote:
-                quote = ""
-            continue
-
-        if char in ('"', "'"):
-            quote = char
-            continue
-        if char == open_char:
-            depth += 1
-        elif char == close_char:
-            depth -= 1
-            if depth == 0:
-                return index
-
-    raise ValueError(f"找不到對應的 {close_char}")
-
-
-def split_top_level_js(text: str) -> list[str]:
-    parts: list[str] = []
-    start = 0
-    depth = 0
-    quote = ""
-    escape = False
-
-    for index, char in enumerate(text):
-        if quote:
-            if escape:
-                escape = False
-            elif char == "\\":
-                escape = True
-            elif char == quote:
-                quote = ""
-            continue
-
-        if char in ('"', "'"):
-            quote = char
-            continue
-        if char in "[{(":
-            depth += 1
-        elif char in "]})":
-            depth -= 1
-        elif char == "," and depth == 0:
-            parts.append(text[start:index].strip())
-            start = index + 1
-
-    tail = text[start:].strip()
-    if tail:
-        parts.append(tail)
-    return parts
-
-
-def parse_js_literal(token: str) -> Any:
-    value = token.strip()
-    if value in ("!0", "true"):
-        return True
-    if value in ("!1", "false"):
-        return False
-    if value in ("null", "void 0", "undefined"):
-        return None
-    if value.startswith('"'):
-        return json.loads(value)
-    if value.startswith("'") and value.endswith("'"):
-        return value[1:-1].replace("\\'", "'").replace('\\\\', '\\')
-
-    try:
-        return int(value)
-    except ValueError:
-        pass
-
-    try:
-        return float(value)
-    except ValueError:
-        return value
-
-
-def extract_nuxt_arg_mapping(html: str) -> dict[str, Any]:
-    marker = "window.__NUXT__=(function("
-    marker_index = html.find(marker)
-    if marker_index < 0:
-        raise ValueError("找不到 Nuxt 資料區")
-
-    params_start = marker_index + len(marker)
-    params_end = html.find("){", params_start)
-    if params_end < 0:
-        raise ValueError("找不到 Nuxt 參數列表")
-
-    params = [part.strip() for part in html[params_start:params_end].split(",")]
-    body_start = params_end + 1
-    body_end = find_matching_js(html, body_start, "{", "}")
-    args_start = body_end + 1
-    args_end = find_matching_js(html, args_start, "(", ")")
-    args = split_top_level_js(html[args_start + 1 : args_end])
-
-    return {param: parse_js_literal(arg) for param, arg in zip(params, args)}
-
-
-def parse_js_object_fields(object_text: str, arg_mapping: dict[str, Any]) -> dict[str, Any]:
-    cleaned = object_text.strip()
-    if cleaned.startswith("{") and cleaned.endswith("}"):
-        cleaned = cleaned[1:-1]
-
-    payload: dict[str, Any] = {}
-    for field in split_top_level_js(cleaned):
-        if ":" not in field:
-            continue
-        key, raw_value = field.split(":", 1)
-        raw_value = raw_value.strip()
-        payload[key.strip()] = arg_mapping.get(raw_value, parse_js_literal(raw_value))
-    return payload
-
-
-def extract_yuanta_stock_weights(html: str) -> list[dict[str, Any]]:
-    fund_weights_index = html.find("FundWeights:{Summary")
-    if fund_weights_index < 0:
-        raise ValueError("找不到元大 FundWeights 資料")
-
-    stock_weights_index = html.find("StockWeights:[", fund_weights_index)
-    if stock_weights_index < 0:
-        raise ValueError("找不到元大 StockWeights 資料")
-
-    array_start = html.find("[", stock_weights_index)
-    array_end = find_matching_js(html, array_start, "[", "]")
-    object_texts = split_top_level_js(html[array_start + 1 : array_end])
-    arg_mapping = extract_nuxt_arg_mapping(html)
-
-    return [parse_js_object_fields(item, arg_mapping) for item in object_texts if item.strip()]
-
-
-def extract_yuanta_trade_date(html: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", html)
-    match = re.search(r"(?:交易日期|Trade Date)\s*:?\s*(\d{4}[/-]\d{1,2}[/-]\d{1,2})", text)
-    return normalize_date(match.group(1)) if match else today_taipei_iso()
-
-
-def parse_yuanta_holdings_page(html: str, etf_code: str, etf_name: str, source_url: str) -> list[dict[str, Any]]:
-    data_date = extract_yuanta_trade_date(html)
-    rows: list[dict[str, Any]] = []
-
-    for item in extract_yuanta_stock_weights(html):
-        stock_code = str(item.get("code") or "").strip()
-        stock_name = str(item.get("name") or "").strip()
-        if not stock_code or not stock_name:
-            continue
-
-        rows.append(
-            {
-                "etf_code": etf_code,
-                "etf_name": etf_name,
-                "stock_code": stock_code,
-                "stock_name": stock_name,
-                "weight": round(parse_number(item.get("weights")), 4),
-                "shares": parse_shares(item.get("qty")),
-                "data_date": data_date,
-                "source": "auto",
-                "source_url": source_url,
-            }
-        )
-
-    if not rows:
-        raise ValueError("元大持股頁沒有可用的股票持股資料")
-    return rows
-
-
-def fetch_yuanta_holdings(etf_code: str, config: dict[str, str]) -> tuple[list[dict[str, Any]], str]:
-    url = config.get("auto_url") or YUANTA_RATIO_URL.format(etf_code=etf_code)
-    html = decode_csv_bytes(open_auto_source(url))
-    return parse_yuanta_holdings_page(html, etf_code, config["name"], url), url
-
-
 def fetch_auto_holdings(etf_code: str, config: dict[str, str]) -> tuple[list[dict[str, Any]], str]:
     if config.get("auto_source") == "yuanta_ratio":
-        return fetch_yuanta_holdings(etf_code, config)
+        return fetch_yuanta_holdings(etf_code, config["name"], config.get("auto_url"))
 
     url = config.get("auto_url", "").strip()
     if not url:
@@ -494,12 +315,14 @@ def build_report_item(
     source: str,
     data_date: str,
     message: str,
+    source_url: str = "",
 ) -> dict[str, str]:
     return {
         "etf_code": etf_code,
         "etf_name": etf_name,
         "status": status,
         "source": source,
+        "source_url": source_url,
         "data_date": data_date,
         "message": message,
     }
@@ -535,6 +358,7 @@ def update_holdings() -> dict[str, Any]:
                     etf_name=etf_name,
                     status="success",
                     source="auto",
+                    source_url=auto_source_url,
                     data_date=pick_data_date(holdings),
                     message="",
                 )
@@ -553,6 +377,7 @@ def update_holdings() -> dict[str, Any]:
                     etf_name=etf_name,
                     status="fallback_csv",
                     source=csv_source,
+                    source_url=csv_source,
                     data_date=pick_data_date(holdings),
                     message="自動抓取失敗，已改用 CSV 備援資料",
                 )
@@ -571,6 +396,7 @@ def update_holdings() -> dict[str, Any]:
                     etf_name=etf_name,
                     status="failed",
                     source="previous" if preserved else "",
+                    source_url="",
                     data_date=pick_data_date(preserved) if preserved else "",
                     message=detail,
                 )
