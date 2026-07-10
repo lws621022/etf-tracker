@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T19:37:59+08:00",
+  "updated_at": "2026-07-10T19:26:48+08:00",
   "summary": {
     "success": 2,
     "fallback_csv": 1,
@@ -31,7 +31,7 @@
       "status": "failed",
       "source": "previous",
       "source_url": "",
-      "data_date": "2026-07-09",
+      "data_date": "2026-07-10",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/006208.csv。使用最近一次資料"
     },
     {
@@ -40,7 +40,7 @@
       "status": "fallback_csv",
       "source": "sources/holdings/00878.csv",
       "source_url": "sources/holdings/00878.csv",
-      "data_date": "2026-07-09",
+      "data_date": "2026-07-10",
       "message": "自動抓取失敗，已改用 CSV 備援資料"
     },
     {
@@ -49,7 +49,7 @@
       "status": "failed",
       "source": "previous",
       "source_url": "",
-      "data_date": "2026-07-09",
+      "data_date": "2026-07-10",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/00919.csv。使用最近一次資料"
     }
   ]
