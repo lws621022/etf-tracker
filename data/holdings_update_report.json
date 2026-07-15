@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T18:19:25+08:00",
+  "updated_at": "2026-07-15T18:22:35+08:00",
   "summary": {
     "success": 2,
     "fallback_csv": 1,
@@ -13,7 +13,7 @@
       "status": "success",
       "source": "auto",
       "source_url": "https://www.yuantaetfs.com/product/detail/0050/ratio",
-      "data_date": "2026-07-14",
+      "data_date": "2026-07-15",
       "message": ""
     },
     {
@@ -22,7 +22,7 @@
       "status": "success",
       "source": "auto",
       "source_url": "https://www.yuantaetfs.com/product/detail/0056/ratio",
-      "data_date": "2026-07-14",
+      "data_date": "2026-07-15",
       "message": ""
     },
     {
@@ -31,7 +31,7 @@
       "status": "failed",
       "source": "previous",
       "source_url": "",
-      "data_date": "2026-07-14",
+      "data_date": "2026-07-15",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/006208.csv。使用最近一次資料"
     },
     {
@@ -40,7 +40,7 @@
       "status": "fallback_csv",
       "source": "sources/holdings/00878.csv",
       "source_url": "sources/holdings/00878.csv",
-      "data_date": "2026-07-14",
+      "data_date": "2026-07-15",
       "message": "自動抓取失敗，已改用 CSV 備援資料"
     },
     {
@@ -49,7 +49,7 @@
       "status": "failed",
       "source": "previous",
       "source_url": "",
-      "data_date": "2026-07-14",
+      "data_date": "2026-07-15",
       "message": "自動抓取失敗：尚未設定自動抓取來源；CSV 備援失敗：找不到 CSV 備援資料 sources/holdings/00919.csv。使用最近一次資料"
     }
   ]
