@@ -1,1084 +1,1052 @@
 {
-  "updated_at": "2026-09-17T21:43:24+08:00",
+  "updated_at": "2026-09-18T21:06:22+08:00",
   "source": "TWSE 三大法人買賣超日報 T86",
-  "trade_date": "2026-09-17",
+  "trade_date": "2026-09-18",
   "unit": "shares",
   "buy": [
     {
       "code": "2303",
       "name": "聯電",
-      "buy_sell_shares": 27909000,
-      "buy_sell_lots": 27909.0,
-      "buy_shares": 31786000,
-      "sell_shares": 3877000
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "buy_sell_shares": 23317000,
-      "buy_sell_lots": 23317.0,
-      "buy_shares": 23531000,
-      "sell_shares": 214000
-    },
-    {
-      "code": "2801",
-      "name": "彰銀",
-      "buy_sell_shares": 9468000,
-      "buy_sell_lots": 9468.0,
-      "buy_shares": 9503000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "buy_sell_shares": 8685000,
-      "buy_sell_lots": 8685.0,
-      "buy_shares": 8701000,
-      "sell_shares": 16000
-    },
-    {
-      "code": "2887",
-      "name": "台新新光金",
-      "buy_sell_shares": 8063000,
-      "buy_sell_lots": 8063.0,
-      "buy_shares": 10694000,
-      "sell_shares": 2631000
-    },
-    {
-      "code": "2890",
-      "name": "永豐金",
-      "buy_sell_shares": 7975000,
-      "buy_sell_lots": 7975.0,
-      "buy_shares": 8002000,
-      "sell_shares": 27000
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
-      "buy_sell_shares": 6181000,
-      "buy_sell_lots": 6181.0,
-      "buy_shares": 6211000,
-      "sell_shares": 30000
-    },
-    {
-      "code": "6505",
-      "name": "台塑化",
-      "buy_sell_shares": 5451000,
-      "buy_sell_lots": 5451.0,
-      "buy_shares": 5451000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "buy_sell_shares": 3715000,
-      "buy_sell_lots": 3715.0,
-      "buy_shares": 3736000,
-      "sell_shares": 21000
-    },
-    {
-      "code": "2891",
-      "name": "中信金",
-      "buy_sell_shares": 3698000,
-      "buy_sell_lots": 3698.0,
-      "buy_shares": 5719000,
-      "sell_shares": 2021000
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "buy_sell_shares": 3040000,
-      "buy_sell_lots": 3040.0,
-      "buy_shares": 3418000,
-      "sell_shares": 378000
-    },
-    {
-      "code": "9904",
-      "name": "寶成",
-      "buy_sell_shares": 3027000,
-      "buy_sell_lots": 3027.0,
-      "buy_shares": 3027000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2542",
-      "name": "興富發",
-      "buy_sell_shares": 3013000,
-      "buy_sell_lots": 3013.0,
-      "buy_shares": 3056000,
-      "sell_shares": 43000
+      "buy_sell_shares": 13630188,
+      "buy_sell_lots": 13630.19,
+      "buy_shares": 19720456,
+      "sell_shares": 6090268
     },
     {
       "code": "2618",
       "name": "長榮航",
-      "buy_sell_shares": 2641000,
-      "buy_sell_lots": 2641.0,
-      "buy_shares": 2651000,
-      "sell_shares": 10000
+      "buy_sell_shares": 9293811,
+      "buy_sell_lots": 9293.81,
+      "buy_shares": 10260974,
+      "sell_shares": 967163
     },
     {
-      "code": "3036",
-      "name": "文曄",
-      "buy_sell_shares": 2582000,
-      "buy_sell_lots": 2582.0,
-      "buy_shares": 2582000,
+      "code": "6446",
+      "name": "藥華藥",
+      "buy_sell_shares": 8555302,
+      "buy_sell_lots": 8555.3,
+      "buy_shares": 8650527,
+      "sell_shares": 95225
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "buy_sell_shares": 5115730,
+      "buy_sell_lots": 5115.73,
+      "buy_shares": 5756283,
+      "sell_shares": 640553
+    },
+    {
+      "code": "2542",
+      "name": "興富發",
+      "buy_sell_shares": 4108390,
+      "buy_sell_lots": 4108.39,
+      "buy_shares": 4120000,
+      "sell_shares": 11610
+    },
+    {
+      "code": "2408",
+      "name": "南亞科",
+      "buy_sell_shares": 3977574,
+      "buy_sell_lots": 3977.57,
+      "buy_shares": 5533327,
+      "sell_shares": 1555753
+    },
+    {
+      "code": "6770",
+      "name": "力積電",
+      "buy_sell_shares": 3803009,
+      "buy_sell_lots": 3803.01,
+      "buy_shares": 3803009,
       "sell_shares": 0
     },
     {
-      "code": "2603",
-      "name": "長榮",
-      "buy_sell_shares": 2214000,
-      "buy_sell_lots": 2214.0,
-      "buy_shares": 2214000,
-      "sell_shares": 0
+      "code": "2409",
+      "name": "友達",
+      "buy_sell_shares": 3630311,
+      "buy_sell_lots": 3630.31,
+      "buy_shares": 3696311,
+      "sell_shares": 66000
     },
     {
       "code": "3231",
       "name": "緯創",
-      "buy_sell_shares": 2001000,
-      "buy_sell_lots": 2001.0,
-      "buy_shares": 2135000,
-      "sell_shares": 134000
+      "buy_sell_shares": 3044019,
+      "buy_sell_lots": 3044.02,
+      "buy_shares": 3501019,
+      "sell_shares": 457000
     },
     {
-      "code": "2027",
-      "name": "大成鋼",
-      "buy_sell_shares": 1985000,
-      "buy_sell_lots": 1985.0,
-      "buy_shares": 2044000,
-      "sell_shares": 59000
-    },
-    {
-      "code": "8028",
-      "name": "昇陽半導體",
-      "buy_sell_shares": 1971000,
-      "buy_sell_lots": 1971.0,
-      "buy_shares": 1971000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2481",
-      "name": "強茂",
-      "buy_sell_shares": 1908000,
-      "buy_sell_lots": 1908.0,
-      "buy_shares": 1908000,
-      "sell_shares": 0
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "buy_sell_shares": 1500000,
-      "buy_sell_lots": 1500.0,
-      "buy_shares": 1500000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2376",
-      "name": "技嘉",
-      "buy_sell_shares": 1412000,
-      "buy_sell_lots": 1412.0,
-      "buy_shares": 1414000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "4763",
-      "name": "材料*-KY",
-      "buy_sell_shares": 1269000,
-      "buy_sell_lots": 1269.0,
-      "buy_shares": 1270000,
-      "sell_shares": 1000
+      "code": "9904",
+      "name": "寶成",
+      "buy_sell_shares": 3015862,
+      "buy_sell_lots": 3015.86,
+      "buy_shares": 3065601,
+      "sell_shares": 49739
     },
     {
       "code": "0056",
       "name": "元大高股息",
-      "buy_sell_shares": 1250000,
-      "buy_sell_lots": 1250.0,
-      "buy_shares": 1250000,
+      "buy_sell_shares": 2490000,
+      "buy_sell_lots": 2490.0,
+      "buy_shares": 2490000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3045",
+      "name": "台灣大",
+      "buy_sell_shares": 2148492,
+      "buy_sell_lots": 2148.49,
+      "buy_shares": 3010307,
+      "sell_shares": 861815
+    },
+    {
+      "code": "00953B",
+      "name": "群益優選非投等債",
+      "buy_sell_shares": 2028000,
+      "buy_sell_lots": 2028.0,
+      "buy_shares": 2028000,
+      "sell_shares": 0
+    },
+    {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "buy_sell_shares": 2000000,
+      "buy_sell_lots": 2000.0,
+      "buy_shares": 2000000,
       "sell_shares": 0
     },
     {
       "code": "2610",
       "name": "華航",
-      "buy_sell_shares": 1218000,
-      "buy_sell_lots": 1218.0,
-      "buy_shares": 1218000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2633",
-      "name": "台灣高鐵",
-      "buy_sell_shares": 949000,
-      "buy_sell_lots": 949.0,
-      "buy_shares": 949000,
-      "sell_shares": 0
-    },
-    {
-      "code": "9945",
-      "name": "潤泰新",
-      "buy_sell_shares": 887000,
-      "buy_sell_lots": 887.0,
-      "buy_shares": 887000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3450",
-      "name": "聯鈞",
-      "buy_sell_shares": 869000,
-      "buy_sell_lots": 869.0,
-      "buy_shares": 869000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2353",
-      "name": "宏碁",
-      "buy_sell_shares": 814000,
-      "buy_sell_lots": 814.0,
-      "buy_shares": 814000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3702",
-      "name": "大聯大",
-      "buy_sell_shares": 781000,
-      "buy_sell_lots": 781.0,
-      "buy_shares": 787000,
-      "sell_shares": 6000
-    },
-    {
-      "code": "3026",
-      "name": "禾伸堂",
-      "buy_sell_shares": 752000,
-      "buy_sell_lots": 752.0,
-      "buy_shares": 752000,
-      "sell_shares": 0
-    },
-    {
-      "code": "00922",
-      "name": "國泰台灣領袖50",
-      "buy_sell_shares": 600000,
-      "buy_sell_lots": 600.0,
-      "buy_shares": 600000,
-      "sell_shares": 0
-    },
-    {
-      "code": "5876",
-      "name": "上海商銀",
-      "buy_sell_shares": 575000,
-      "buy_sell_lots": 575.0,
-      "buy_shares": 575000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "buy_sell_shares": 560000,
-      "buy_sell_lots": 560.0,
-      "buy_shares": 560000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2408",
-      "name": "南亞科",
-      "buy_sell_shares": 554000,
-      "buy_sell_lots": 554.0,
-      "buy_shares": 589000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "2455",
-      "name": "全新",
-      "buy_sell_shares": 551000,
-      "buy_sell_lots": 551.0,
-      "buy_shares": 1236000,
-      "sell_shares": 685000
-    },
-    {
-      "code": "009803",
-      "name": "玉山市值動能50",
-      "buy_sell_shares": 550000,
-      "buy_sell_lots": 550.0,
-      "buy_shares": 550000,
-      "sell_shares": 0
-    },
-    {
-      "code": "9910",
-      "name": "豐泰",
-      "buy_sell_shares": 479000,
-      "buy_sell_lots": 479.0,
-      "buy_shares": 479000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2855",
-      "name": "統一證",
-      "buy_sell_shares": 447000,
-      "buy_sell_lots": 447.0,
-      "buy_shares": 447000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "buy_sell_shares": 430200,
-      "buy_sell_lots": 430.2,
-      "buy_shares": 430200,
-      "sell_shares": 0
-    },
-    {
-      "code": "2474",
-      "name": "可成",
-      "buy_sell_shares": 428000,
-      "buy_sell_lots": 428.0,
-      "buy_shares": 435000,
-      "sell_shares": 7000
-    },
-    {
-      "code": "1513",
-      "name": "中興電",
-      "buy_sell_shares": 420000,
-      "buy_sell_lots": 420.0,
-      "buy_shares": 420000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8070",
-      "name": "長華*",
-      "buy_sell_shares": 420000,
-      "buy_sell_lots": 420.0,
-      "buy_shares": 420000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2609",
-      "name": "陽明",
-      "buy_sell_shares": 415000,
-      "buy_sell_lots": 415.0,
-      "buy_shares": 415000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3711",
-      "name": "日月光投控",
-      "buy_sell_shares": 375000,
-      "buy_sell_lots": 375.0,
-      "buy_shares": 397000,
-      "sell_shares": 22000
-    },
-    {
-      "code": "6213",
-      "name": "聯茂",
-      "buy_sell_shares": 356000,
-      "buy_sell_lots": 356.0,
-      "buy_shares": 356000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2606",
-      "name": "裕民",
-      "buy_sell_shares": 324000,
-      "buy_sell_lots": 324.0,
-      "buy_shares": 324000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3189",
-      "name": "景碩",
-      "buy_sell_shares": 313000,
-      "buy_sell_lots": 313.0,
-      "buy_shares": 315000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "4938",
-      "name": "和碩",
-      "buy_sell_shares": 294000,
-      "buy_sell_lots": 294.0,
-      "buy_shares": 296000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "6805",
-      "name": "富世達",
-      "buy_sell_shares": 288000,
-      "buy_sell_lots": 288.0,
-      "buy_shares": 288000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2912",
-      "name": "統一超",
-      "buy_sell_shares": 280000,
-      "buy_sell_lots": 280.0,
-      "buy_shares": 284000,
-      "sell_shares": 4000
-    },
-    {
-      "code": "00935",
-      "name": "野村臺灣新科技50",
-      "buy_sell_shares": 275000,
-      "buy_sell_lots": 275.0,
-      "buy_shares": 275000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2308",
-      "name": "台達電",
-      "buy_sell_shares": 253498,
-      "buy_sell_lots": 253.5,
-      "buy_shares": 258707,
-      "sell_shares": 5209
-    },
-    {
-      "code": "3167",
-      "name": "大量",
-      "buy_sell_shares": 250000,
-      "buy_sell_lots": 250.0,
-      "buy_shares": 250000,
-      "sell_shares": 0
-    },
-    {
-      "code": "4904",
-      "name": "遠傳",
-      "buy_sell_shares": 244000,
-      "buy_sell_lots": 244.0,
-      "buy_shares": 245000,
-      "sell_shares": 1000
-    },
-    {
-      "code": "3005",
-      "name": "神基",
-      "buy_sell_shares": 206250,
-      "buy_sell_lots": 206.25,
-      "buy_shares": 206250,
-      "sell_shares": 0
+      "buy_sell_shares": 1950765,
+      "buy_sell_lots": 1950.77,
+      "buy_shares": 3813765,
+      "sell_shares": 1863000
     },
     {
       "code": "1102",
       "name": "亞泥",
-      "buy_sell_shares": 180000,
-      "buy_sell_lots": 180.0,
-      "buy_shares": 180000,
+      "buy_sell_shares": 1485518,
+      "buy_sell_lots": 1485.52,
+      "buy_shares": 1496038,
+      "sell_shares": 10520
+    },
+    {
+      "code": "3702",
+      "name": "大聯大",
+      "buy_sell_shares": 1283526,
+      "buy_sell_lots": 1283.53,
+      "buy_shares": 1309526,
+      "sell_shares": 26000
+    },
+    {
+      "code": "2481",
+      "name": "強茂",
+      "buy_sell_shares": 1217000,
+      "buy_sell_lots": 1217.0,
+      "buy_shares": 1217000,
       "sell_shares": 0
     },
     {
-      "code": "2327",
-      "name": "國巨*",
-      "buy_sell_shares": 156000,
-      "buy_sell_lots": 156.0,
-      "buy_shares": 285000,
-      "sell_shares": 129000
+      "code": "2884",
+      "name": "玉山金",
+      "buy_sell_shares": 1205760,
+      "buy_sell_lots": 1205.76,
+      "buy_shares": 2947692,
+      "sell_shares": 1741932
+    },
+    {
+      "code": "2633",
+      "name": "台灣高鐵",
+      "buy_sell_shares": 999605,
+      "buy_sell_lots": 999.61,
+      "buy_shares": 1019000,
+      "sell_shares": 19395
+    },
+    {
+      "code": "4763",
+      "name": "材料*-KY",
+      "buy_sell_shares": 984000,
+      "buy_sell_lots": 984.0,
+      "buy_shares": 984000,
+      "sell_shares": 0
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "buy_sell_shares": 920000,
+      "buy_sell_lots": 920.0,
+      "buy_shares": 1320000,
+      "sell_shares": 400000
+    },
+    {
+      "code": "6213",
+      "name": "聯茂",
+      "buy_sell_shares": 889000,
+      "buy_sell_lots": 889.0,
+      "buy_shares": 950000,
+      "sell_shares": 61000
     },
     {
       "code": "8046",
       "name": "南電",
-      "buy_sell_shares": 115000,
-      "buy_sell_lots": 115.0,
-      "buy_shares": 222000,
-      "sell_shares": 107000
+      "buy_sell_shares": 855128,
+      "buy_sell_lots": 855.13,
+      "buy_shares": 1090128,
+      "sell_shares": 235000
     },
     {
-      "code": "2317",
-      "name": "鴻海",
-      "buy_sell_shares": 109104,
-      "buy_sell_lots": 109.1,
-      "buy_shares": 112104,
-      "sell_shares": 3000
+      "code": "3037",
+      "name": "欣興",
+      "buy_sell_shares": 811935,
+      "buy_sell_lots": 811.93,
+      "buy_shares": 922748,
+      "sell_shares": 110813
     },
     {
-      "code": "2002",
-      "name": "中鋼",
-      "buy_sell_shares": 79000,
-      "buy_sell_lots": 79.0,
-      "buy_shares": 79000,
+      "code": "2324",
+      "name": "仁寶",
+      "buy_sell_shares": 767243,
+      "buy_sell_lots": 767.24,
+      "buy_shares": 1106243,
+      "sell_shares": 339000
+    },
+    {
+      "code": "2368",
+      "name": "金像電",
+      "buy_sell_shares": 737542,
+      "buy_sell_lots": 737.54,
+      "buy_shares": 1266893,
+      "sell_shares": 529351
+    },
+    {
+      "code": "9945",
+      "name": "潤泰新",
+      "buy_sell_shares": 689000,
+      "buy_sell_lots": 689.0,
+      "buy_shares": 689000,
       "sell_shares": 0
     },
     {
-      "code": "5880",
-      "name": "合庫金",
-      "buy_sell_shares": 76000,
-      "buy_sell_lots": 76.0,
-      "buy_shares": 76000,
+      "code": "3036",
+      "name": "文曄",
+      "buy_sell_shares": 686003,
+      "buy_sell_lots": 686.0,
+      "buy_shares": 825003,
+      "sell_shares": 139000
+    },
+    {
+      "code": "1717",
+      "name": "長興",
+      "buy_sell_shares": 686000,
+      "buy_sell_lots": 686.0,
+      "buy_shares": 688000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2327",
+      "name": "國巨*",
+      "buy_sell_shares": 637109,
+      "buy_sell_lots": 637.11,
+      "buy_shares": 883109,
+      "sell_shares": 246000
+    },
+    {
+      "code": "6805",
+      "name": "富世達",
+      "buy_sell_shares": 497000,
+      "buy_sell_lots": 497.0,
+      "buy_shares": 500000,
+      "sell_shares": 3000
+    },
+    {
+      "code": "3006",
+      "name": "晶豪科",
+      "buy_sell_shares": 482000,
+      "buy_sell_lots": 482.0,
+      "buy_shares": 482000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "buy_sell_shares": 478401,
+      "buy_sell_lots": 478.4,
+      "buy_shares": 1615969,
+      "sell_shares": 1137568
+    },
+    {
+      "code": "9910",
+      "name": "豐泰",
+      "buy_sell_shares": 473000,
+      "buy_sell_lots": 473.0,
+      "buy_shares": 474000,
+      "sell_shares": 1000
+    },
+    {
+      "code": "2385",
+      "name": "群光",
+      "buy_sell_shares": 472146,
+      "buy_sell_lots": 472.15,
+      "buy_shares": 513993,
+      "sell_shares": 41847
+    },
+    {
+      "code": "5876",
+      "name": "上海商銀",
+      "buy_sell_shares": 446862,
+      "buy_sell_lots": 446.86,
+      "buy_shares": 454862,
+      "sell_shares": 8000
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "buy_sell_shares": 443167,
+      "buy_sell_lots": 443.17,
+      "buy_shares": 1411000,
+      "sell_shares": 967833
+    },
+    {
+      "code": "1326",
+      "name": "台化",
+      "buy_sell_shares": 442000,
+      "buy_sell_lots": 442.0,
+      "buy_shares": 444000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "1513",
+      "name": "中興電",
+      "buy_sell_shares": 431918,
+      "buy_sell_lots": 431.92,
+      "buy_shares": 435700,
+      "sell_shares": 3782
+    },
+    {
+      "code": "2855",
+      "name": "統一證",
+      "buy_sell_shares": 420816,
+      "buy_sell_lots": 420.82,
+      "buy_shares": 426000,
+      "sell_shares": 5184
+    },
+    {
+      "code": "6472",
+      "name": "保瑞",
+      "buy_sell_shares": 398611,
+      "buy_sell_lots": 398.61,
+      "buy_shares": 400000,
+      "sell_shares": 1389
+    },
+    {
+      "code": "00935",
+      "name": "野村臺灣新科技50",
+      "buy_sell_shares": 388000,
+      "buy_sell_lots": 388.0,
+      "buy_shares": 388000,
       "sell_shares": 0
     },
     {
       "code": "3665",
       "name": "貿聯-KY",
-      "buy_sell_shares": 71500,
-      "buy_sell_lots": 71.5,
-      "buy_shares": 75000,
-      "sell_shares": 3500
+      "buy_sell_shares": 315753,
+      "buy_sell_lots": 315.75,
+      "buy_shares": 345556,
+      "sell_shares": 29803
     },
     {
-      "code": "9907",
-      "name": "統一實",
-      "buy_sell_shares": 68884,
-      "buy_sell_lots": 68.88,
-      "buy_shares": 68884,
-      "sell_shares": 0
-    },
-    {
-      "code": "2059",
-      "name": "川湖",
-      "buy_sell_shares": 68056,
-      "buy_sell_lots": 68.06,
-      "buy_shares": 68100,
-      "sell_shares": 44
-    },
-    {
-      "code": "1101",
-      "name": "台泥",
-      "buy_sell_shares": 66000,
-      "buy_sell_lots": 66.0,
-      "buy_shares": 66000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2504",
-      "name": "國產",
-      "buy_sell_shares": 59769,
-      "buy_sell_lots": 59.77,
-      "buy_shares": 60769,
-      "sell_shares": 1000
-    },
-    {
-      "code": "2547",
-      "name": "日勝生",
-      "buy_sell_shares": 53478,
-      "buy_sell_lots": 53.48,
-      "buy_shares": 53478,
-      "sell_shares": 0
-    },
-    {
-      "code": "1476",
-      "name": "儒鴻",
-      "buy_sell_shares": 53000,
-      "buy_sell_lots": 53.0,
-      "buy_shares": 53000,
-      "sell_shares": 0
+      "code": "3189",
+      "name": "景碩",
+      "buy_sell_shares": 308000,
+      "buy_sell_lots": 308.0,
+      "buy_shares": 310000,
+      "sell_shares": 2000
     },
     {
       "code": "1560",
       "name": "中砂",
-      "buy_sell_shares": 52000,
-      "buy_sell_lots": 52.0,
-      "buy_shares": 52000,
+      "buy_sell_shares": 298000,
+      "buy_sell_lots": 298.0,
+      "buy_shares": 298000,
       "sell_shares": 0
     },
     {
-      "code": "3653",
-      "name": "健策",
-      "buy_sell_shares": 51947,
-      "buy_sell_lots": 51.95,
-      "buy_shares": 68000,
-      "sell_shares": 16053
+      "code": "2474",
+      "name": "可成",
+      "buy_sell_shares": 288095,
+      "buy_sell_lots": 288.1,
+      "buy_shares": 420000,
+      "sell_shares": 131905
     },
     {
-      "code": "3045",
-      "name": "台灣大",
-      "buy_sell_shares": 51000,
-      "buy_sell_lots": 51.0,
-      "buy_shares": 51000,
-      "sell_shares": 0
+      "code": "3026",
+      "name": "禾伸堂",
+      "buy_sell_shares": 268000,
+      "buy_sell_lots": 268.0,
+      "buy_shares": 277000,
+      "sell_shares": 9000
     },
     {
-      "code": "3617",
-      "name": "碩天",
-      "buy_sell_shares": 50000,
-      "buy_sell_lots": 50.0,
-      "buy_shares": 50000,
-      "sell_shares": 0
-    },
-    {
-      "code": "4764",
-      "name": "雙鍵",
-      "buy_sell_shares": 50000,
-      "buy_sell_lots": 50.0,
-      "buy_shares": 50000,
+      "code": "1722",
+      "name": "台肥",
+      "buy_sell_shares": 266000,
+      "buy_sell_lots": 266.0,
+      "buy_shares": 266000,
       "sell_shares": 0
     },
     {
       "code": "00646",
       "name": "元大S&P500",
+      "buy_sell_shares": 254000,
+      "buy_sell_lots": 254.0,
+      "buy_shares": 254000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3005",
+      "name": "神基",
+      "buy_sell_shares": 247003,
+      "buy_sell_lots": 247.0,
+      "buy_shares": 250634,
+      "sell_shares": 3631
+    },
+    {
+      "code": "2376",
+      "name": "技嘉",
+      "buy_sell_shares": 232241,
+      "buy_sell_lots": 232.24,
+      "buy_shares": 291000,
+      "sell_shares": 58759
+    },
+    {
+      "code": "3034",
+      "name": "聯詠",
+      "buy_sell_shares": 215476,
+      "buy_sell_lots": 215.48,
+      "buy_shares": 342883,
+      "sell_shares": 127407
+    },
+    {
+      "code": "2455",
+      "name": "全新",
+      "buy_sell_shares": 211000,
+      "buy_sell_lots": 211.0,
+      "buy_shares": 606000,
+      "sell_shares": 395000
+    },
+    {
+      "code": "6949",
+      "name": "沛爾生醫*-創",
+      "buy_sell_shares": 209000,
+      "buy_sell_lots": 209.0,
+      "buy_shares": 209000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3406",
+      "name": "玉晶光",
+      "buy_sell_shares": 182000,
+      "buy_sell_lots": 182.0,
+      "buy_shares": 273000,
+      "sell_shares": 91000
+    },
+    {
+      "code": "00662",
+      "name": "富邦NASDAQ",
+      "buy_sell_shares": 161000,
+      "buy_sell_lots": 161.0,
+      "buy_shares": 161000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3042",
+      "name": "晶技",
+      "buy_sell_shares": 160000,
+      "buy_sell_lots": 160.0,
+      "buy_shares": 160000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3008",
+      "name": "大立光",
+      "buy_sell_shares": 131930,
+      "buy_sell_lots": 131.93,
+      "buy_shares": 177010,
+      "sell_shares": 45080
+    },
+    {
+      "code": "2912",
+      "name": "統一超",
+      "buy_sell_shares": 123039,
+      "buy_sell_lots": 123.04,
+      "buy_shares": 315039,
+      "sell_shares": 192000
+    },
+    {
+      "code": "1802",
+      "name": "台玻",
+      "buy_sell_shares": 123000,
+      "buy_sell_lots": 123.0,
+      "buy_shares": 124000,
+      "sell_shares": 1000
+    },
+    {
+      "code": "00713",
+      "name": "元大台灣高息低波",
+      "buy_sell_shares": 110000,
+      "buy_sell_lots": 110.0,
+      "buy_shares": 110000,
+      "sell_shares": 0
+    },
+    {
+      "code": "9907",
+      "name": "統一實",
+      "buy_sell_shares": 100261,
+      "buy_sell_lots": 100.26,
+      "buy_shares": 109164,
+      "sell_shares": 8903
+    },
+    {
+      "code": "2404",
+      "name": "漢唐",
+      "buy_sell_shares": 97000,
+      "buy_sell_lots": 97.0,
+      "buy_shares": 157000,
+      "sell_shares": 60000
+    },
+    {
+      "code": "2504",
+      "name": "國產",
+      "buy_sell_shares": 96304,
+      "buy_sell_lots": 96.3,
+      "buy_shares": 96304,
+      "sell_shares": 0
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "buy_sell_shares": 90547,
+      "buy_sell_lots": 90.55,
+      "buy_shares": 140671,
+      "sell_shares": 50124
+    },
+    {
+      "code": "2360",
+      "name": "致茂",
+      "buy_sell_shares": 88874,
+      "buy_sell_lots": 88.87,
+      "buy_shares": 147874,
+      "sell_shares": 59000
+    },
+    {
+      "code": "2547",
+      "name": "日勝生",
+      "buy_sell_shares": 84750,
+      "buy_sell_lots": 84.75,
+      "buy_shares": 84750,
+      "sell_shares": 0
+    },
+    {
+      "code": "2337",
+      "name": "旺宏",
+      "buy_sell_shares": 83000,
+      "buy_sell_lots": 83.0,
+      "buy_shares": 91000,
+      "sell_shares": 8000
+    },
+    {
+      "code": "2393",
+      "name": "億光",
+      "buy_sell_shares": 76632,
+      "buy_sell_lots": 76.63,
+      "buy_shares": 78883,
+      "sell_shares": 2251
+    },
+    {
+      "code": "1476",
+      "name": "儒鴻",
+      "buy_sell_shares": 74239,
+      "buy_sell_lots": 74.24,
+      "buy_shares": 95731,
+      "sell_shares": 21492
+    },
+    {
+      "code": "1503",
+      "name": "士電",
+      "buy_sell_shares": 74000,
+      "buy_sell_lots": 74.0,
+      "buy_shares": 76000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2105",
+      "name": "正新",
+      "buy_sell_shares": 64621,
+      "buy_sell_lots": 64.62,
+      "buy_shares": 73573,
+      "sell_shares": 8952
+    },
+    {
+      "code": "2812",
+      "name": "台中銀",
+      "buy_sell_shares": 61788,
+      "buy_sell_lots": 61.79,
+      "buy_shares": 61788,
+      "sell_shares": 0
+    },
+    {
+      "code": "00645",
+      "name": "富邦日本",
+      "buy_sell_shares": 61000,
+      "buy_sell_lots": 61.0,
+      "buy_shares": 61000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2207",
+      "name": "和泰車",
+      "buy_sell_shares": 58822,
+      "buy_sell_lots": 58.82,
+      "buy_shares": 58842,
+      "sell_shares": 20
+    },
+    {
+      "code": "2530",
+      "name": "華建",
+      "buy_sell_shares": 55152,
+      "buy_sell_lots": 55.15,
+      "buy_shares": 55152,
+      "sell_shares": 0
+    },
+    {
+      "code": "3167",
+      "name": "大量",
+      "buy_sell_shares": 55000,
+      "buy_sell_lots": 55.0,
+      "buy_shares": 55000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2834",
+      "name": "臺企銀",
+      "buy_sell_shares": 52413,
+      "buy_sell_lots": 52.41,
+      "buy_shares": 119484,
+      "sell_shares": 67071
+    },
+    {
+      "code": "4736",
+      "name": "泰博",
       "buy_sell_shares": 50000,
       "buy_sell_lots": 50.0,
       "buy_shares": 50000,
       "sell_shares": 0
     },
     {
-      "code": "2393",
-      "name": "億光",
-      "buy_sell_shares": 49145,
-      "buy_sell_lots": 49.15,
-      "buy_shares": 49145,
-      "sell_shares": 0
-    },
-    {
-      "code": "1216",
-      "name": "統一",
-      "buy_sell_shares": 48000,
-      "buy_sell_lots": 48.0,
-      "buy_shares": 62000,
-      "sell_shares": 14000
-    },
-    {
-      "code": "1802",
-      "name": "台玻",
-      "buy_sell_shares": 47000,
-      "buy_sell_lots": 47.0,
-      "buy_shares": 47000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2207",
-      "name": "和泰車",
-      "buy_sell_shares": 43000,
-      "buy_sell_lots": 43.0,
-      "buy_shares": 43000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2301",
-      "name": "光寶科",
-      "buy_sell_shares": 42000,
-      "buy_sell_lots": 42.0,
-      "buy_shares": 46000,
-      "sell_shares": 4000
-    },
-    {
-      "code": "9914",
-      "name": "美利達",
-      "buy_sell_shares": 38000,
-      "buy_sell_lots": 38.0,
-      "buy_shares": 38000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "buy_sell_shares": 37185,
-      "buy_sell_lots": 37.19,
-      "buy_shares": 191185,
-      "sell_shares": 154000
-    },
-    {
-      "code": "2368",
-      "name": "金像電",
-      "buy_sell_shares": 36000,
-      "buy_sell_lots": 36.0,
-      "buy_shares": 54000,
-      "sell_shares": 18000
-    },
-    {
-      "code": "2530",
-      "name": "華建",
-      "buy_sell_shares": 34802,
-      "buy_sell_lots": 34.8,
-      "buy_shares": 34802,
-      "sell_shares": 0
-    },
-    {
-      "code": "3008",
-      "name": "大立光",
-      "buy_sell_shares": 33546,
-      "buy_sell_lots": 33.55,
-      "buy_shares": 195600,
-      "sell_shares": 162054
-    },
-    {
-      "code": "1504",
-      "name": "東元",
-      "buy_sell_shares": 31000,
-      "buy_sell_lots": 31.0,
-      "buy_shares": 32000,
-      "sell_shares": 1000
-    },
-    {
-      "code": "1605",
-      "name": "華新",
-      "buy_sell_shares": 30000,
-      "buy_sell_lots": 30.0,
-      "buy_shares": 30000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2351",
-      "name": "順德",
-      "buy_sell_shares": 30000,
-      "buy_sell_lots": 30.0,
-      "buy_shares": 30000,
-      "sell_shares": 0
-    },
-    {
       "code": "6177",
       "name": "達麗",
-      "buy_sell_shares": 29435,
-      "buy_sell_lots": 29.43,
-      "buy_shares": 29435,
+      "buy_sell_shares": 46647,
+      "buy_sell_lots": 46.65,
+      "buy_shares": 46647,
       "sell_shares": 0
+    },
+    {
+      "code": "3376",
+      "name": "新日興",
+      "buy_sell_shares": 44000,
+      "buy_sell_lots": 44.0,
+      "buy_shares": 44000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "buy_sell_shares": 41794,
+      "buy_sell_lots": 41.79,
+      "buy_shares": 95794,
+      "sell_shares": 54000
+    },
+    {
+      "code": "2347",
+      "name": "聯強",
+      "buy_sell_shares": 39040,
+      "buy_sell_lots": 39.04,
+      "buy_shares": 46000,
+      "sell_shares": 6960
     },
     {
       "code": "9938",
       "name": "百和",
-      "buy_sell_shares": 26728,
-      "buy_sell_lots": 26.73,
-      "buy_shares": 26728,
+      "buy_sell_shares": 38794,
+      "buy_sell_lots": 38.79,
+      "buy_shares": 42357,
+      "sell_shares": 3563
+    },
+    {
+      "code": "2353",
+      "name": "宏碁",
+      "buy_sell_shares": 37266,
+      "buy_sell_lots": 37.27,
+      "buy_shares": 609000,
+      "sell_shares": 571734
+    },
+    {
+      "code": "1712",
+      "name": "興農",
+      "buy_sell_shares": 37159,
+      "buy_sell_lots": 37.16,
+      "buy_shares": 37159,
       "sell_shares": 0
     },
     {
       "code": "2204",
       "name": "中華",
-      "buy_sell_shares": 24731,
-      "buy_sell_lots": 24.73,
-      "buy_shares": 24731,
-      "sell_shares": 0
-    },
-    {
-      "code": "2347",
-      "name": "聯強",
-      "buy_sell_shares": 24000,
-      "buy_sell_lots": 24.0,
-      "buy_shares": 38000,
-      "sell_shares": 14000
-    },
-    {
-      "code": "4532",
-      "name": "瑞智",
-      "buy_sell_shares": 23972,
-      "buy_sell_lots": 23.97,
-      "buy_shares": 23972,
-      "sell_shares": 0
-    },
-    {
-      "code": "1712",
-      "name": "興農",
-      "buy_sell_shares": 23448,
-      "buy_sell_lots": 23.45,
-      "buy_shares": 23448,
-      "sell_shares": 0
-    },
-    {
-      "code": "2371",
-      "name": "大同",
-      "buy_sell_shares": 22000,
-      "buy_sell_lots": 22.0,
-      "buy_shares": 22000,
-      "sell_shares": 0
+      "buy_sell_shares": 36265,
+      "buy_sell_lots": 36.27,
+      "buy_shares": 39192,
+      "sell_shares": 2927
     },
     {
       "code": "2528",
       "name": "皇普",
-      "buy_sell_shares": 21895,
-      "buy_sell_lots": 21.89,
-      "buy_shares": 21895,
+      "buy_sell_shares": 34699,
+      "buy_sell_lots": 34.7,
+      "buy_shares": 34699,
       "sell_shares": 0
     },
     {
-      "code": "5234",
-      "name": "達興材料",
-      "buy_sell_shares": 21000,
-      "buy_sell_lots": 21.0,
-      "buy_shares": 21000,
+      "code": "6191",
+      "name": "精成科",
+      "buy_sell_shares": 34000,
+      "buy_sell_lots": 34.0,
+      "buy_shares": 34000,
       "sell_shares": 0
     },
     {
       "code": "3014",
       "name": "聯陽",
-      "buy_sell_shares": 20854,
-      "buy_sell_lots": 20.85,
-      "buy_shares": 20854,
+      "buy_sell_shares": 31698,
+      "buy_sell_lots": 31.7,
+      "buy_shares": 34048,
+      "sell_shares": 2350
+    },
+    {
+      "code": "4532",
+      "name": "瑞智",
+      "buy_sell_shares": 31430,
+      "buy_sell_lots": 31.43,
+      "buy_shares": 37989,
+      "sell_shares": 6559
+    },
+    {
+      "code": "0052",
+      "name": "富邦科技",
+      "buy_sell_shares": 30000,
+      "buy_sell_lots": 30.0,
+      "buy_shares": 30000,
       "sell_shares": 0
     },
     {
-      "code": "2352",
-      "name": "佳世達",
-      "buy_sell_shares": 20000,
-      "buy_sell_lots": 20.0,
-      "buy_shares": 20000,
-      "sell_shares": 0
-    },
-    {
-      "code": "7799",
-      "name": "禾榮科",
-      "buy_sell_shares": 20000,
-      "buy_sell_lots": 20.0,
-      "buy_shares": 20000,
+      "code": "6278",
+      "name": "台表科",
+      "buy_sell_shares": 30000,
+      "buy_sell_lots": 30.0,
+      "buy_shares": 30000,
       "sell_shares": 0
     },
     {
       "code": "2387",
       "name": "精元",
-      "buy_sell_shares": 16621,
-      "buy_sell_lots": 16.62,
-      "buy_shares": 16621,
+      "buy_sell_shares": 26341,
+      "buy_sell_lots": 26.34,
+      "buy_shares": 26341,
       "sell_shares": 0
     },
     {
-      "code": "2356",
-      "name": "英業達",
-      "buy_sell_shares": 16000,
-      "buy_sell_lots": 16.0,
-      "buy_shares": 18000,
+      "code": "6257",
+      "name": "矽格",
+      "buy_sell_shares": 23000,
+      "buy_sell_lots": 23.0,
+      "buy_shares": 25000,
       "sell_shares": 2000
     },
     {
-      "code": "2834",
-      "name": "臺企銀",
+      "code": "1519",
+      "name": "華城",
+      "buy_sell_shares": 22000,
+      "buy_sell_lots": 22.0,
+      "buy_shares": 24000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "6670",
+      "name": "復盛應用",
+      "buy_sell_shares": 19390,
+      "buy_sell_lots": 19.39,
+      "buy_shares": 20000,
+      "sell_shares": 610
+    },
+    {
+      "code": "7711",
+      "name": "永擎",
+      "buy_sell_shares": 18000,
+      "buy_sell_lots": 18.0,
+      "buy_shares": 18000,
+      "sell_shares": 0
+    },
+    {
+      "code": "7799",
+      "name": "禾榮科",
       "buy_sell_shares": 15000,
       "buy_sell_lots": 15.0,
       "buy_shares": 15000,
       "sell_shares": 0
     },
     {
-      "code": "9933",
-      "name": "中鼎",
-      "buy_sell_shares": 13700,
-      "buy_sell_lots": 13.7,
-      "buy_shares": 13700,
-      "sell_shares": 0
-    },
-    {
-      "code": "6191",
-      "name": "精成科",
-      "buy_sell_shares": 13000,
-      "buy_sell_lots": 13.0,
-      "buy_shares": 13000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "buy_sell_shares": 11229,
-      "buy_sell_lots": 11.23,
-      "buy_shares": 62229,
-      "sell_shares": 51000
-    },
-    {
-      "code": "0052",
-      "name": "富邦科技",
-      "buy_sell_shares": 11000,
-      "buy_sell_lots": 11.0,
-      "buy_shares": 11000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2464",
-      "name": "盟立",
-      "buy_sell_shares": 11000,
-      "buy_sell_lots": 11.0,
-      "buy_shares": 11000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6282",
-      "name": "康舒",
-      "buy_sell_shares": 10000,
-      "buy_sell_lots": 10.0,
-      "buy_shares": 10000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8215",
-      "name": "明基材",
-      "buy_sell_shares": 10000,
-      "buy_sell_lots": 10.0,
-      "buy_shares": 10000,
-      "sell_shares": 0
-    },
-    {
       "code": "2832",
       "name": "台產",
-      "buy_sell_shares": 9333,
-      "buy_sell_lots": 9.33,
-      "buy_shares": 9333,
+      "buy_sell_shares": 14790,
+      "buy_sell_lots": 14.79,
+      "buy_shares": 14790,
       "sell_shares": 0
     },
     {
-      "code": "4736",
-      "name": "泰博",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 9000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6278",
-      "name": "台表科",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 9000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6531",
-      "name": "愛普*",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 10000,
-      "sell_shares": 1000
+      "code": "2002",
+      "name": "中鋼",
+      "buy_sell_shares": 14578,
+      "buy_sell_lots": 14.58,
+      "buy_shares": 15000,
+      "sell_shares": 422
     },
     {
       "code": "9935",
       "name": "慶豐富",
-      "buy_sell_shares": 8919,
-      "buy_sell_lots": 8.92,
-      "buy_shares": 8919,
+      "buy_sell_shares": 14134,
+      "buy_sell_lots": 14.13,
+      "buy_shares": 14134,
       "sell_shares": 0
     },
     {
-      "code": "8926",
-      "name": "台汽電",
+      "code": "1504",
+      "name": "東元",
+      "buy_sell_shares": 13936,
+      "buy_sell_lots": 13.94,
+      "buy_shares": 16936,
+      "sell_shares": 3000
+    },
+    {
+      "code": "6743",
+      "name": "安普新",
+      "buy_sell_shares": 12278,
+      "buy_sell_lots": 12.28,
+      "buy_shares": 12278,
+      "sell_shares": 0
+    },
+    {
+      "code": "2477",
+      "name": "美隆電",
+      "buy_sell_shares": 11489,
+      "buy_sell_lots": 11.49,
+      "buy_shares": 11489,
+      "sell_shares": 0
+    },
+    {
+      "code": "2301",
+      "name": "光寶科",
+      "buy_sell_shares": 11300,
+      "buy_sell_lots": 11.3,
+      "buy_shares": 255300,
+      "sell_shares": 244000
+    },
+    {
+      "code": "7610",
+      "name": "聯友金屬-創",
+      "buy_sell_shares": 11000,
+      "buy_sell_lots": 11.0,
+      "buy_shares": 11000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2606",
+      "name": "裕民",
+      "buy_sell_shares": 10000,
+      "buy_sell_lots": 10.0,
+      "buy_shares": 251000,
+      "sell_shares": 241000
+    },
+    {
+      "code": "1101",
+      "name": "台泥",
+      "buy_sell_shares": 10000,
+      "buy_sell_lots": 10.0,
+      "buy_shares": 10000,
+      "sell_shares": 0
+    },
+    {
+      "code": "8454",
+      "name": "富邦媒",
+      "buy_sell_shares": 9137,
+      "buy_sell_lots": 9.14,
+      "buy_shares": 11137,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2464",
+      "name": "盟立",
       "buy_sell_shares": 8000,
       "buy_sell_lots": 8.0,
       "buy_shares": 8000,
       "sell_shares": 0
     },
     {
-      "code": "6743",
-      "name": "安普新",
-      "buy_sell_shares": 7748,
-      "buy_sell_lots": 7.75,
-      "buy_shares": 7748,
-      "sell_shares": 0
-    },
-    {
-      "code": "2477",
-      "name": "美隆電",
-      "buy_sell_shares": 7250,
-      "buy_sell_lots": 7.25,
-      "buy_shares": 7250,
-      "sell_shares": 0
-    },
-    {
-      "code": "3015",
-      "name": "全漢",
-      "buy_sell_shares": 6000,
-      "buy_sell_lots": 6.0,
-      "buy_shares": 6000,
-      "sell_shares": 0
-    },
-    {
-      "code": "7750",
-      "name": "新代",
-      "buy_sell_shares": 6000,
-      "buy_sell_lots": 6.0,
-      "buy_shares": 6000,
-      "sell_shares": 0
+      "code": "1590",
+      "name": "亞德客-KY",
+      "buy_sell_shares": 7000,
+      "buy_sell_lots": 7.0,
+      "buy_shares": 8000,
+      "sell_shares": 1000
     },
     {
       "code": "4137",
       "name": "麗豐-KY",
-      "buy_sell_shares": 4332,
-      "buy_sell_lots": 4.33,
-      "buy_shares": 4332,
+      "buy_sell_shares": 6865,
+      "buy_sell_lots": 6.87,
+      "buy_shares": 6865,
+      "sell_shares": 0
+    },
+    {
+      "code": "7795",
+      "name": "長廣",
+      "buy_sell_shares": 6000,
+      "buy_sell_lots": 6.0,
+      "buy_shares": 6000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3450",
+      "name": "聯鈞",
+      "buy_sell_shares": 6000,
+      "buy_sell_lots": 6.0,
+      "buy_shares": 6000,
       "sell_shares": 0
     },
     {
       "code": "2753",
       "name": "八方雲集",
-      "buy_sell_shares": 4280,
-      "buy_sell_lots": 4.28,
-      "buy_shares": 4280,
-      "sell_shares": 0
+      "buy_sell_shares": 5857,
+      "buy_sell_lots": 5.86,
+      "buy_shares": 6782,
+      "sell_shares": 925
     },
     {
-      "code": "2324",
-      "name": "仁寶",
+      "code": "2027",
+      "name": "大成鋼",
+      "buy_sell_shares": 4755,
+      "buy_sell_lots": 4.75,
+      "buy_shares": 38755,
+      "sell_shares": 34000
+    },
+    {
+      "code": "8442",
+      "name": "威宏-KY",
       "buy_sell_shares": 4000,
       "buy_sell_lots": 4.0,
       "buy_shares": 4000,
       "sell_shares": 0
     },
     {
-      "code": "6285",
-      "name": "啟碁",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "1723",
-      "name": "中碳",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "1519",
-      "name": "華城",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8442",
-      "name": "威宏-KY",
-      "buy_sell_shares": 2524,
-      "buy_sell_lots": 2.52,
-      "buy_shares": 2524,
-      "sell_shares": 0
-    },
-    {
       "code": "2247",
       "name": "汎德永業",
-      "buy_sell_shares": 2073,
-      "buy_sell_lots": 2.07,
-      "buy_shares": 2073,
+      "buy_sell_shares": 3285,
+      "buy_sell_lots": 3.29,
+      "buy_shares": 3285,
       "sell_shares": 0
     },
     {
       "code": "3679",
       "name": "新至陞",
-      "buy_sell_shares": 2024,
-      "buy_sell_lots": 2.02,
-      "buy_shares": 2024,
+      "buy_sell_shares": 3208,
+      "buy_sell_lots": 3.21,
+      "buy_shares": 3208,
       "sell_shares": 0
     },
     {
-      "code": "2812",
-      "name": "台中銀",
+      "code": "6919",
+      "name": "康霈*",
+      "buy_sell_shares": 3000,
+      "buy_sell_lots": 3.0,
+      "buy_shares": 3000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2646",
+      "name": "星宇航空",
+      "buy_sell_shares": 3000,
+      "buy_sell_lots": 3.0,
+      "buy_shares": 3000,
+      "sell_shares": 0
+    },
+    {
+      "code": "7769",
+      "name": "鴻勁",
+      "buy_sell_shares": 2351,
+      "buy_sell_lots": 2.35,
+      "buy_shares": 6351,
+      "sell_shares": 4000
+    },
+    {
+      "code": "2059",
+      "name": "川湖",
+      "buy_sell_shares": 2330,
+      "buy_sell_lots": 2.33,
+      "buy_shares": 9375,
+      "sell_shares": 7045
+    },
+    {
+      "code": "6672",
+      "name": "騰輝電子-KY",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "3708",
-      "name": "上緯投控",
+      "code": "6285",
+      "name": "啟碁",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "6446",
-      "name": "藥華藥",
+      "code": "2838",
+      "name": "聯邦銀",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "2645",
-      "name": "長榮航太",
+      "code": "6789",
+      "name": "采鈺",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
       "sell_shares": 0
     },
     {
-      "code": "2385",
-      "name": "群光",
+      "code": "2850",
+      "name": "新產",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
       "sell_shares": 0
     },
     {
-      "code": "6196",
-      "name": "帆宣",
+      "code": "8021",
+      "name": "尖點",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
@@ -1087,156 +1055,236 @@
   ],
   "sell": [
     {
-      "code": "2885",
-      "name": "元大金",
-      "buy_sell_shares": -8334690,
-      "buy_sell_lots": -8334.69,
-      "buy_shares": 8000,
-      "sell_shares": 8342690
+      "code": "2882",
+      "name": "國泰金",
+      "buy_sell_shares": -8530045,
+      "buy_sell_lots": -8530.05,
+      "buy_shares": 31358,
+      "sell_shares": 8561403
     },
     {
-      "code": "2883",
-      "name": "凱基金",
-      "buy_sell_shares": -2270000,
-      "buy_sell_lots": -2270.0,
-      "buy_shares": 153000,
-      "sell_shares": 2423000
+      "code": "2885",
+      "name": "元大金",
+      "buy_sell_shares": -5834995,
+      "buy_sell_lots": -5834.99,
+      "buy_shares": 178997,
+      "sell_shares": 6013992
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "buy_sell_shares": -5024975,
+      "buy_sell_lots": -5024.98,
+      "buy_shares": 4042068,
+      "sell_shares": 9067043
     },
     {
       "code": "2880",
       "name": "華南金",
-      "buy_sell_shares": -2023000,
-      "buy_sell_lots": -2023.0,
-      "buy_shares": 0,
-      "sell_shares": 2023000
+      "buy_sell_shares": -4364791,
+      "buy_sell_lots": -4364.79,
+      "buy_shares": 1000,
+      "sell_shares": 4365791
     },
     {
-      "code": "1402",
-      "name": "遠東新",
-      "buy_sell_shares": -1860000,
-      "buy_sell_lots": -1860.0,
-      "buy_shares": 0,
-      "sell_shares": 1860000
+      "code": "6239",
+      "name": "力成",
+      "buy_sell_shares": -2618835,
+      "buy_sell_lots": -2618.84,
+      "buy_shares": 151165,
+      "sell_shares": 2770000
     },
     {
-      "code": "2882",
-      "name": "國泰金",
-      "buy_sell_shares": -1737000,
-      "buy_sell_lots": -1737.0,
-      "buy_shares": 93000,
-      "sell_shares": 1830000
+      "code": "2887",
+      "name": "台新新光金",
+      "buy_sell_shares": -2448561,
+      "buy_sell_lots": -2448.56,
+      "buy_shares": 85773,
+      "sell_shares": 2534334
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "buy_sell_shares": -2126268,
+      "buy_sell_lots": -2126.27,
+      "buy_shares": 42000,
+      "sell_shares": 2168268
     },
     {
       "code": "8039",
       "name": "台虹",
-      "buy_sell_shares": -1585000,
-      "buy_sell_lots": -1585.0,
-      "buy_shares": 7000,
-      "sell_shares": 1592000
-    },
-    {
-      "code": "2492",
-      "name": "華新科",
-      "buy_sell_shares": -1523000,
-      "buy_sell_lots": -1523.0,
-      "buy_shares": 1000,
-      "sell_shares": 1524000
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "buy_sell_shares": -1519000,
-      "buy_sell_lots": -1519.0,
-      "buy_shares": 323000,
-      "sell_shares": 1842000
+      "buy_sell_shares": -1991000,
+      "buy_sell_lots": -1991.0,
+      "buy_shares": 20000,
+      "sell_shares": 2011000
     },
     {
       "code": "2881",
       "name": "富邦金",
-      "buy_sell_shares": -1395000,
-      "buy_sell_lots": -1395.0,
-      "buy_shares": 76000,
-      "sell_shares": 1471000
+      "buy_sell_shares": -1921652,
+      "buy_sell_lots": -1921.65,
+      "buy_shares": 70742,
+      "sell_shares": 1992394
     },
     {
-      "code": "2345",
-      "name": "智邦",
-      "buy_sell_shares": -1210000,
-      "buy_sell_lots": -1210.0,
-      "buy_shares": 145000,
-      "sell_shares": 1355000
+      "code": "1402",
+      "name": "遠東新",
+      "buy_sell_shares": -1913390,
+      "buy_sell_lots": -1913.39,
+      "buy_shares": 946610,
+      "sell_shares": 2860000
+    },
+    {
+      "code": "5880",
+      "name": "合庫金",
+      "buy_sell_shares": -1878809,
+      "buy_sell_lots": -1878.81,
+      "buy_shares": 71389,
+      "sell_shares": 1950198
     },
     {
       "code": "3481",
       "name": "群創",
-      "buy_sell_shares": -1204000,
-      "buy_sell_lots": -1204.0,
-      "buy_shares": 0,
-      "sell_shares": 1204000
+      "buy_sell_shares": -1832293,
+      "buy_sell_lots": -1832.29,
+      "buy_shares": 66154,
+      "sell_shares": 1898447
     },
     {
-      "code": "8422",
-      "name": "可寧衛*",
-      "buy_sell_shares": -1015000,
-      "buy_sell_lots": -1015.0,
-      "buy_shares": 0,
-      "sell_shares": 1015000
-    },
-    {
-      "code": "2383",
-      "name": "台光電",
-      "buy_sell_shares": -743000,
-      "buy_sell_lots": -743.0,
-      "buy_shares": 6000,
-      "sell_shares": 749000
-    },
-    {
-      "code": "6715",
-      "name": "嘉基",
-      "buy_sell_shares": -671000,
-      "buy_sell_lots": -671.0,
-      "buy_shares": 0,
-      "sell_shares": 671000
-    },
-    {
-      "code": "6005",
-      "name": "群益證",
-      "buy_sell_shares": -667000,
-      "buy_sell_lots": -667.0,
-      "buy_shares": 1000,
-      "sell_shares": 668000
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "buy_sell_shares": -580500,
-      "buy_sell_lots": -580.5,
-      "buy_shares": 191000,
-      "sell_shares": 771500
+      "code": "2891",
+      "name": "中信金",
+      "buy_sell_shares": -1613535,
+      "buy_sell_lots": -1613.54,
+      "buy_shares": 2680474,
+      "sell_shares": 4294009
     },
     {
       "code": "2412",
       "name": "中華電",
-      "buy_sell_shares": -563000,
-      "buy_sell_lots": -563.0,
-      "buy_shares": 14000,
-      "sell_shares": 577000
+      "buy_sell_shares": -1132314,
+      "buy_sell_lots": -1132.31,
+      "buy_shares": 82233,
+      "sell_shares": 1214547
     },
     {
-      "code": "4958",
-      "name": "臻鼎-KY",
-      "buy_sell_shares": -542000,
-      "buy_sell_lots": -542.0,
-      "buy_shares": 68000,
-      "sell_shares": 610000
+      "code": "2892",
+      "name": "第一金",
+      "buy_sell_shares": -1115255,
+      "buy_sell_lots": -1115.26,
+      "buy_shares": 541000,
+      "sell_shares": 1656255
     },
     {
-      "code": "2006",
-      "name": "東和鋼鐵",
-      "buy_sell_shares": -527000,
-      "buy_sell_lots": -527.0,
+      "code": "2890",
+      "name": "永豐金",
+      "buy_sell_shares": -992176,
+      "buy_sell_lots": -992.18,
+      "buy_shares": 654382,
+      "sell_shares": 1646558
+    },
+    {
+      "code": "2357",
+      "name": "華碩",
+      "buy_sell_shares": -977208,
+      "buy_sell_lots": -977.21,
+      "buy_shares": 15954,
+      "sell_shares": 993162
+    },
+    {
+      "code": "1216",
+      "name": "統一",
+      "buy_sell_shares": -960975,
+      "buy_sell_lots": -960.98,
+      "buy_shares": 142000,
+      "sell_shares": 1102975
+    },
+    {
+      "code": "8422",
+      "name": "可寧衛*",
+      "buy_sell_shares": -909000,
+      "buy_sell_lots": -909.0,
       "buy_shares": 0,
-      "sell_shares": 527000
+      "sell_shares": 909000
+    },
+    {
+      "code": "2356",
+      "name": "英業達",
+      "buy_sell_shares": -885339,
+      "buy_sell_lots": -885.34,
+      "buy_shares": 201661,
+      "sell_shares": 1087000
+    },
+    {
+      "code": "4904",
+      "name": "遠傳",
+      "buy_sell_shares": -882567,
+      "buy_sell_lots": -882.57,
+      "buy_shares": 193402,
+      "sell_shares": 1075969
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "buy_sell_shares": -786715,
+      "buy_sell_lots": -786.72,
+      "buy_shares": 19996,
+      "sell_shares": 806711
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "buy_sell_shares": -677007,
+      "buy_sell_lots": -677.01,
+      "buy_shares": 162993,
+      "sell_shares": 840000
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "buy_sell_shares": -670784,
+      "buy_sell_lots": -670.78,
+      "buy_shares": 244280,
+      "sell_shares": 915064
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "buy_sell_shares": -633893,
+      "buy_sell_lots": -633.89,
+      "buy_shares": 829614,
+      "sell_shares": 1463507
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "buy_sell_shares": -580397,
+      "buy_sell_lots": -580.4,
+      "buy_shares": 150796,
+      "sell_shares": 731193
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "buy_sell_shares": -560598,
+      "buy_sell_lots": -560.6,
+      "buy_shares": 432238,
+      "sell_shares": 992836
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "buy_sell_shares": -544169,
+      "buy_sell_lots": -544.17,
+      "buy_shares": 751389,
+      "sell_shares": 1295558
+    },
+    {
+      "code": "6005",
+      "name": "群益證",
+      "buy_sell_shares": -540321,
+      "buy_sell_lots": -540.32,
+      "buy_shares": 13679,
+      "sell_shares": 554000
     },
     {
       "code": "2472",
@@ -1247,1618 +1295,1826 @@
       "sell_shares": 500000
     },
     {
-      "code": "3661",
-      "name": "世芯-KY",
-      "buy_sell_shares": -363500,
-      "buy_sell_lots": -363.5,
-      "buy_shares": 5000,
-      "sell_shares": 368500
+      "code": "2006",
+      "name": "東和鋼鐵",
+      "buy_sell_shares": -483257,
+      "buy_sell_lots": -483.26,
+      "buy_shares": 0,
+      "sell_shares": 483257
     },
     {
-      "code": "2357",
-      "name": "華碩",
-      "buy_sell_shares": -298000,
-      "buy_sell_lots": -298.0,
-      "buy_shares": 243000,
-      "sell_shares": 541000
+      "code": "4958",
+      "name": "臻鼎-KY",
+      "buy_sell_shares": -432397,
+      "buy_sell_lots": -432.4,
+      "buy_shares": 1350899,
+      "sell_shares": 1783296
+    },
+    {
+      "code": "4919",
+      "name": "新唐",
+      "buy_sell_shares": -391000,
+      "buy_sell_lots": -391.0,
+      "buy_shares": 0,
+      "sell_shares": 391000
+    },
+    {
+      "code": "2371",
+      "name": "大同",
+      "buy_sell_shares": -385000,
+      "buy_sell_lots": -385.0,
+      "buy_shares": 0,
+      "sell_shares": 385000
+    },
+    {
+      "code": "2498",
+      "name": "宏達電",
+      "buy_sell_shares": -344000,
+      "buy_sell_lots": -344.0,
+      "buy_shares": 0,
+      "sell_shares": 344000
     },
     {
       "code": "2637",
       "name": "慧洋-KY",
-      "buy_sell_shares": -291000,
-      "buy_sell_lots": -291.0,
-      "buy_shares": 120000,
-      "sell_shares": 411000
-    },
-    {
-      "code": "6139",
-      "name": "亞翔",
-      "buy_sell_shares": -214000,
-      "buy_sell_lots": -214.0,
+      "buy_sell_shares": -316279,
+      "buy_sell_lots": -316.28,
       "buy_shares": 0,
-      "sell_shares": 214000
+      "sell_shares": 316279
     },
     {
-      "code": "6442",
-      "name": "光聖",
-      "buy_sell_shares": -175000,
-      "buy_sell_lots": -175.0,
+      "code": "1605",
+      "name": "華新",
+      "buy_sell_shares": -282327,
+      "buy_sell_lots": -282.33,
       "buy_shares": 0,
-      "sell_shares": 175000
+      "sell_shares": 282327
     },
     {
-      "code": "2377",
-      "name": "微星",
-      "buy_sell_shares": -174000,
-      "buy_sell_lots": -174.0,
-      "buy_shares": 20000,
-      "sell_shares": 194000
+      "code": "6715",
+      "name": "嘉基",
+      "buy_sell_shares": -265000,
+      "buy_sell_lots": -265.0,
+      "buy_shares": 70000,
+      "sell_shares": 335000
     },
     {
-      "code": "5522",
-      "name": "遠雄",
-      "buy_sell_shares": -154967,
-      "buy_sell_lots": -154.97,
-      "buy_shares": 16033,
-      "sell_shares": 171000
-    },
-    {
-      "code": "1477",
-      "name": "聚陽",
-      "buy_sell_shares": -126543,
-      "buy_sell_lots": -126.54,
-      "buy_shares": 123457,
-      "sell_shares": 250000
-    },
-    {
-      "code": "5871",
-      "name": "中租-KY",
-      "buy_sell_shares": -118000,
-      "buy_sell_lots": -118.0,
-      "buy_shares": 26000,
-      "sell_shares": 144000
-    },
-    {
-      "code": "3042",
-      "name": "晶技",
-      "buy_sell_shares": -117000,
-      "buy_sell_lots": -117.0,
-      "buy_shares": 0,
-      "sell_shares": 117000
-    },
-    {
-      "code": "9917",
-      "name": "中保科",
-      "buy_sell_shares": -115000,
-      "buy_sell_lots": -115.0,
-      "buy_shares": 0,
-      "sell_shares": 115000
-    },
-    {
-      "code": "5434",
-      "name": "崇越",
-      "buy_sell_shares": -114000,
-      "buy_sell_lots": -114.0,
-      "buy_shares": 0,
-      "sell_shares": 114000
-    },
-    {
-      "code": "2451",
-      "name": "創見",
-      "buy_sell_shares": -104000,
-      "buy_sell_lots": -104.0,
-      "buy_shares": 0,
-      "sell_shares": 104000
-    },
-    {
-      "code": "2379",
-      "name": "瑞昱",
-      "buy_sell_shares": -80000,
-      "buy_sell_lots": -80.0,
-      "buy_shares": 3000,
-      "sell_shares": 83000
-    },
-    {
-      "code": "8464",
-      "name": "億豐",
-      "buy_sell_shares": -76000,
-      "buy_sell_lots": -76.0,
-      "buy_shares": 0,
-      "sell_shares": 76000
-    },
-    {
-      "code": "3004",
-      "name": "豐達科",
-      "buy_sell_shares": -70000,
-      "buy_sell_lots": -70.0,
-      "buy_shares": 0,
-      "sell_shares": 70000
-    },
-    {
-      "code": "3023",
-      "name": "信邦",
-      "buy_sell_shares": -63000,
-      "buy_sell_lots": -63.0,
-      "buy_shares": 3000,
-      "sell_shares": 66000
-    },
-    {
-      "code": "1736",
-      "name": "喬山",
-      "buy_sell_shares": -60000,
-      "buy_sell_lots": -60.0,
-      "buy_shares": 0,
-      "sell_shares": 60000
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "buy_sell_shares": -59590,
-      "buy_sell_lots": -59.59,
-      "buy_shares": 559976,
-      "sell_shares": 619566
+      "code": "4938",
+      "name": "和碩",
+      "buy_sell_shares": -232060,
+      "buy_sell_lots": -232.06,
+      "buy_shares": 210000,
+      "sell_shares": 442060
     },
     {
       "code": "8210",
       "name": "勤誠",
-      "buy_sell_shares": -57000,
-      "buy_sell_lots": -57.0,
+      "buy_sell_shares": -212000,
+      "buy_sell_lots": -212.0,
       "buy_shares": 0,
-      "sell_shares": 57000
-    },
-    {
-      "code": "2404",
-      "name": "漢唐",
-      "buy_sell_shares": -55000,
-      "buy_sell_lots": -55.0,
-      "buy_shares": 0,
-      "sell_shares": 55000
+      "sell_shares": 212000
     },
     {
       "code": "2344",
       "name": "華邦電",
-      "buy_sell_shares": -51000,
-      "buy_sell_lots": -51.0,
-      "buy_shares": 8000,
-      "sell_shares": 59000
+      "buy_sell_shares": -208886,
+      "buy_sell_lots": -208.89,
+      "buy_shares": 254114,
+      "sell_shares": 463000
+    },
+    {
+      "code": "1477",
+      "name": "聚陽",
+      "buy_sell_shares": -202003,
+      "buy_sell_lots": -202.0,
+      "buy_shares": 38174,
+      "sell_shares": 240177
+    },
+    {
+      "code": "6831",
+      "name": "邁科",
+      "buy_sell_shares": -190000,
+      "buy_sell_lots": -190.0,
+      "buy_shares": 0,
+      "sell_shares": 190000
+    },
+    {
+      "code": "6505",
+      "name": "台塑化",
+      "buy_sell_shares": -180461,
+      "buy_sell_lots": -180.46,
+      "buy_shares": 177000,
+      "sell_shares": 357461
+    },
+    {
+      "code": "6139",
+      "name": "亞翔",
+      "buy_sell_shares": -178000,
+      "buy_sell_lots": -178.0,
+      "buy_shares": 1000,
+      "sell_shares": 179000
+    },
+    {
+      "code": "3706",
+      "name": "神達",
+      "buy_sell_shares": -163175,
+      "buy_sell_lots": -163.18,
+      "buy_shares": 1000,
+      "sell_shares": 164175
+    },
+    {
+      "code": "9921",
+      "name": "巨大",
+      "buy_sell_shares": -162000,
+      "buy_sell_lots": -162.0,
+      "buy_shares": 0,
+      "sell_shares": 162000
+    },
+    {
+      "code": "1210",
+      "name": "大成",
+      "buy_sell_shares": -153000,
+      "buy_sell_lots": -153.0,
+      "buy_shares": 0,
+      "sell_shares": 153000
+    },
+    {
+      "code": "2206",
+      "name": "三陽工業",
+      "buy_sell_shares": -150000,
+      "buy_sell_lots": -150.0,
+      "buy_shares": 0,
+      "sell_shares": 150000
+    },
+    {
+      "code": "6442",
+      "name": "光聖",
+      "buy_sell_shares": -147000,
+      "buy_sell_lots": -147.0,
+      "buy_shares": 2000,
+      "sell_shares": 149000
+    },
+    {
+      "code": "2449",
+      "name": "京元電子",
+      "buy_sell_shares": -146035,
+      "buy_sell_lots": -146.03,
+      "buy_shares": 864000,
+      "sell_shares": 1010035
+    },
+    {
+      "code": "2201",
+      "name": "裕隆",
+      "buy_sell_shares": -143000,
+      "buy_sell_lots": -143.0,
+      "buy_shares": 0,
+      "sell_shares": 143000
+    },
+    {
+      "code": "5434",
+      "name": "崇越",
+      "buy_sell_shares": -141000,
+      "buy_sell_lots": -141.0,
+      "buy_shares": 0,
+      "sell_shares": 141000
+    },
+    {
+      "code": "6531",
+      "name": "愛普*",
+      "buy_sell_shares": -138000,
+      "buy_sell_lots": -138.0,
+      "buy_shares": 47000,
+      "sell_shares": 185000
+    },
+    {
+      "code": "5522",
+      "name": "遠雄",
+      "buy_sell_shares": -131592,
+      "buy_sell_lots": -131.59,
+      "buy_shares": 25408,
+      "sell_shares": 157000
+    },
+    {
+      "code": "2458",
+      "name": "義隆",
+      "buy_sell_shares": -128195,
+      "buy_sell_lots": -128.19,
+      "buy_shares": 0,
+      "sell_shares": 128195
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "buy_sell_shares": -119993,
+      "buy_sell_lots": -119.99,
+      "buy_shares": 124007,
+      "sell_shares": 244000
+    },
+    {
+      "code": "9941",
+      "name": "裕融",
+      "buy_sell_shares": -102183,
+      "buy_sell_lots": -102.18,
+      "buy_shares": 0,
+      "sell_shares": 102183
+    },
+    {
+      "code": "2609",
+      "name": "陽明",
+      "buy_sell_shares": -90572,
+      "buy_sell_lots": -90.57,
+      "buy_shares": 353275,
+      "sell_shares": 443847
+    },
+    {
+      "code": "9802",
+      "name": "鈺齊-KY",
+      "buy_sell_shares": -90000,
+      "buy_sell_lots": -90.0,
+      "buy_shares": 0,
+      "sell_shares": 90000
+    },
+    {
+      "code": "1736",
+      "name": "喬山",
+      "buy_sell_shares": -90000,
+      "buy_sell_lots": -90.0,
+      "buy_shares": 0,
+      "sell_shares": 90000
+    },
+    {
+      "code": "9917",
+      "name": "中保科",
+      "buy_sell_shares": -87000,
+      "buy_sell_lots": -87.0,
+      "buy_shares": 0,
+      "sell_shares": 87000
+    },
+    {
+      "code": "006208",
+      "name": "富邦台50",
+      "buy_sell_shares": -74000,
+      "buy_sell_lots": -74.0,
+      "buy_shares": 0,
+      "sell_shares": 74000
+    },
+    {
+      "code": "8464",
+      "name": "億豐",
+      "buy_sell_shares": -62751,
+      "buy_sell_lots": -62.75,
+      "buy_shares": 41873,
+      "sell_shares": 104624
+    },
+    {
+      "code": "2492",
+      "name": "華新科",
+      "buy_sell_shares": -61000,
+      "buy_sell_lots": -61.0,
+      "buy_shares": 17000,
+      "sell_shares": 78000
+    },
+    {
+      "code": "3023",
+      "name": "信邦",
+      "buy_sell_shares": -54000,
+      "buy_sell_lots": -54.0,
+      "buy_shares": 0,
+      "sell_shares": 54000
     },
     {
       "code": "3533",
       "name": "嘉澤",
-      "buy_sell_shares": -50054,
-      "buy_sell_lots": -50.05,
-      "buy_shares": 10000,
-      "sell_shares": 60054
+      "buy_sell_shares": -48941,
+      "buy_sell_lots": -48.94,
+      "buy_shares": 2059,
+      "sell_shares": 51000
     },
     {
-      "code": "6515",
-      "name": "穎崴",
-      "buy_sell_shares": -41016,
-      "buy_sell_lots": -41.02,
-      "buy_shares": 17000,
-      "sell_shares": 58016
+      "code": "2801",
+      "name": "彰銀",
+      "buy_sell_shares": -40816,
+      "buy_sell_lots": -40.82,
+      "buy_shares": 93646,
+      "sell_shares": 134462
     },
     {
-      "code": "3406",
-      "name": "玉晶光",
-      "buy_sell_shares": -30000,
-      "buy_sell_lots": -30.0,
-      "buy_shares": 50000,
-      "sell_shares": 80000
-    },
-    {
-      "code": "2360",
-      "name": "致茂",
-      "buy_sell_shares": -27193,
-      "buy_sell_lots": -27.19,
-      "buy_shares": 6000,
-      "sell_shares": 33193
+      "code": "3004",
+      "name": "豐達科",
+      "buy_sell_shares": -40000,
+      "buy_sell_lots": -40.0,
+      "buy_shares": 0,
+      "sell_shares": 40000
     },
     {
       "code": "6409",
       "name": "旭隼",
-      "buy_sell_shares": -27000,
-      "buy_sell_lots": -27.0,
-      "buy_shares": 6000,
-      "sell_shares": 33000
+      "buy_sell_shares": -37481,
+      "buy_sell_lots": -37.48,
+      "buy_shares": 0,
+      "sell_shares": 37481
     },
     {
-      "code": "8021",
-      "name": "尖點",
+      "code": "6176",
+      "name": "瑞儀",
+      "buy_sell_shares": -36171,
+      "buy_sell_lots": -36.17,
+      "buy_shares": 0,
+      "sell_shares": 36171
+    },
+    {
+      "code": "5871",
+      "name": "中租-KY",
+      "buy_sell_shares": -31630,
+      "buy_sell_lots": -31.63,
+      "buy_shares": 114860,
+      "sell_shares": 146490
+    },
+    {
+      "code": "00850",
+      "name": "元大臺灣ESG永續",
+      "buy_sell_shares": -30000,
+      "buy_sell_lots": -30.0,
+      "buy_shares": 0,
+      "sell_shares": 30000
+    },
+    {
+      "code": "2395",
+      "name": "研華",
+      "buy_sell_shares": -25901,
+      "buy_sell_lots": -25.9,
+      "buy_shares": 52514,
+      "sell_shares": 78415
+    },
+    {
+      "code": "6414",
+      "name": "樺漢",
       "buy_sell_shares": -25000,
       "buy_sell_lots": -25.0,
       "buy_shares": 0,
       "sell_shares": 25000
     },
     {
-      "code": "3034",
-      "name": "聯詠",
-      "buy_sell_shares": -22000,
-      "buy_sell_lots": -22.0,
-      "buy_shares": 6000,
-      "sell_shares": 28000
-    },
-    {
       "code": "3044",
       "name": "健鼎",
-      "buy_sell_shares": -22000,
-      "buy_sell_lots": -22.0,
-      "buy_shares": 26000,
-      "sell_shares": 48000
-    },
-    {
-      "code": "2409",
-      "name": "友達",
-      "buy_sell_shares": -21000,
-      "buy_sell_lots": -21.0,
-      "buy_shares": 14000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "2436",
-      "name": "偉詮電",
-      "buy_sell_shares": -18000,
-      "buy_sell_lots": -18.0,
-      "buy_shares": 0,
-      "sell_shares": 18000
+      "buy_sell_shares": -23322,
+      "buy_sell_lots": -23.32,
+      "buy_shares": 151000,
+      "sell_shares": 174322
     },
     {
       "code": "8996",
       "name": "高力",
-      "buy_sell_shares": -16000,
-      "buy_sell_lots": -16.0,
-      "buy_shares": 1000,
-      "sell_shares": 17000
+      "buy_sell_shares": -20347,
+      "buy_sell_lots": -20.35,
+      "buy_shares": 1653,
+      "sell_shares": 22000
     },
     {
-      "code": "6770",
-      "name": "力積電",
+      "code": "2308",
+      "name": "台達電",
+      "buy_sell_shares": -20146,
+      "buy_sell_lots": -20.15,
+      "buy_shares": 243944,
+      "sell_shares": 264090
+    },
+    {
+      "code": "2421",
+      "name": "建準",
+      "buy_sell_shares": -15000,
+      "buy_sell_lots": -15.0,
+      "buy_shares": 0,
+      "sell_shares": 15000
+    },
+    {
+      "code": "2377",
+      "name": "微星",
+      "buy_sell_shares": -14000,
+      "buy_sell_lots": -14.0,
+      "buy_shares": 419000,
+      "sell_shares": 433000
+    },
+    {
+      "code": "2313",
+      "name": "華通",
+      "buy_sell_shares": -13984,
+      "buy_sell_lots": -13.98,
+      "buy_shares": 549016,
+      "sell_shares": 563000
+    },
+    {
+      "code": "4766",
+      "name": "南寶",
       "buy_sell_shares": -13000,
       "buy_sell_lots": -13.0,
-      "buy_shares": 8000,
-      "sell_shares": 21000
+      "buy_shares": 0,
+      "sell_shares": 13000
     },
     {
-      "code": "2337",
-      "name": "旺宏",
-      "buy_sell_shares": -12000,
-      "buy_sell_lots": -12.0,
-      "buy_shares": 0,
+      "code": "6515",
+      "name": "穎崴",
+      "buy_sell_shares": -13000,
+      "buy_sell_lots": -13.0,
+      "buy_shares": 2000,
+      "sell_shares": 15000
+    },
+    {
+      "code": "1229",
+      "name": "聯華",
+      "buy_sell_shares": -12882,
+      "buy_sell_lots": -12.88,
+      "buy_shares": 2000,
+      "sell_shares": 14882
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "buy_sell_shares": -11652,
+      "buy_sell_lots": -11.65,
+      "buy_shares": 94348,
+      "sell_shares": 106000
+    },
+    {
+      "code": "6415",
+      "name": "矽力*-KY",
+      "buy_sell_shares": -11000,
+      "buy_sell_lots": -11.0,
+      "buy_shares": 1000,
       "sell_shares": 12000
     },
     {
-      "code": "2515",
-      "name": "中工",
-      "buy_sell_shares": -9000,
-      "buy_sell_lots": -9.0,
+      "code": "2603",
+      "name": "長榮",
+      "buy_sell_shares": -10813,
+      "buy_sell_lots": -10.81,
+      "buy_shares": 260031,
+      "sell_shares": 270844
+    },
+    {
+      "code": "6944",
+      "name": "兆聯實業",
+      "buy_sell_shares": -10600,
+      "buy_sell_lots": -10.6,
       "buy_shares": 0,
-      "sell_shares": 9000
+      "sell_shares": 10600
     },
     {
-      "code": "3706",
-      "name": "神達",
-      "buy_sell_shares": -9000,
-      "buy_sell_lots": -9.0,
+      "code": "2451",
+      "name": "創見",
+      "buy_sell_shares": -8000,
+      "buy_sell_lots": -8.0,
       "buy_shares": 0,
-      "sell_shares": 9000
+      "sell_shares": 8000
     },
     {
-      "code": "6257",
-      "name": "矽格",
-      "buy_sell_shares": -6000,
-      "buy_sell_lots": -6.0,
-      "buy_shares": 12000,
-      "sell_shares": 18000
-    },
-    {
-      "code": "9958",
-      "name": "世紀鋼",
-      "buy_sell_shares": -5523,
-      "buy_sell_lots": -5.52,
-      "buy_shares": 0,
-      "sell_shares": 5523
-    },
-    {
-      "code": "6691",
-      "name": "洋基工程",
+      "code": "2441",
+      "name": "超豐",
       "buy_sell_shares": -5000,
       "buy_sell_lots": -5.0,
       "buy_shares": 0,
       "sell_shares": 5000
     },
     {
-      "code": "6239",
-      "name": "力成",
-      "buy_sell_shares": -4000,
-      "buy_sell_lots": -4.0,
-      "buy_shares": 2000,
-      "sell_shares": 6000
-    },
-    {
-      "code": "8081",
-      "name": "致新",
-      "buy_sell_shares": -4000,
-      "buy_sell_lots": -4.0,
+      "code": "7750",
+      "name": "新代",
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
       "buy_shares": 0,
-      "sell_shares": 4000
+      "sell_shares": 5000
     },
     {
-      "code": "2449",
-      "name": "京元電子",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
-      "buy_shares": 5000,
-      "sell_shares": 7000
-    },
-    {
-      "code": "2441",
-      "name": "超豐",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
+      "code": "2354",
+      "name": "鴻準",
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
       "buy_shares": 0,
-      "sell_shares": 2000
-    },
-    {
-      "code": "2395",
-      "name": "研華",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
-      "buy_shares": 7000,
-      "sell_shares": 9000
-    },
-    {
-      "code": "1590",
-      "name": "亞德客-KY",
-      "buy_sell_shares": -1092,
-      "buy_sell_lots": -1.09,
-      "buy_shares": 0,
-      "sell_shares": 1092
+      "sell_shares": 5000
     },
     {
       "code": "2845",
       "name": "遠東銀",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 5000
+    },
+    {
+      "code": "1307",
+      "name": "三芳",
+      "buy_sell_shares": -4998,
+      "buy_sell_lots": -5.0,
+      "buy_shares": 0,
+      "sell_shares": 4998
+    },
+    {
+      "code": "1608",
+      "name": "華榮",
+      "buy_sell_shares": -4937,
+      "buy_sell_lots": -4.94,
+      "buy_shares": 0,
+      "sell_shares": 4937
+    },
+    {
+      "code": "3033",
+      "name": "威健",
+      "buy_sell_shares": -4685,
+      "buy_sell_lots": -4.68,
+      "buy_shares": 0,
+      "sell_shares": 4685
+    },
+    {
+      "code": "1612",
+      "name": "宏泰",
+      "buy_sell_shares": -4559,
+      "buy_sell_lots": -4.56,
+      "buy_shares": 0,
+      "sell_shares": 4559
     },
     {
       "code": "2049",
       "name": "上銀",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
+      "buy_sell_shares": -4419,
+      "buy_sell_lots": -4.42,
+      "buy_shares": 592,
+      "sell_shares": 5011
     },
     {
-      "code": "1319",
-      "name": "東陽",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "2031",
+      "name": "新光鋼",
+      "buy_sell_shares": -3896,
+      "buy_sell_lots": -3.9,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 3896
     },
     {
-      "code": "1722",
-      "name": "台肥",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "6189",
+      "name": "豐藝",
+      "buy_sell_shares": -3434,
+      "buy_sell_lots": -3.43,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 3434
     },
     {
-      "code": "1229",
-      "name": "聯華",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "8070",
+      "name": "長華*",
+      "buy_sell_shares": -3369,
+      "buy_sell_lots": -3.37,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 3369
     },
     {
-      "code": "7769",
-      "name": "鴻勁",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "4583",
+      "name": "台灣精銳",
+      "buy_sell_shares": -3000,
+      "buy_sell_lots": -3.0,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 3000
     },
     {
-      "code": "1503",
-      "name": "士電",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "4915",
+      "name": "致伸",
+      "buy_sell_shares": -2183,
+      "buy_sell_lots": -2.18,
       "buy_shares": 0,
-      "sell_shares": 1000
+      "sell_shares": 2183
     },
     {
-      "code": "6789",
-      "name": "采鈺",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "6415",
-      "name": "矽力*-KY",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "code": "6691",
+      "name": "洋基工程",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
       "buy_shares": 1000,
+      "sell_shares": 3000
+    },
+    {
+      "code": "3532",
+      "name": "台勝科",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
+      "buy_shares": 0,
       "sell_shares": 2000
     },
     {
-      "code": "2520",
-      "name": "冠德",
-      "buy_sell_shares": -900,
-      "buy_sell_lots": -0.9,
+      "code": "1301",
+      "name": "台塑",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
       "buy_shares": 0,
-      "sell_shares": 900
+      "sell_shares": 2000
     },
     {
-      "code": "1514",
-      "name": "亞力",
-      "buy_sell_shares": -679,
-      "buy_sell_lots": -0.68,
+      "code": "6768",
+      "name": "志強-KY",
+      "buy_sell_shares": -1981,
+      "buy_sell_lots": -1.98,
       "buy_shares": 0,
-      "sell_shares": 679
+      "sell_shares": 1981
     },
     {
-      "code": "1231",
-      "name": "聯華食",
-      "buy_sell_shares": -320,
-      "buy_sell_lots": -0.32,
+      "code": "6525",
+      "name": "捷敏-KY",
+      "buy_sell_shares": -1886,
+      "buy_sell_lots": -1.89,
       "buy_shares": 0,
-      "sell_shares": 320
+      "sell_shares": 1886
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "buy_sell_shares": -1696,
+      "buy_sell_lots": -1.7,
+      "buy_shares": 7304,
+      "sell_shares": 9000
+    },
+    {
+      "code": "3029",
+      "name": "零壹",
+      "buy_sell_shares": -1660,
+      "buy_sell_lots": -1.66,
+      "buy_shares": 0,
+      "sell_shares": 1660
+    },
+    {
+      "code": "2211",
+      "name": "長榮鋼",
+      "buy_sell_shares": -1612,
+      "buy_sell_lots": -1.61,
+      "buy_shares": 0,
+      "sell_shares": 1612
+    },
+    {
+      "code": "9939",
+      "name": "宏全",
+      "buy_sell_shares": -1448,
+      "buy_sell_lots": -1.45,
+      "buy_shares": 0,
+      "sell_shares": 1448
     },
     {
       "code": "5269",
       "name": "祥碩",
-      "buy_sell_shares": -35,
-      "buy_sell_lots": -0.04,
+      "buy_sell_shares": -1378,
+      "buy_sell_lots": -1.38,
       "buy_shares": 0,
-      "sell_shares": 35
+      "sell_shares": 1378
     },
     {
-      "code": "6781",
-      "name": "AES-KY",
-      "buy_sell_shares": -22,
-      "buy_sell_lots": -0.02,
+      "code": "2480",
+      "name": "敦陽科",
+      "buy_sell_shares": -1160,
+      "buy_sell_lots": -1.16,
       "buy_shares": 0,
-      "sell_shares": 22
+      "sell_shares": 1160
+    },
+    {
+      "code": "1319",
+      "name": "東陽",
+      "buy_sell_shares": -1050,
+      "buy_sell_lots": -1.05,
+      "buy_shares": 1000,
+      "sell_shares": 2050
+    },
+    {
+      "code": "6526",
+      "name": "達發",
+      "buy_sell_shares": -1000,
+      "buy_sell_lots": -1.0,
+      "buy_shares": 0,
+      "sell_shares": 1000
+    },
+    {
+      "code": "6196",
+      "name": "帆宣",
+      "buy_sell_shares": -1000,
+      "buy_sell_lots": -1.0,
+      "buy_shares": 0,
+      "sell_shares": 1000
+    },
+    {
+      "code": "3030",
+      "name": "德律",
+      "buy_sell_shares": -1000,
+      "buy_sell_lots": -1.0,
+      "buy_shares": 0,
+      "sell_shares": 1000
+    },
+    {
+      "code": "8016",
+      "name": "矽創",
+      "buy_sell_shares": -797,
+      "buy_sell_lots": -0.8,
+      "buy_shares": 0,
+      "sell_shares": 797
+    },
+    {
+      "code": "3592",
+      "name": "瑞鼎",
+      "buy_sell_shares": -699,
+      "buy_sell_lots": -0.7,
+      "buy_shares": 0,
+      "sell_shares": 699
+    },
+    {
+      "code": "6206",
+      "name": "飛捷",
+      "buy_sell_shares": -575,
+      "buy_sell_lots": -0.57,
+      "buy_shares": 1000,
+      "sell_shares": 1575
     }
   ],
   "all": [
     {
       "code": "2303",
       "name": "聯電",
-      "buy_sell_shares": 27909000,
-      "buy_sell_lots": 27909.0,
-      "buy_shares": 31786000,
-      "sell_shares": 3877000
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "buy_sell_shares": 23317000,
-      "buy_sell_lots": 23317.0,
-      "buy_shares": 23531000,
-      "sell_shares": 214000
-    },
-    {
-      "code": "2801",
-      "name": "彰銀",
-      "buy_sell_shares": 9468000,
-      "buy_sell_lots": 9468.0,
-      "buy_shares": 9503000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "buy_sell_shares": 8685000,
-      "buy_sell_lots": 8685.0,
-      "buy_shares": 8701000,
-      "sell_shares": 16000
-    },
-    {
-      "code": "2887",
-      "name": "台新新光金",
-      "buy_sell_shares": 8063000,
-      "buy_sell_lots": 8063.0,
-      "buy_shares": 10694000,
-      "sell_shares": 2631000
-    },
-    {
-      "code": "2890",
-      "name": "永豐金",
-      "buy_sell_shares": 7975000,
-      "buy_sell_lots": 7975.0,
-      "buy_shares": 8002000,
-      "sell_shares": 27000
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
-      "buy_sell_shares": 6181000,
-      "buy_sell_lots": 6181.0,
-      "buy_shares": 6211000,
-      "sell_shares": 30000
-    },
-    {
-      "code": "6505",
-      "name": "台塑化",
-      "buy_sell_shares": 5451000,
-      "buy_sell_lots": 5451.0,
-      "buy_shares": 5451000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "buy_sell_shares": 3715000,
-      "buy_sell_lots": 3715.0,
-      "buy_shares": 3736000,
-      "sell_shares": 21000
-    },
-    {
-      "code": "2891",
-      "name": "中信金",
-      "buy_sell_shares": 3698000,
-      "buy_sell_lots": 3698.0,
-      "buy_shares": 5719000,
-      "sell_shares": 2021000
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "buy_sell_shares": 3040000,
-      "buy_sell_lots": 3040.0,
-      "buy_shares": 3418000,
-      "sell_shares": 378000
-    },
-    {
-      "code": "9904",
-      "name": "寶成",
-      "buy_sell_shares": 3027000,
-      "buy_sell_lots": 3027.0,
-      "buy_shares": 3027000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2542",
-      "name": "興富發",
-      "buy_sell_shares": 3013000,
-      "buy_sell_lots": 3013.0,
-      "buy_shares": 3056000,
-      "sell_shares": 43000
+      "buy_sell_shares": 13630188,
+      "buy_sell_lots": 13630.19,
+      "buy_shares": 19720456,
+      "sell_shares": 6090268
     },
     {
       "code": "2618",
       "name": "長榮航",
-      "buy_sell_shares": 2641000,
-      "buy_sell_lots": 2641.0,
-      "buy_shares": 2651000,
-      "sell_shares": 10000
+      "buy_sell_shares": 9293811,
+      "buy_sell_lots": 9293.81,
+      "buy_shares": 10260974,
+      "sell_shares": 967163
     },
     {
-      "code": "3036",
-      "name": "文曄",
-      "buy_sell_shares": 2582000,
-      "buy_sell_lots": 2582.0,
-      "buy_shares": 2582000,
+      "code": "6446",
+      "name": "藥華藥",
+      "buy_sell_shares": 8555302,
+      "buy_sell_lots": 8555.3,
+      "buy_shares": 8650527,
+      "sell_shares": 95225
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "buy_sell_shares": 5115730,
+      "buy_sell_lots": 5115.73,
+      "buy_shares": 5756283,
+      "sell_shares": 640553
+    },
+    {
+      "code": "2542",
+      "name": "興富發",
+      "buy_sell_shares": 4108390,
+      "buy_sell_lots": 4108.39,
+      "buy_shares": 4120000,
+      "sell_shares": 11610
+    },
+    {
+      "code": "2408",
+      "name": "南亞科",
+      "buy_sell_shares": 3977574,
+      "buy_sell_lots": 3977.57,
+      "buy_shares": 5533327,
+      "sell_shares": 1555753
+    },
+    {
+      "code": "6770",
+      "name": "力積電",
+      "buy_sell_shares": 3803009,
+      "buy_sell_lots": 3803.01,
+      "buy_shares": 3803009,
       "sell_shares": 0
     },
     {
-      "code": "2603",
-      "name": "長榮",
-      "buy_sell_shares": 2214000,
-      "buy_sell_lots": 2214.0,
-      "buy_shares": 2214000,
-      "sell_shares": 0
+      "code": "2409",
+      "name": "友達",
+      "buy_sell_shares": 3630311,
+      "buy_sell_lots": 3630.31,
+      "buy_shares": 3696311,
+      "sell_shares": 66000
     },
     {
       "code": "3231",
       "name": "緯創",
-      "buy_sell_shares": 2001000,
-      "buy_sell_lots": 2001.0,
-      "buy_shares": 2135000,
-      "sell_shares": 134000
+      "buy_sell_shares": 3044019,
+      "buy_sell_lots": 3044.02,
+      "buy_shares": 3501019,
+      "sell_shares": 457000
     },
     {
-      "code": "2027",
-      "name": "大成鋼",
-      "buy_sell_shares": 1985000,
-      "buy_sell_lots": 1985.0,
-      "buy_shares": 2044000,
-      "sell_shares": 59000
-    },
-    {
-      "code": "8028",
-      "name": "昇陽半導體",
-      "buy_sell_shares": 1971000,
-      "buy_sell_lots": 1971.0,
-      "buy_shares": 1971000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2481",
-      "name": "強茂",
-      "buy_sell_shares": 1908000,
-      "buy_sell_lots": 1908.0,
-      "buy_shares": 1908000,
-      "sell_shares": 0
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "buy_sell_shares": 1500000,
-      "buy_sell_lots": 1500.0,
-      "buy_shares": 1500000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2376",
-      "name": "技嘉",
-      "buy_sell_shares": 1412000,
-      "buy_sell_lots": 1412.0,
-      "buy_shares": 1414000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "4763",
-      "name": "材料*-KY",
-      "buy_sell_shares": 1269000,
-      "buy_sell_lots": 1269.0,
-      "buy_shares": 1270000,
-      "sell_shares": 1000
+      "code": "9904",
+      "name": "寶成",
+      "buy_sell_shares": 3015862,
+      "buy_sell_lots": 3015.86,
+      "buy_shares": 3065601,
+      "sell_shares": 49739
     },
     {
       "code": "0056",
       "name": "元大高股息",
-      "buy_sell_shares": 1250000,
-      "buy_sell_lots": 1250.0,
-      "buy_shares": 1250000,
+      "buy_sell_shares": 2490000,
+      "buy_sell_lots": 2490.0,
+      "buy_shares": 2490000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3045",
+      "name": "台灣大",
+      "buy_sell_shares": 2148492,
+      "buy_sell_lots": 2148.49,
+      "buy_shares": 3010307,
+      "sell_shares": 861815
+    },
+    {
+      "code": "00953B",
+      "name": "群益優選非投等債",
+      "buy_sell_shares": 2028000,
+      "buy_sell_lots": 2028.0,
+      "buy_shares": 2028000,
+      "sell_shares": 0
+    },
+    {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "buy_sell_shares": 2000000,
+      "buy_sell_lots": 2000.0,
+      "buy_shares": 2000000,
       "sell_shares": 0
     },
     {
       "code": "2610",
       "name": "華航",
-      "buy_sell_shares": 1218000,
-      "buy_sell_lots": 1218.0,
-      "buy_shares": 1218000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2633",
-      "name": "台灣高鐵",
-      "buy_sell_shares": 949000,
-      "buy_sell_lots": 949.0,
-      "buy_shares": 949000,
-      "sell_shares": 0
-    },
-    {
-      "code": "9945",
-      "name": "潤泰新",
-      "buy_sell_shares": 887000,
-      "buy_sell_lots": 887.0,
-      "buy_shares": 887000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3450",
-      "name": "聯鈞",
-      "buy_sell_shares": 869000,
-      "buy_sell_lots": 869.0,
-      "buy_shares": 869000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2353",
-      "name": "宏碁",
-      "buy_sell_shares": 814000,
-      "buy_sell_lots": 814.0,
-      "buy_shares": 814000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3702",
-      "name": "大聯大",
-      "buy_sell_shares": 781000,
-      "buy_sell_lots": 781.0,
-      "buy_shares": 787000,
-      "sell_shares": 6000
-    },
-    {
-      "code": "3026",
-      "name": "禾伸堂",
-      "buy_sell_shares": 752000,
-      "buy_sell_lots": 752.0,
-      "buy_shares": 752000,
-      "sell_shares": 0
-    },
-    {
-      "code": "00922",
-      "name": "國泰台灣領袖50",
-      "buy_sell_shares": 600000,
-      "buy_sell_lots": 600.0,
-      "buy_shares": 600000,
-      "sell_shares": 0
-    },
-    {
-      "code": "5876",
-      "name": "上海商銀",
-      "buy_sell_shares": 575000,
-      "buy_sell_lots": 575.0,
-      "buy_shares": 575000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "buy_sell_shares": 560000,
-      "buy_sell_lots": 560.0,
-      "buy_shares": 560000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2408",
-      "name": "南亞科",
-      "buy_sell_shares": 554000,
-      "buy_sell_lots": 554.0,
-      "buy_shares": 589000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "2455",
-      "name": "全新",
-      "buy_sell_shares": 551000,
-      "buy_sell_lots": 551.0,
-      "buy_shares": 1236000,
-      "sell_shares": 685000
-    },
-    {
-      "code": "009803",
-      "name": "玉山市值動能50",
-      "buy_sell_shares": 550000,
-      "buy_sell_lots": 550.0,
-      "buy_shares": 550000,
-      "sell_shares": 0
-    },
-    {
-      "code": "9910",
-      "name": "豐泰",
-      "buy_sell_shares": 479000,
-      "buy_sell_lots": 479.0,
-      "buy_shares": 479000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2855",
-      "name": "統一證",
-      "buy_sell_shares": 447000,
-      "buy_sell_lots": 447.0,
-      "buy_shares": 447000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "buy_sell_shares": 430200,
-      "buy_sell_lots": 430.2,
-      "buy_shares": 430200,
-      "sell_shares": 0
-    },
-    {
-      "code": "2474",
-      "name": "可成",
-      "buy_sell_shares": 428000,
-      "buy_sell_lots": 428.0,
-      "buy_shares": 435000,
-      "sell_shares": 7000
-    },
-    {
-      "code": "1513",
-      "name": "中興電",
-      "buy_sell_shares": 420000,
-      "buy_sell_lots": 420.0,
-      "buy_shares": 420000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8070",
-      "name": "長華*",
-      "buy_sell_shares": 420000,
-      "buy_sell_lots": 420.0,
-      "buy_shares": 420000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2609",
-      "name": "陽明",
-      "buy_sell_shares": 415000,
-      "buy_sell_lots": 415.0,
-      "buy_shares": 415000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3711",
-      "name": "日月光投控",
-      "buy_sell_shares": 375000,
-      "buy_sell_lots": 375.0,
-      "buy_shares": 397000,
-      "sell_shares": 22000
-    },
-    {
-      "code": "6213",
-      "name": "聯茂",
-      "buy_sell_shares": 356000,
-      "buy_sell_lots": 356.0,
-      "buy_shares": 356000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2606",
-      "name": "裕民",
-      "buy_sell_shares": 324000,
-      "buy_sell_lots": 324.0,
-      "buy_shares": 324000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3189",
-      "name": "景碩",
-      "buy_sell_shares": 313000,
-      "buy_sell_lots": 313.0,
-      "buy_shares": 315000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "4938",
-      "name": "和碩",
-      "buy_sell_shares": 294000,
-      "buy_sell_lots": 294.0,
-      "buy_shares": 296000,
-      "sell_shares": 2000
-    },
-    {
-      "code": "6805",
-      "name": "富世達",
-      "buy_sell_shares": 288000,
-      "buy_sell_lots": 288.0,
-      "buy_shares": 288000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2912",
-      "name": "統一超",
-      "buy_sell_shares": 280000,
-      "buy_sell_lots": 280.0,
-      "buy_shares": 284000,
-      "sell_shares": 4000
-    },
-    {
-      "code": "00935",
-      "name": "野村臺灣新科技50",
-      "buy_sell_shares": 275000,
-      "buy_sell_lots": 275.0,
-      "buy_shares": 275000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2308",
-      "name": "台達電",
-      "buy_sell_shares": 253498,
-      "buy_sell_lots": 253.5,
-      "buy_shares": 258707,
-      "sell_shares": 5209
-    },
-    {
-      "code": "3167",
-      "name": "大量",
-      "buy_sell_shares": 250000,
-      "buy_sell_lots": 250.0,
-      "buy_shares": 250000,
-      "sell_shares": 0
-    },
-    {
-      "code": "4904",
-      "name": "遠傳",
-      "buy_sell_shares": 244000,
-      "buy_sell_lots": 244.0,
-      "buy_shares": 245000,
-      "sell_shares": 1000
-    },
-    {
-      "code": "3005",
-      "name": "神基",
-      "buy_sell_shares": 206250,
-      "buy_sell_lots": 206.25,
-      "buy_shares": 206250,
-      "sell_shares": 0
+      "buy_sell_shares": 1950765,
+      "buy_sell_lots": 1950.77,
+      "buy_shares": 3813765,
+      "sell_shares": 1863000
     },
     {
       "code": "1102",
       "name": "亞泥",
-      "buy_sell_shares": 180000,
-      "buy_sell_lots": 180.0,
-      "buy_shares": 180000,
+      "buy_sell_shares": 1485518,
+      "buy_sell_lots": 1485.52,
+      "buy_shares": 1496038,
+      "sell_shares": 10520
+    },
+    {
+      "code": "3702",
+      "name": "大聯大",
+      "buy_sell_shares": 1283526,
+      "buy_sell_lots": 1283.53,
+      "buy_shares": 1309526,
+      "sell_shares": 26000
+    },
+    {
+      "code": "2481",
+      "name": "強茂",
+      "buy_sell_shares": 1217000,
+      "buy_sell_lots": 1217.0,
+      "buy_shares": 1217000,
       "sell_shares": 0
     },
     {
-      "code": "2327",
-      "name": "國巨*",
-      "buy_sell_shares": 156000,
-      "buy_sell_lots": 156.0,
-      "buy_shares": 285000,
-      "sell_shares": 129000
+      "code": "2884",
+      "name": "玉山金",
+      "buy_sell_shares": 1205760,
+      "buy_sell_lots": 1205.76,
+      "buy_shares": 2947692,
+      "sell_shares": 1741932
+    },
+    {
+      "code": "2633",
+      "name": "台灣高鐵",
+      "buy_sell_shares": 999605,
+      "buy_sell_lots": 999.61,
+      "buy_shares": 1019000,
+      "sell_shares": 19395
+    },
+    {
+      "code": "4763",
+      "name": "材料*-KY",
+      "buy_sell_shares": 984000,
+      "buy_sell_lots": 984.0,
+      "buy_shares": 984000,
+      "sell_shares": 0
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "buy_sell_shares": 920000,
+      "buy_sell_lots": 920.0,
+      "buy_shares": 1320000,
+      "sell_shares": 400000
+    },
+    {
+      "code": "6213",
+      "name": "聯茂",
+      "buy_sell_shares": 889000,
+      "buy_sell_lots": 889.0,
+      "buy_shares": 950000,
+      "sell_shares": 61000
     },
     {
       "code": "8046",
       "name": "南電",
-      "buy_sell_shares": 115000,
-      "buy_sell_lots": 115.0,
-      "buy_shares": 222000,
-      "sell_shares": 107000
+      "buy_sell_shares": 855128,
+      "buy_sell_lots": 855.13,
+      "buy_shares": 1090128,
+      "sell_shares": 235000
     },
     {
-      "code": "2317",
-      "name": "鴻海",
-      "buy_sell_shares": 109104,
-      "buy_sell_lots": 109.1,
-      "buy_shares": 112104,
-      "sell_shares": 3000
+      "code": "3037",
+      "name": "欣興",
+      "buy_sell_shares": 811935,
+      "buy_sell_lots": 811.93,
+      "buy_shares": 922748,
+      "sell_shares": 110813
     },
     {
-      "code": "2002",
-      "name": "中鋼",
-      "buy_sell_shares": 79000,
-      "buy_sell_lots": 79.0,
-      "buy_shares": 79000,
+      "code": "2324",
+      "name": "仁寶",
+      "buy_sell_shares": 767243,
+      "buy_sell_lots": 767.24,
+      "buy_shares": 1106243,
+      "sell_shares": 339000
+    },
+    {
+      "code": "2368",
+      "name": "金像電",
+      "buy_sell_shares": 737542,
+      "buy_sell_lots": 737.54,
+      "buy_shares": 1266893,
+      "sell_shares": 529351
+    },
+    {
+      "code": "9945",
+      "name": "潤泰新",
+      "buy_sell_shares": 689000,
+      "buy_sell_lots": 689.0,
+      "buy_shares": 689000,
       "sell_shares": 0
     },
     {
-      "code": "5880",
-      "name": "合庫金",
-      "buy_sell_shares": 76000,
-      "buy_sell_lots": 76.0,
-      "buy_shares": 76000,
+      "code": "3036",
+      "name": "文曄",
+      "buy_sell_shares": 686003,
+      "buy_sell_lots": 686.0,
+      "buy_shares": 825003,
+      "sell_shares": 139000
+    },
+    {
+      "code": "1717",
+      "name": "長興",
+      "buy_sell_shares": 686000,
+      "buy_sell_lots": 686.0,
+      "buy_shares": 688000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2327",
+      "name": "國巨*",
+      "buy_sell_shares": 637109,
+      "buy_sell_lots": 637.11,
+      "buy_shares": 883109,
+      "sell_shares": 246000
+    },
+    {
+      "code": "6805",
+      "name": "富世達",
+      "buy_sell_shares": 497000,
+      "buy_sell_lots": 497.0,
+      "buy_shares": 500000,
+      "sell_shares": 3000
+    },
+    {
+      "code": "3006",
+      "name": "晶豪科",
+      "buy_sell_shares": 482000,
+      "buy_sell_lots": 482.0,
+      "buy_shares": 482000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "buy_sell_shares": 478401,
+      "buy_sell_lots": 478.4,
+      "buy_shares": 1615969,
+      "sell_shares": 1137568
+    },
+    {
+      "code": "9910",
+      "name": "豐泰",
+      "buy_sell_shares": 473000,
+      "buy_sell_lots": 473.0,
+      "buy_shares": 474000,
+      "sell_shares": 1000
+    },
+    {
+      "code": "2385",
+      "name": "群光",
+      "buy_sell_shares": 472146,
+      "buy_sell_lots": 472.15,
+      "buy_shares": 513993,
+      "sell_shares": 41847
+    },
+    {
+      "code": "5876",
+      "name": "上海商銀",
+      "buy_sell_shares": 446862,
+      "buy_sell_lots": 446.86,
+      "buy_shares": 454862,
+      "sell_shares": 8000
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "buy_sell_shares": 443167,
+      "buy_sell_lots": 443.17,
+      "buy_shares": 1411000,
+      "sell_shares": 967833
+    },
+    {
+      "code": "1326",
+      "name": "台化",
+      "buy_sell_shares": 442000,
+      "buy_sell_lots": 442.0,
+      "buy_shares": 444000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "1513",
+      "name": "中興電",
+      "buy_sell_shares": 431918,
+      "buy_sell_lots": 431.92,
+      "buy_shares": 435700,
+      "sell_shares": 3782
+    },
+    {
+      "code": "2855",
+      "name": "統一證",
+      "buy_sell_shares": 420816,
+      "buy_sell_lots": 420.82,
+      "buy_shares": 426000,
+      "sell_shares": 5184
+    },
+    {
+      "code": "6472",
+      "name": "保瑞",
+      "buy_sell_shares": 398611,
+      "buy_sell_lots": 398.61,
+      "buy_shares": 400000,
+      "sell_shares": 1389
+    },
+    {
+      "code": "00935",
+      "name": "野村臺灣新科技50",
+      "buy_sell_shares": 388000,
+      "buy_sell_lots": 388.0,
+      "buy_shares": 388000,
       "sell_shares": 0
     },
     {
       "code": "3665",
       "name": "貿聯-KY",
-      "buy_sell_shares": 71500,
-      "buy_sell_lots": 71.5,
-      "buy_shares": 75000,
-      "sell_shares": 3500
+      "buy_sell_shares": 315753,
+      "buy_sell_lots": 315.75,
+      "buy_shares": 345556,
+      "sell_shares": 29803
     },
     {
-      "code": "9907",
-      "name": "統一實",
-      "buy_sell_shares": 68884,
-      "buy_sell_lots": 68.88,
-      "buy_shares": 68884,
-      "sell_shares": 0
-    },
-    {
-      "code": "2059",
-      "name": "川湖",
-      "buy_sell_shares": 68056,
-      "buy_sell_lots": 68.06,
-      "buy_shares": 68100,
-      "sell_shares": 44
-    },
-    {
-      "code": "1101",
-      "name": "台泥",
-      "buy_sell_shares": 66000,
-      "buy_sell_lots": 66.0,
-      "buy_shares": 66000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2504",
-      "name": "國產",
-      "buy_sell_shares": 59769,
-      "buy_sell_lots": 59.77,
-      "buy_shares": 60769,
-      "sell_shares": 1000
-    },
-    {
-      "code": "2547",
-      "name": "日勝生",
-      "buy_sell_shares": 53478,
-      "buy_sell_lots": 53.48,
-      "buy_shares": 53478,
-      "sell_shares": 0
-    },
-    {
-      "code": "1476",
-      "name": "儒鴻",
-      "buy_sell_shares": 53000,
-      "buy_sell_lots": 53.0,
-      "buy_shares": 53000,
-      "sell_shares": 0
+      "code": "3189",
+      "name": "景碩",
+      "buy_sell_shares": 308000,
+      "buy_sell_lots": 308.0,
+      "buy_shares": 310000,
+      "sell_shares": 2000
     },
     {
       "code": "1560",
       "name": "中砂",
-      "buy_sell_shares": 52000,
-      "buy_sell_lots": 52.0,
-      "buy_shares": 52000,
+      "buy_sell_shares": 298000,
+      "buy_sell_lots": 298.0,
+      "buy_shares": 298000,
       "sell_shares": 0
     },
     {
-      "code": "3653",
-      "name": "健策",
-      "buy_sell_shares": 51947,
-      "buy_sell_lots": 51.95,
-      "buy_shares": 68000,
-      "sell_shares": 16053
+      "code": "2474",
+      "name": "可成",
+      "buy_sell_shares": 288095,
+      "buy_sell_lots": 288.1,
+      "buy_shares": 420000,
+      "sell_shares": 131905
     },
     {
-      "code": "3045",
-      "name": "台灣大",
-      "buy_sell_shares": 51000,
-      "buy_sell_lots": 51.0,
-      "buy_shares": 51000,
-      "sell_shares": 0
+      "code": "3026",
+      "name": "禾伸堂",
+      "buy_sell_shares": 268000,
+      "buy_sell_lots": 268.0,
+      "buy_shares": 277000,
+      "sell_shares": 9000
     },
     {
-      "code": "3617",
-      "name": "碩天",
-      "buy_sell_shares": 50000,
-      "buy_sell_lots": 50.0,
-      "buy_shares": 50000,
-      "sell_shares": 0
-    },
-    {
-      "code": "4764",
-      "name": "雙鍵",
-      "buy_sell_shares": 50000,
-      "buy_sell_lots": 50.0,
-      "buy_shares": 50000,
+      "code": "1722",
+      "name": "台肥",
+      "buy_sell_shares": 266000,
+      "buy_sell_lots": 266.0,
+      "buy_shares": 266000,
       "sell_shares": 0
     },
     {
       "code": "00646",
       "name": "元大S&P500",
+      "buy_sell_shares": 254000,
+      "buy_sell_lots": 254.0,
+      "buy_shares": 254000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3005",
+      "name": "神基",
+      "buy_sell_shares": 247003,
+      "buy_sell_lots": 247.0,
+      "buy_shares": 250634,
+      "sell_shares": 3631
+    },
+    {
+      "code": "2376",
+      "name": "技嘉",
+      "buy_sell_shares": 232241,
+      "buy_sell_lots": 232.24,
+      "buy_shares": 291000,
+      "sell_shares": 58759
+    },
+    {
+      "code": "3034",
+      "name": "聯詠",
+      "buy_sell_shares": 215476,
+      "buy_sell_lots": 215.48,
+      "buy_shares": 342883,
+      "sell_shares": 127407
+    },
+    {
+      "code": "2455",
+      "name": "全新",
+      "buy_sell_shares": 211000,
+      "buy_sell_lots": 211.0,
+      "buy_shares": 606000,
+      "sell_shares": 395000
+    },
+    {
+      "code": "6949",
+      "name": "沛爾生醫*-創",
+      "buy_sell_shares": 209000,
+      "buy_sell_lots": 209.0,
+      "buy_shares": 209000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3406",
+      "name": "玉晶光",
+      "buy_sell_shares": 182000,
+      "buy_sell_lots": 182.0,
+      "buy_shares": 273000,
+      "sell_shares": 91000
+    },
+    {
+      "code": "00662",
+      "name": "富邦NASDAQ",
+      "buy_sell_shares": 161000,
+      "buy_sell_lots": 161.0,
+      "buy_shares": 161000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3042",
+      "name": "晶技",
+      "buy_sell_shares": 160000,
+      "buy_sell_lots": 160.0,
+      "buy_shares": 160000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3008",
+      "name": "大立光",
+      "buy_sell_shares": 131930,
+      "buy_sell_lots": 131.93,
+      "buy_shares": 177010,
+      "sell_shares": 45080
+    },
+    {
+      "code": "2912",
+      "name": "統一超",
+      "buy_sell_shares": 123039,
+      "buy_sell_lots": 123.04,
+      "buy_shares": 315039,
+      "sell_shares": 192000
+    },
+    {
+      "code": "1802",
+      "name": "台玻",
+      "buy_sell_shares": 123000,
+      "buy_sell_lots": 123.0,
+      "buy_shares": 124000,
+      "sell_shares": 1000
+    },
+    {
+      "code": "00713",
+      "name": "元大台灣高息低波",
+      "buy_sell_shares": 110000,
+      "buy_sell_lots": 110.0,
+      "buy_shares": 110000,
+      "sell_shares": 0
+    },
+    {
+      "code": "9907",
+      "name": "統一實",
+      "buy_sell_shares": 100261,
+      "buy_sell_lots": 100.26,
+      "buy_shares": 109164,
+      "sell_shares": 8903
+    },
+    {
+      "code": "2404",
+      "name": "漢唐",
+      "buy_sell_shares": 97000,
+      "buy_sell_lots": 97.0,
+      "buy_shares": 157000,
+      "sell_shares": 60000
+    },
+    {
+      "code": "2504",
+      "name": "國產",
+      "buy_sell_shares": 96304,
+      "buy_sell_lots": 96.3,
+      "buy_shares": 96304,
+      "sell_shares": 0
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "buy_sell_shares": 90547,
+      "buy_sell_lots": 90.55,
+      "buy_shares": 140671,
+      "sell_shares": 50124
+    },
+    {
+      "code": "2360",
+      "name": "致茂",
+      "buy_sell_shares": 88874,
+      "buy_sell_lots": 88.87,
+      "buy_shares": 147874,
+      "sell_shares": 59000
+    },
+    {
+      "code": "2547",
+      "name": "日勝生",
+      "buy_sell_shares": 84750,
+      "buy_sell_lots": 84.75,
+      "buy_shares": 84750,
+      "sell_shares": 0
+    },
+    {
+      "code": "2337",
+      "name": "旺宏",
+      "buy_sell_shares": 83000,
+      "buy_sell_lots": 83.0,
+      "buy_shares": 91000,
+      "sell_shares": 8000
+    },
+    {
+      "code": "2393",
+      "name": "億光",
+      "buy_sell_shares": 76632,
+      "buy_sell_lots": 76.63,
+      "buy_shares": 78883,
+      "sell_shares": 2251
+    },
+    {
+      "code": "1476",
+      "name": "儒鴻",
+      "buy_sell_shares": 74239,
+      "buy_sell_lots": 74.24,
+      "buy_shares": 95731,
+      "sell_shares": 21492
+    },
+    {
+      "code": "1503",
+      "name": "士電",
+      "buy_sell_shares": 74000,
+      "buy_sell_lots": 74.0,
+      "buy_shares": 76000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2105",
+      "name": "正新",
+      "buy_sell_shares": 64621,
+      "buy_sell_lots": 64.62,
+      "buy_shares": 73573,
+      "sell_shares": 8952
+    },
+    {
+      "code": "2812",
+      "name": "台中銀",
+      "buy_sell_shares": 61788,
+      "buy_sell_lots": 61.79,
+      "buy_shares": 61788,
+      "sell_shares": 0
+    },
+    {
+      "code": "00645",
+      "name": "富邦日本",
+      "buy_sell_shares": 61000,
+      "buy_sell_lots": 61.0,
+      "buy_shares": 61000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2207",
+      "name": "和泰車",
+      "buy_sell_shares": 58822,
+      "buy_sell_lots": 58.82,
+      "buy_shares": 58842,
+      "sell_shares": 20
+    },
+    {
+      "code": "2530",
+      "name": "華建",
+      "buy_sell_shares": 55152,
+      "buy_sell_lots": 55.15,
+      "buy_shares": 55152,
+      "sell_shares": 0
+    },
+    {
+      "code": "3167",
+      "name": "大量",
+      "buy_sell_shares": 55000,
+      "buy_sell_lots": 55.0,
+      "buy_shares": 55000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2834",
+      "name": "臺企銀",
+      "buy_sell_shares": 52413,
+      "buy_sell_lots": 52.41,
+      "buy_shares": 119484,
+      "sell_shares": 67071
+    },
+    {
+      "code": "4736",
+      "name": "泰博",
       "buy_sell_shares": 50000,
       "buy_sell_lots": 50.0,
       "buy_shares": 50000,
       "sell_shares": 0
     },
     {
-      "code": "2393",
-      "name": "億光",
-      "buy_sell_shares": 49145,
-      "buy_sell_lots": 49.15,
-      "buy_shares": 49145,
-      "sell_shares": 0
-    },
-    {
-      "code": "1216",
-      "name": "統一",
-      "buy_sell_shares": 48000,
-      "buy_sell_lots": 48.0,
-      "buy_shares": 62000,
-      "sell_shares": 14000
-    },
-    {
-      "code": "1802",
-      "name": "台玻",
-      "buy_sell_shares": 47000,
-      "buy_sell_lots": 47.0,
-      "buy_shares": 47000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2207",
-      "name": "和泰車",
-      "buy_sell_shares": 43000,
-      "buy_sell_lots": 43.0,
-      "buy_shares": 43000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2301",
-      "name": "光寶科",
-      "buy_sell_shares": 42000,
-      "buy_sell_lots": 42.0,
-      "buy_shares": 46000,
-      "sell_shares": 4000
-    },
-    {
-      "code": "9914",
-      "name": "美利達",
-      "buy_sell_shares": 38000,
-      "buy_sell_lots": 38.0,
-      "buy_shares": 38000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "buy_sell_shares": 37185,
-      "buy_sell_lots": 37.19,
-      "buy_shares": 191185,
-      "sell_shares": 154000
-    },
-    {
-      "code": "2368",
-      "name": "金像電",
-      "buy_sell_shares": 36000,
-      "buy_sell_lots": 36.0,
-      "buy_shares": 54000,
-      "sell_shares": 18000
-    },
-    {
-      "code": "2530",
-      "name": "華建",
-      "buy_sell_shares": 34802,
-      "buy_sell_lots": 34.8,
-      "buy_shares": 34802,
-      "sell_shares": 0
-    },
-    {
-      "code": "3008",
-      "name": "大立光",
-      "buy_sell_shares": 33546,
-      "buy_sell_lots": 33.55,
-      "buy_shares": 195600,
-      "sell_shares": 162054
-    },
-    {
-      "code": "1504",
-      "name": "東元",
-      "buy_sell_shares": 31000,
-      "buy_sell_lots": 31.0,
-      "buy_shares": 32000,
-      "sell_shares": 1000
-    },
-    {
-      "code": "1605",
-      "name": "華新",
-      "buy_sell_shares": 30000,
-      "buy_sell_lots": 30.0,
-      "buy_shares": 30000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2351",
-      "name": "順德",
-      "buy_sell_shares": 30000,
-      "buy_sell_lots": 30.0,
-      "buy_shares": 30000,
-      "sell_shares": 0
-    },
-    {
       "code": "6177",
       "name": "達麗",
-      "buy_sell_shares": 29435,
-      "buy_sell_lots": 29.43,
-      "buy_shares": 29435,
+      "buy_sell_shares": 46647,
+      "buy_sell_lots": 46.65,
+      "buy_shares": 46647,
       "sell_shares": 0
+    },
+    {
+      "code": "3376",
+      "name": "新日興",
+      "buy_sell_shares": 44000,
+      "buy_sell_lots": 44.0,
+      "buy_shares": 44000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "buy_sell_shares": 41794,
+      "buy_sell_lots": 41.79,
+      "buy_shares": 95794,
+      "sell_shares": 54000
+    },
+    {
+      "code": "2347",
+      "name": "聯強",
+      "buy_sell_shares": 39040,
+      "buy_sell_lots": 39.04,
+      "buy_shares": 46000,
+      "sell_shares": 6960
     },
     {
       "code": "9938",
       "name": "百和",
-      "buy_sell_shares": 26728,
-      "buy_sell_lots": 26.73,
-      "buy_shares": 26728,
+      "buy_sell_shares": 38794,
+      "buy_sell_lots": 38.79,
+      "buy_shares": 42357,
+      "sell_shares": 3563
+    },
+    {
+      "code": "2353",
+      "name": "宏碁",
+      "buy_sell_shares": 37266,
+      "buy_sell_lots": 37.27,
+      "buy_shares": 609000,
+      "sell_shares": 571734
+    },
+    {
+      "code": "1712",
+      "name": "興農",
+      "buy_sell_shares": 37159,
+      "buy_sell_lots": 37.16,
+      "buy_shares": 37159,
       "sell_shares": 0
     },
     {
       "code": "2204",
       "name": "中華",
-      "buy_sell_shares": 24731,
-      "buy_sell_lots": 24.73,
-      "buy_shares": 24731,
-      "sell_shares": 0
-    },
-    {
-      "code": "2347",
-      "name": "聯強",
-      "buy_sell_shares": 24000,
-      "buy_sell_lots": 24.0,
-      "buy_shares": 38000,
-      "sell_shares": 14000
-    },
-    {
-      "code": "4532",
-      "name": "瑞智",
-      "buy_sell_shares": 23972,
-      "buy_sell_lots": 23.97,
-      "buy_shares": 23972,
-      "sell_shares": 0
-    },
-    {
-      "code": "1712",
-      "name": "興農",
-      "buy_sell_shares": 23448,
-      "buy_sell_lots": 23.45,
-      "buy_shares": 23448,
-      "sell_shares": 0
-    },
-    {
-      "code": "2371",
-      "name": "大同",
-      "buy_sell_shares": 22000,
-      "buy_sell_lots": 22.0,
-      "buy_shares": 22000,
-      "sell_shares": 0
+      "buy_sell_shares": 36265,
+      "buy_sell_lots": 36.27,
+      "buy_shares": 39192,
+      "sell_shares": 2927
     },
     {
       "code": "2528",
       "name": "皇普",
-      "buy_sell_shares": 21895,
-      "buy_sell_lots": 21.89,
-      "buy_shares": 21895,
+      "buy_sell_shares": 34699,
+      "buy_sell_lots": 34.7,
+      "buy_shares": 34699,
       "sell_shares": 0
     },
     {
-      "code": "5234",
-      "name": "達興材料",
-      "buy_sell_shares": 21000,
-      "buy_sell_lots": 21.0,
-      "buy_shares": 21000,
+      "code": "6191",
+      "name": "精成科",
+      "buy_sell_shares": 34000,
+      "buy_sell_lots": 34.0,
+      "buy_shares": 34000,
       "sell_shares": 0
     },
     {
       "code": "3014",
       "name": "聯陽",
-      "buy_sell_shares": 20854,
-      "buy_sell_lots": 20.85,
-      "buy_shares": 20854,
+      "buy_sell_shares": 31698,
+      "buy_sell_lots": 31.7,
+      "buy_shares": 34048,
+      "sell_shares": 2350
+    },
+    {
+      "code": "4532",
+      "name": "瑞智",
+      "buy_sell_shares": 31430,
+      "buy_sell_lots": 31.43,
+      "buy_shares": 37989,
+      "sell_shares": 6559
+    },
+    {
+      "code": "0052",
+      "name": "富邦科技",
+      "buy_sell_shares": 30000,
+      "buy_sell_lots": 30.0,
+      "buy_shares": 30000,
       "sell_shares": 0
     },
     {
-      "code": "2352",
-      "name": "佳世達",
-      "buy_sell_shares": 20000,
-      "buy_sell_lots": 20.0,
-      "buy_shares": 20000,
-      "sell_shares": 0
-    },
-    {
-      "code": "7799",
-      "name": "禾榮科",
-      "buy_sell_shares": 20000,
-      "buy_sell_lots": 20.0,
-      "buy_shares": 20000,
+      "code": "6278",
+      "name": "台表科",
+      "buy_sell_shares": 30000,
+      "buy_sell_lots": 30.0,
+      "buy_shares": 30000,
       "sell_shares": 0
     },
     {
       "code": "2387",
       "name": "精元",
-      "buy_sell_shares": 16621,
-      "buy_sell_lots": 16.62,
-      "buy_shares": 16621,
+      "buy_sell_shares": 26341,
+      "buy_sell_lots": 26.34,
+      "buy_shares": 26341,
       "sell_shares": 0
     },
     {
-      "code": "2356",
-      "name": "英業達",
-      "buy_sell_shares": 16000,
-      "buy_sell_lots": 16.0,
-      "buy_shares": 18000,
+      "code": "6257",
+      "name": "矽格",
+      "buy_sell_shares": 23000,
+      "buy_sell_lots": 23.0,
+      "buy_shares": 25000,
       "sell_shares": 2000
     },
     {
-      "code": "2834",
-      "name": "臺企銀",
+      "code": "1519",
+      "name": "華城",
+      "buy_sell_shares": 22000,
+      "buy_sell_lots": 22.0,
+      "buy_shares": 24000,
+      "sell_shares": 2000
+    },
+    {
+      "code": "6670",
+      "name": "復盛應用",
+      "buy_sell_shares": 19390,
+      "buy_sell_lots": 19.39,
+      "buy_shares": 20000,
+      "sell_shares": 610
+    },
+    {
+      "code": "7711",
+      "name": "永擎",
+      "buy_sell_shares": 18000,
+      "buy_sell_lots": 18.0,
+      "buy_shares": 18000,
+      "sell_shares": 0
+    },
+    {
+      "code": "7799",
+      "name": "禾榮科",
       "buy_sell_shares": 15000,
       "buy_sell_lots": 15.0,
       "buy_shares": 15000,
       "sell_shares": 0
     },
     {
-      "code": "9933",
-      "name": "中鼎",
-      "buy_sell_shares": 13700,
-      "buy_sell_lots": 13.7,
-      "buy_shares": 13700,
-      "sell_shares": 0
-    },
-    {
-      "code": "6191",
-      "name": "精成科",
-      "buy_sell_shares": 13000,
-      "buy_sell_lots": 13.0,
-      "buy_shares": 13000,
-      "sell_shares": 0
-    },
-    {
-      "code": "3017",
-      "name": "奇鋐",
-      "buy_sell_shares": 11229,
-      "buy_sell_lots": 11.23,
-      "buy_shares": 62229,
-      "sell_shares": 51000
-    },
-    {
-      "code": "0052",
-      "name": "富邦科技",
-      "buy_sell_shares": 11000,
-      "buy_sell_lots": 11.0,
-      "buy_shares": 11000,
-      "sell_shares": 0
-    },
-    {
-      "code": "2464",
-      "name": "盟立",
-      "buy_sell_shares": 11000,
-      "buy_sell_lots": 11.0,
-      "buy_shares": 11000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6282",
-      "name": "康舒",
-      "buy_sell_shares": 10000,
-      "buy_sell_lots": 10.0,
-      "buy_shares": 10000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8215",
-      "name": "明基材",
-      "buy_sell_shares": 10000,
-      "buy_sell_lots": 10.0,
-      "buy_shares": 10000,
-      "sell_shares": 0
-    },
-    {
       "code": "2832",
       "name": "台產",
-      "buy_sell_shares": 9333,
-      "buy_sell_lots": 9.33,
-      "buy_shares": 9333,
+      "buy_sell_shares": 14790,
+      "buy_sell_lots": 14.79,
+      "buy_shares": 14790,
       "sell_shares": 0
     },
     {
-      "code": "4736",
-      "name": "泰博",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 9000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6278",
-      "name": "台表科",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 9000,
-      "sell_shares": 0
-    },
-    {
-      "code": "6531",
-      "name": "愛普*",
-      "buy_sell_shares": 9000,
-      "buy_sell_lots": 9.0,
-      "buy_shares": 10000,
-      "sell_shares": 1000
+      "code": "2002",
+      "name": "中鋼",
+      "buy_sell_shares": 14578,
+      "buy_sell_lots": 14.58,
+      "buy_shares": 15000,
+      "sell_shares": 422
     },
     {
       "code": "9935",
       "name": "慶豐富",
-      "buy_sell_shares": 8919,
-      "buy_sell_lots": 8.92,
-      "buy_shares": 8919,
+      "buy_sell_shares": 14134,
+      "buy_sell_lots": 14.13,
+      "buy_shares": 14134,
       "sell_shares": 0
     },
     {
-      "code": "8926",
-      "name": "台汽電",
+      "code": "1504",
+      "name": "東元",
+      "buy_sell_shares": 13936,
+      "buy_sell_lots": 13.94,
+      "buy_shares": 16936,
+      "sell_shares": 3000
+    },
+    {
+      "code": "6743",
+      "name": "安普新",
+      "buy_sell_shares": 12278,
+      "buy_sell_lots": 12.28,
+      "buy_shares": 12278,
+      "sell_shares": 0
+    },
+    {
+      "code": "2477",
+      "name": "美隆電",
+      "buy_sell_shares": 11489,
+      "buy_sell_lots": 11.49,
+      "buy_shares": 11489,
+      "sell_shares": 0
+    },
+    {
+      "code": "2301",
+      "name": "光寶科",
+      "buy_sell_shares": 11300,
+      "buy_sell_lots": 11.3,
+      "buy_shares": 255300,
+      "sell_shares": 244000
+    },
+    {
+      "code": "7610",
+      "name": "聯友金屬-創",
+      "buy_sell_shares": 11000,
+      "buy_sell_lots": 11.0,
+      "buy_shares": 11000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2606",
+      "name": "裕民",
+      "buy_sell_shares": 10000,
+      "buy_sell_lots": 10.0,
+      "buy_shares": 251000,
+      "sell_shares": 241000
+    },
+    {
+      "code": "1101",
+      "name": "台泥",
+      "buy_sell_shares": 10000,
+      "buy_sell_lots": 10.0,
+      "buy_shares": 10000,
+      "sell_shares": 0
+    },
+    {
+      "code": "8454",
+      "name": "富邦媒",
+      "buy_sell_shares": 9137,
+      "buy_sell_lots": 9.14,
+      "buy_shares": 11137,
+      "sell_shares": 2000
+    },
+    {
+      "code": "2464",
+      "name": "盟立",
       "buy_sell_shares": 8000,
       "buy_sell_lots": 8.0,
       "buy_shares": 8000,
       "sell_shares": 0
     },
     {
-      "code": "6743",
-      "name": "安普新",
-      "buy_sell_shares": 7748,
-      "buy_sell_lots": 7.75,
-      "buy_shares": 7748,
-      "sell_shares": 0
-    },
-    {
-      "code": "2477",
-      "name": "美隆電",
-      "buy_sell_shares": 7250,
-      "buy_sell_lots": 7.25,
-      "buy_shares": 7250,
-      "sell_shares": 0
-    },
-    {
-      "code": "3015",
-      "name": "全漢",
-      "buy_sell_shares": 6000,
-      "buy_sell_lots": 6.0,
-      "buy_shares": 6000,
-      "sell_shares": 0
-    },
-    {
-      "code": "7750",
-      "name": "新代",
-      "buy_sell_shares": 6000,
-      "buy_sell_lots": 6.0,
-      "buy_shares": 6000,
-      "sell_shares": 0
+      "code": "1590",
+      "name": "亞德客-KY",
+      "buy_sell_shares": 7000,
+      "buy_sell_lots": 7.0,
+      "buy_shares": 8000,
+      "sell_shares": 1000
     },
     {
       "code": "4137",
       "name": "麗豐-KY",
-      "buy_sell_shares": 4332,
-      "buy_sell_lots": 4.33,
-      "buy_shares": 4332,
+      "buy_sell_shares": 6865,
+      "buy_sell_lots": 6.87,
+      "buy_shares": 6865,
+      "sell_shares": 0
+    },
+    {
+      "code": "7795",
+      "name": "長廣",
+      "buy_sell_shares": 6000,
+      "buy_sell_lots": 6.0,
+      "buy_shares": 6000,
+      "sell_shares": 0
+    },
+    {
+      "code": "3450",
+      "name": "聯鈞",
+      "buy_sell_shares": 6000,
+      "buy_sell_lots": 6.0,
+      "buy_shares": 6000,
       "sell_shares": 0
     },
     {
       "code": "2753",
       "name": "八方雲集",
-      "buy_sell_shares": 4280,
-      "buy_sell_lots": 4.28,
-      "buy_shares": 4280,
-      "sell_shares": 0
+      "buy_sell_shares": 5857,
+      "buy_sell_lots": 5.86,
+      "buy_shares": 6782,
+      "sell_shares": 925
     },
     {
-      "code": "2324",
-      "name": "仁寶",
+      "code": "2027",
+      "name": "大成鋼",
+      "buy_sell_shares": 4755,
+      "buy_sell_lots": 4.75,
+      "buy_shares": 38755,
+      "sell_shares": 34000
+    },
+    {
+      "code": "8442",
+      "name": "威宏-KY",
       "buy_sell_shares": 4000,
       "buy_sell_lots": 4.0,
       "buy_shares": 4000,
       "sell_shares": 0
     },
     {
-      "code": "6285",
-      "name": "啟碁",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "1723",
-      "name": "中碳",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "1519",
-      "name": "華城",
-      "buy_sell_shares": 3000,
-      "buy_sell_lots": 3.0,
-      "buy_shares": 3000,
-      "sell_shares": 0
-    },
-    {
-      "code": "8442",
-      "name": "威宏-KY",
-      "buy_sell_shares": 2524,
-      "buy_sell_lots": 2.52,
-      "buy_shares": 2524,
-      "sell_shares": 0
-    },
-    {
       "code": "2247",
       "name": "汎德永業",
-      "buy_sell_shares": 2073,
-      "buy_sell_lots": 2.07,
-      "buy_shares": 2073,
+      "buy_sell_shares": 3285,
+      "buy_sell_lots": 3.29,
+      "buy_shares": 3285,
       "sell_shares": 0
     },
     {
       "code": "3679",
       "name": "新至陞",
-      "buy_sell_shares": 2024,
-      "buy_sell_lots": 2.02,
-      "buy_shares": 2024,
+      "buy_sell_shares": 3208,
+      "buy_sell_lots": 3.21,
+      "buy_shares": 3208,
       "sell_shares": 0
     },
     {
-      "code": "2812",
-      "name": "台中銀",
+      "code": "6919",
+      "name": "康霈*",
+      "buy_sell_shares": 3000,
+      "buy_sell_lots": 3.0,
+      "buy_shares": 3000,
+      "sell_shares": 0
+    },
+    {
+      "code": "2646",
+      "name": "星宇航空",
+      "buy_sell_shares": 3000,
+      "buy_sell_lots": 3.0,
+      "buy_shares": 3000,
+      "sell_shares": 0
+    },
+    {
+      "code": "7769",
+      "name": "鴻勁",
+      "buy_sell_shares": 2351,
+      "buy_sell_lots": 2.35,
+      "buy_shares": 6351,
+      "sell_shares": 4000
+    },
+    {
+      "code": "2059",
+      "name": "川湖",
+      "buy_sell_shares": 2330,
+      "buy_sell_lots": 2.33,
+      "buy_shares": 9375,
+      "sell_shares": 7045
+    },
+    {
+      "code": "6672",
+      "name": "騰輝電子-KY",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "3708",
-      "name": "上緯投控",
+      "code": "6285",
+      "name": "啟碁",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "6446",
-      "name": "藥華藥",
+      "code": "2838",
+      "name": "聯邦銀",
       "buy_sell_shares": 2000,
       "buy_sell_lots": 2.0,
       "buy_shares": 2000,
       "sell_shares": 0
     },
     {
-      "code": "2645",
-      "name": "長榮航太",
+      "code": "6789",
+      "name": "采鈺",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
       "sell_shares": 0
     },
     {
-      "code": "2385",
-      "name": "群光",
+      "code": "2850",
+      "name": "新產",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
       "sell_shares": 0
     },
     {
-      "code": "6196",
-      "name": "帆宣",
+      "code": "8021",
+      "name": "尖點",
       "buy_sell_shares": 1000,
       "buy_sell_lots": 1.0,
       "buy_shares": 1000,
       "sell_shares": 0
     },
     {
-      "code": "6781",
-      "name": "AES-KY",
-      "buy_sell_shares": -22,
-      "buy_sell_lots": -0.02,
-      "buy_shares": 0,
-      "sell_shares": 22
+      "code": "6206",
+      "name": "飛捷",
+      "buy_sell_shares": -575,
+      "buy_sell_lots": -0.57,
+      "buy_shares": 1000,
+      "sell_shares": 1575
     },
     {
-      "code": "5269",
-      "name": "祥碩",
-      "buy_sell_shares": -35,
-      "buy_sell_lots": -0.04,
+      "code": "3592",
+      "name": "瑞鼎",
+      "buy_sell_shares": -699,
+      "buy_sell_lots": -0.7,
       "buy_shares": 0,
-      "sell_shares": 35
+      "sell_shares": 699
     },
     {
-      "code": "1231",
-      "name": "聯華食",
-      "buy_sell_shares": -320,
-      "buy_sell_lots": -0.32,
+      "code": "8016",
+      "name": "矽創",
+      "buy_sell_shares": -797,
+      "buy_sell_lots": -0.8,
       "buy_shares": 0,
-      "sell_shares": 320
+      "sell_shares": 797
     },
     {
-      "code": "1514",
-      "name": "亞力",
-      "buy_sell_shares": -679,
-      "buy_sell_lots": -0.68,
-      "buy_shares": 0,
-      "sell_shares": 679
-    },
-    {
-      "code": "2520",
-      "name": "冠德",
-      "buy_sell_shares": -900,
-      "buy_sell_lots": -0.9,
-      "buy_shares": 0,
-      "sell_shares": 900
-    },
-    {
-      "code": "2845",
-      "name": "遠東銀",
+      "code": "6526",
+      "name": "達發",
       "buy_sell_shares": -1000,
       "buy_sell_lots": -1.0,
       "buy_shares": 0,
       "sell_shares": 1000
     },
     {
-      "code": "2049",
-      "name": "上銀",
+      "code": "6196",
+      "name": "帆宣",
+      "buy_sell_shares": -1000,
+      "buy_sell_lots": -1.0,
+      "buy_shares": 0,
+      "sell_shares": 1000
+    },
+    {
+      "code": "3030",
+      "name": "德律",
       "buy_sell_shares": -1000,
       "buy_sell_lots": -1.0,
       "buy_shares": 0,
@@ -2867,426 +3123,682 @@
     {
       "code": "1319",
       "name": "東陽",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "1722",
-      "name": "台肥",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "1229",
-      "name": "聯華",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "7769",
-      "name": "鴻勁",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "1503",
-      "name": "士電",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "6789",
-      "name": "采鈺",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
-      "buy_shares": 0,
-      "sell_shares": 1000
-    },
-    {
-      "code": "6415",
-      "name": "矽力*-KY",
-      "buy_sell_shares": -1000,
-      "buy_sell_lots": -1.0,
+      "buy_sell_shares": -1050,
+      "buy_sell_lots": -1.05,
       "buy_shares": 1000,
-      "sell_shares": 2000
+      "sell_shares": 2050
     },
     {
-      "code": "1590",
-      "name": "亞德客-KY",
-      "buy_sell_shares": -1092,
-      "buy_sell_lots": -1.09,
+      "code": "2480",
+      "name": "敦陽科",
+      "buy_sell_shares": -1160,
+      "buy_sell_lots": -1.16,
       "buy_shares": 0,
-      "sell_shares": 1092
+      "sell_shares": 1160
     },
     {
-      "code": "2449",
-      "name": "京元電子",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
-      "buy_shares": 5000,
-      "sell_shares": 7000
-    },
-    {
-      "code": "2441",
-      "name": "超豐",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
+      "code": "5269",
+      "name": "祥碩",
+      "buy_sell_shares": -1378,
+      "buy_sell_lots": -1.38,
       "buy_shares": 0,
-      "sell_shares": 2000
+      "sell_shares": 1378
     },
     {
-      "code": "2395",
-      "name": "研華",
-      "buy_sell_shares": -2000,
-      "buy_sell_lots": -2.0,
-      "buy_shares": 7000,
+      "code": "9939",
+      "name": "宏全",
+      "buy_sell_shares": -1448,
+      "buy_sell_lots": -1.45,
+      "buy_shares": 0,
+      "sell_shares": 1448
+    },
+    {
+      "code": "2211",
+      "name": "長榮鋼",
+      "buy_sell_shares": -1612,
+      "buy_sell_lots": -1.61,
+      "buy_shares": 0,
+      "sell_shares": 1612
+    },
+    {
+      "code": "3029",
+      "name": "零壹",
+      "buy_sell_shares": -1660,
+      "buy_sell_lots": -1.66,
+      "buy_shares": 0,
+      "sell_shares": 1660
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "buy_sell_shares": -1696,
+      "buy_sell_lots": -1.7,
+      "buy_shares": 7304,
       "sell_shares": 9000
     },
     {
-      "code": "6239",
-      "name": "力成",
-      "buy_sell_shares": -4000,
-      "buy_sell_lots": -4.0,
-      "buy_shares": 2000,
-      "sell_shares": 6000
+      "code": "6525",
+      "name": "捷敏-KY",
+      "buy_sell_shares": -1886,
+      "buy_sell_lots": -1.89,
+      "buy_shares": 0,
+      "sell_shares": 1886
     },
     {
-      "code": "8081",
-      "name": "致新",
-      "buy_sell_shares": -4000,
-      "buy_sell_lots": -4.0,
+      "code": "6768",
+      "name": "志強-KY",
+      "buy_sell_shares": -1981,
+      "buy_sell_lots": -1.98,
       "buy_shares": 0,
-      "sell_shares": 4000
+      "sell_shares": 1981
     },
     {
       "code": "6691",
       "name": "洋基工程",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
+      "buy_shares": 1000,
+      "sell_shares": 3000
+    },
+    {
+      "code": "3532",
+      "name": "台勝科",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
+      "buy_shares": 0,
+      "sell_shares": 2000
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "buy_sell_shares": -2000,
+      "buy_sell_lots": -2.0,
+      "buy_shares": 0,
+      "sell_shares": 2000
+    },
+    {
+      "code": "4915",
+      "name": "致伸",
+      "buy_sell_shares": -2183,
+      "buy_sell_lots": -2.18,
+      "buy_shares": 0,
+      "sell_shares": 2183
+    },
+    {
+      "code": "4583",
+      "name": "台灣精銳",
+      "buy_sell_shares": -3000,
+      "buy_sell_lots": -3.0,
+      "buy_shares": 0,
+      "sell_shares": 3000
+    },
+    {
+      "code": "8070",
+      "name": "長華*",
+      "buy_sell_shares": -3369,
+      "buy_sell_lots": -3.37,
+      "buy_shares": 0,
+      "sell_shares": 3369
+    },
+    {
+      "code": "6189",
+      "name": "豐藝",
+      "buy_sell_shares": -3434,
+      "buy_sell_lots": -3.43,
+      "buy_shares": 0,
+      "sell_shares": 3434
+    },
+    {
+      "code": "2031",
+      "name": "新光鋼",
+      "buy_sell_shares": -3896,
+      "buy_sell_lots": -3.9,
+      "buy_shares": 0,
+      "sell_shares": 3896
+    },
+    {
+      "code": "2049",
+      "name": "上銀",
+      "buy_sell_shares": -4419,
+      "buy_sell_lots": -4.42,
+      "buy_shares": 592,
+      "sell_shares": 5011
+    },
+    {
+      "code": "1612",
+      "name": "宏泰",
+      "buy_sell_shares": -4559,
+      "buy_sell_lots": -4.56,
+      "buy_shares": 0,
+      "sell_shares": 4559
+    },
+    {
+      "code": "3033",
+      "name": "威健",
+      "buy_sell_shares": -4685,
+      "buy_sell_lots": -4.68,
+      "buy_shares": 0,
+      "sell_shares": 4685
+    },
+    {
+      "code": "1608",
+      "name": "華榮",
+      "buy_sell_shares": -4937,
+      "buy_sell_lots": -4.94,
+      "buy_shares": 0,
+      "sell_shares": 4937
+    },
+    {
+      "code": "1307",
+      "name": "三芳",
+      "buy_sell_shares": -4998,
+      "buy_sell_lots": -5.0,
+      "buy_shares": 0,
+      "sell_shares": 4998
+    },
+    {
+      "code": "2441",
+      "name": "超豐",
       "buy_sell_shares": -5000,
       "buy_sell_lots": -5.0,
       "buy_shares": 0,
       "sell_shares": 5000
     },
     {
-      "code": "9958",
-      "name": "世紀鋼",
-      "buy_sell_shares": -5523,
-      "buy_sell_lots": -5.52,
+      "code": "7750",
+      "name": "新代",
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
       "buy_shares": 0,
-      "sell_shares": 5523
+      "sell_shares": 5000
     },
     {
-      "code": "6257",
-      "name": "矽格",
-      "buy_sell_shares": -6000,
-      "buy_sell_lots": -6.0,
-      "buy_shares": 12000,
-      "sell_shares": 18000
+      "code": "2354",
+      "name": "鴻準",
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
+      "buy_shares": 0,
+      "sell_shares": 5000
     },
     {
-      "code": "2515",
-      "name": "中工",
-      "buy_sell_shares": -9000,
-      "buy_sell_lots": -9.0,
+      "code": "2845",
+      "name": "遠東銀",
+      "buy_sell_shares": -5000,
+      "buy_sell_lots": -5.0,
       "buy_shares": 0,
-      "sell_shares": 9000
+      "sell_shares": 5000
     },
     {
-      "code": "3706",
-      "name": "神達",
-      "buy_sell_shares": -9000,
-      "buy_sell_lots": -9.0,
+      "code": "2451",
+      "name": "創見",
+      "buy_sell_shares": -8000,
+      "buy_sell_lots": -8.0,
       "buy_shares": 0,
-      "sell_shares": 9000
+      "sell_shares": 8000
     },
     {
-      "code": "2337",
-      "name": "旺宏",
-      "buy_sell_shares": -12000,
-      "buy_sell_lots": -12.0,
+      "code": "6944",
+      "name": "兆聯實業",
+      "buy_sell_shares": -10600,
+      "buy_sell_lots": -10.6,
       "buy_shares": 0,
+      "sell_shares": 10600
+    },
+    {
+      "code": "2603",
+      "name": "長榮",
+      "buy_sell_shares": -10813,
+      "buy_sell_lots": -10.81,
+      "buy_shares": 260031,
+      "sell_shares": 270844
+    },
+    {
+      "code": "6415",
+      "name": "矽力*-KY",
+      "buy_sell_shares": -11000,
+      "buy_sell_lots": -11.0,
+      "buy_shares": 1000,
       "sell_shares": 12000
     },
     {
-      "code": "6770",
-      "name": "力積電",
+      "code": "2379",
+      "name": "瑞昱",
+      "buy_sell_shares": -11652,
+      "buy_sell_lots": -11.65,
+      "buy_shares": 94348,
+      "sell_shares": 106000
+    },
+    {
+      "code": "1229",
+      "name": "聯華",
+      "buy_sell_shares": -12882,
+      "buy_sell_lots": -12.88,
+      "buy_shares": 2000,
+      "sell_shares": 14882
+    },
+    {
+      "code": "4766",
+      "name": "南寶",
       "buy_sell_shares": -13000,
       "buy_sell_lots": -13.0,
-      "buy_shares": 8000,
-      "sell_shares": 21000
+      "buy_shares": 0,
+      "sell_shares": 13000
+    },
+    {
+      "code": "6515",
+      "name": "穎崴",
+      "buy_sell_shares": -13000,
+      "buy_sell_lots": -13.0,
+      "buy_shares": 2000,
+      "sell_shares": 15000
+    },
+    {
+      "code": "2313",
+      "name": "華通",
+      "buy_sell_shares": -13984,
+      "buy_sell_lots": -13.98,
+      "buy_shares": 549016,
+      "sell_shares": 563000
+    },
+    {
+      "code": "2377",
+      "name": "微星",
+      "buy_sell_shares": -14000,
+      "buy_sell_lots": -14.0,
+      "buy_shares": 419000,
+      "sell_shares": 433000
+    },
+    {
+      "code": "2421",
+      "name": "建準",
+      "buy_sell_shares": -15000,
+      "buy_sell_lots": -15.0,
+      "buy_shares": 0,
+      "sell_shares": 15000
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "buy_sell_shares": -20146,
+      "buy_sell_lots": -20.15,
+      "buy_shares": 243944,
+      "sell_shares": 264090
     },
     {
       "code": "8996",
       "name": "高力",
-      "buy_sell_shares": -16000,
-      "buy_sell_lots": -16.0,
-      "buy_shares": 1000,
-      "sell_shares": 17000
-    },
-    {
-      "code": "2436",
-      "name": "偉詮電",
-      "buy_sell_shares": -18000,
-      "buy_sell_lots": -18.0,
-      "buy_shares": 0,
-      "sell_shares": 18000
-    },
-    {
-      "code": "2409",
-      "name": "友達",
-      "buy_sell_shares": -21000,
-      "buy_sell_lots": -21.0,
-      "buy_shares": 14000,
-      "sell_shares": 35000
-    },
-    {
-      "code": "3034",
-      "name": "聯詠",
-      "buy_sell_shares": -22000,
-      "buy_sell_lots": -22.0,
-      "buy_shares": 6000,
-      "sell_shares": 28000
+      "buy_sell_shares": -20347,
+      "buy_sell_lots": -20.35,
+      "buy_shares": 1653,
+      "sell_shares": 22000
     },
     {
       "code": "3044",
       "name": "健鼎",
-      "buy_sell_shares": -22000,
-      "buy_sell_lots": -22.0,
-      "buy_shares": 26000,
-      "sell_shares": 48000
+      "buy_sell_shares": -23322,
+      "buy_sell_lots": -23.32,
+      "buy_shares": 151000,
+      "sell_shares": 174322
     },
     {
-      "code": "8021",
-      "name": "尖點",
+      "code": "6414",
+      "name": "樺漢",
       "buy_sell_shares": -25000,
       "buy_sell_lots": -25.0,
       "buy_shares": 0,
       "sell_shares": 25000
     },
     {
-      "code": "6409",
-      "name": "旭隼",
-      "buy_sell_shares": -27000,
-      "buy_sell_lots": -27.0,
-      "buy_shares": 6000,
-      "sell_shares": 33000
+      "code": "2395",
+      "name": "研華",
+      "buy_sell_shares": -25901,
+      "buy_sell_lots": -25.9,
+      "buy_shares": 52514,
+      "sell_shares": 78415
     },
     {
-      "code": "2360",
-      "name": "致茂",
-      "buy_sell_shares": -27193,
-      "buy_sell_lots": -27.19,
-      "buy_shares": 6000,
-      "sell_shares": 33193
-    },
-    {
-      "code": "3406",
-      "name": "玉晶光",
+      "code": "00850",
+      "name": "元大臺灣ESG永續",
       "buy_sell_shares": -30000,
       "buy_sell_lots": -30.0,
-      "buy_shares": 50000,
-      "sell_shares": 80000
-    },
-    {
-      "code": "6515",
-      "name": "穎崴",
-      "buy_sell_shares": -41016,
-      "buy_sell_lots": -41.02,
-      "buy_shares": 17000,
-      "sell_shares": 58016
-    },
-    {
-      "code": "3533",
-      "name": "嘉澤",
-      "buy_sell_shares": -50054,
-      "buy_sell_lots": -50.05,
-      "buy_shares": 10000,
-      "sell_shares": 60054
-    },
-    {
-      "code": "2344",
-      "name": "華邦電",
-      "buy_sell_shares": -51000,
-      "buy_sell_lots": -51.0,
-      "buy_shares": 8000,
-      "sell_shares": 59000
-    },
-    {
-      "code": "2404",
-      "name": "漢唐",
-      "buy_sell_shares": -55000,
-      "buy_sell_lots": -55.0,
       "buy_shares": 0,
-      "sell_shares": 55000
-    },
-    {
-      "code": "8210",
-      "name": "勤誠",
-      "buy_sell_shares": -57000,
-      "buy_sell_lots": -57.0,
-      "buy_shares": 0,
-      "sell_shares": 57000
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "buy_sell_shares": -59590,
-      "buy_sell_lots": -59.59,
-      "buy_shares": 559976,
-      "sell_shares": 619566
-    },
-    {
-      "code": "1736",
-      "name": "喬山",
-      "buy_sell_shares": -60000,
-      "buy_sell_lots": -60.0,
-      "buy_shares": 0,
-      "sell_shares": 60000
-    },
-    {
-      "code": "3023",
-      "name": "信邦",
-      "buy_sell_shares": -63000,
-      "buy_sell_lots": -63.0,
-      "buy_shares": 3000,
-      "sell_shares": 66000
-    },
-    {
-      "code": "3004",
-      "name": "豐達科",
-      "buy_sell_shares": -70000,
-      "buy_sell_lots": -70.0,
-      "buy_shares": 0,
-      "sell_shares": 70000
-    },
-    {
-      "code": "8464",
-      "name": "億豐",
-      "buy_sell_shares": -76000,
-      "buy_sell_lots": -76.0,
-      "buy_shares": 0,
-      "sell_shares": 76000
-    },
-    {
-      "code": "2379",
-      "name": "瑞昱",
-      "buy_sell_shares": -80000,
-      "buy_sell_lots": -80.0,
-      "buy_shares": 3000,
-      "sell_shares": 83000
-    },
-    {
-      "code": "2451",
-      "name": "創見",
-      "buy_sell_shares": -104000,
-      "buy_sell_lots": -104.0,
-      "buy_shares": 0,
-      "sell_shares": 104000
-    },
-    {
-      "code": "5434",
-      "name": "崇越",
-      "buy_sell_shares": -114000,
-      "buy_sell_lots": -114.0,
-      "buy_shares": 0,
-      "sell_shares": 114000
-    },
-    {
-      "code": "9917",
-      "name": "中保科",
-      "buy_sell_shares": -115000,
-      "buy_sell_lots": -115.0,
-      "buy_shares": 0,
-      "sell_shares": 115000
-    },
-    {
-      "code": "3042",
-      "name": "晶技",
-      "buy_sell_shares": -117000,
-      "buy_sell_lots": -117.0,
-      "buy_shares": 0,
-      "sell_shares": 117000
+      "sell_shares": 30000
     },
     {
       "code": "5871",
       "name": "中租-KY",
-      "buy_sell_shares": -118000,
-      "buy_sell_lots": -118.0,
-      "buy_shares": 26000,
-      "sell_shares": 144000
+      "buy_sell_shares": -31630,
+      "buy_sell_lots": -31.63,
+      "buy_shares": 114860,
+      "sell_shares": 146490
     },
     {
-      "code": "1477",
-      "name": "聚陽",
-      "buy_sell_shares": -126543,
-      "buy_sell_lots": -126.54,
-      "buy_shares": 123457,
-      "sell_shares": 250000
+      "code": "6176",
+      "name": "瑞儀",
+      "buy_sell_shares": -36171,
+      "buy_sell_lots": -36.17,
+      "buy_shares": 0,
+      "sell_shares": 36171
+    },
+    {
+      "code": "6409",
+      "name": "旭隼",
+      "buy_sell_shares": -37481,
+      "buy_sell_lots": -37.48,
+      "buy_shares": 0,
+      "sell_shares": 37481
+    },
+    {
+      "code": "3004",
+      "name": "豐達科",
+      "buy_sell_shares": -40000,
+      "buy_sell_lots": -40.0,
+      "buy_shares": 0,
+      "sell_shares": 40000
+    },
+    {
+      "code": "2801",
+      "name": "彰銀",
+      "buy_sell_shares": -40816,
+      "buy_sell_lots": -40.82,
+      "buy_shares": 93646,
+      "sell_shares": 134462
+    },
+    {
+      "code": "3533",
+      "name": "嘉澤",
+      "buy_sell_shares": -48941,
+      "buy_sell_lots": -48.94,
+      "buy_shares": 2059,
+      "sell_shares": 51000
+    },
+    {
+      "code": "3023",
+      "name": "信邦",
+      "buy_sell_shares": -54000,
+      "buy_sell_lots": -54.0,
+      "buy_shares": 0,
+      "sell_shares": 54000
+    },
+    {
+      "code": "2492",
+      "name": "華新科",
+      "buy_sell_shares": -61000,
+      "buy_sell_lots": -61.0,
+      "buy_shares": 17000,
+      "sell_shares": 78000
+    },
+    {
+      "code": "8464",
+      "name": "億豐",
+      "buy_sell_shares": -62751,
+      "buy_sell_lots": -62.75,
+      "buy_shares": 41873,
+      "sell_shares": 104624
+    },
+    {
+      "code": "006208",
+      "name": "富邦台50",
+      "buy_sell_shares": -74000,
+      "buy_sell_lots": -74.0,
+      "buy_shares": 0,
+      "sell_shares": 74000
+    },
+    {
+      "code": "9917",
+      "name": "中保科",
+      "buy_sell_shares": -87000,
+      "buy_sell_lots": -87.0,
+      "buy_shares": 0,
+      "sell_shares": 87000
+    },
+    {
+      "code": "9802",
+      "name": "鈺齊-KY",
+      "buy_sell_shares": -90000,
+      "buy_sell_lots": -90.0,
+      "buy_shares": 0,
+      "sell_shares": 90000
+    },
+    {
+      "code": "1736",
+      "name": "喬山",
+      "buy_sell_shares": -90000,
+      "buy_sell_lots": -90.0,
+      "buy_shares": 0,
+      "sell_shares": 90000
+    },
+    {
+      "code": "2609",
+      "name": "陽明",
+      "buy_sell_shares": -90572,
+      "buy_sell_lots": -90.57,
+      "buy_shares": 353275,
+      "sell_shares": 443847
+    },
+    {
+      "code": "9941",
+      "name": "裕融",
+      "buy_sell_shares": -102183,
+      "buy_sell_lots": -102.18,
+      "buy_shares": 0,
+      "sell_shares": 102183
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "buy_sell_shares": -119993,
+      "buy_sell_lots": -119.99,
+      "buy_shares": 124007,
+      "sell_shares": 244000
+    },
+    {
+      "code": "2458",
+      "name": "義隆",
+      "buy_sell_shares": -128195,
+      "buy_sell_lots": -128.19,
+      "buy_shares": 0,
+      "sell_shares": 128195
     },
     {
       "code": "5522",
       "name": "遠雄",
-      "buy_sell_shares": -154967,
-      "buy_sell_lots": -154.97,
-      "buy_shares": 16033,
-      "sell_shares": 171000
+      "buy_sell_shares": -131592,
+      "buy_sell_lots": -131.59,
+      "buy_shares": 25408,
+      "sell_shares": 157000
     },
     {
-      "code": "2377",
-      "name": "微星",
-      "buy_sell_shares": -174000,
-      "buy_sell_lots": -174.0,
-      "buy_shares": 20000,
-      "sell_shares": 194000
+      "code": "6531",
+      "name": "愛普*",
+      "buy_sell_shares": -138000,
+      "buy_sell_lots": -138.0,
+      "buy_shares": 47000,
+      "sell_shares": 185000
+    },
+    {
+      "code": "5434",
+      "name": "崇越",
+      "buy_sell_shares": -141000,
+      "buy_sell_lots": -141.0,
+      "buy_shares": 0,
+      "sell_shares": 141000
+    },
+    {
+      "code": "2201",
+      "name": "裕隆",
+      "buy_sell_shares": -143000,
+      "buy_sell_lots": -143.0,
+      "buy_shares": 0,
+      "sell_shares": 143000
+    },
+    {
+      "code": "2449",
+      "name": "京元電子",
+      "buy_sell_shares": -146035,
+      "buy_sell_lots": -146.03,
+      "buy_shares": 864000,
+      "sell_shares": 1010035
     },
     {
       "code": "6442",
       "name": "光聖",
-      "buy_sell_shares": -175000,
-      "buy_sell_lots": -175.0,
+      "buy_sell_shares": -147000,
+      "buy_sell_lots": -147.0,
+      "buy_shares": 2000,
+      "sell_shares": 149000
+    },
+    {
+      "code": "2206",
+      "name": "三陽工業",
+      "buy_sell_shares": -150000,
+      "buy_sell_lots": -150.0,
       "buy_shares": 0,
-      "sell_shares": 175000
+      "sell_shares": 150000
+    },
+    {
+      "code": "1210",
+      "name": "大成",
+      "buy_sell_shares": -153000,
+      "buy_sell_lots": -153.0,
+      "buy_shares": 0,
+      "sell_shares": 153000
+    },
+    {
+      "code": "9921",
+      "name": "巨大",
+      "buy_sell_shares": -162000,
+      "buy_sell_lots": -162.0,
+      "buy_shares": 0,
+      "sell_shares": 162000
+    },
+    {
+      "code": "3706",
+      "name": "神達",
+      "buy_sell_shares": -163175,
+      "buy_sell_lots": -163.18,
+      "buy_shares": 1000,
+      "sell_shares": 164175
     },
     {
       "code": "6139",
       "name": "亞翔",
-      "buy_sell_shares": -214000,
-      "buy_sell_lots": -214.0,
+      "buy_sell_shares": -178000,
+      "buy_sell_lots": -178.0,
+      "buy_shares": 1000,
+      "sell_shares": 179000
+    },
+    {
+      "code": "6505",
+      "name": "台塑化",
+      "buy_sell_shares": -180461,
+      "buy_sell_lots": -180.46,
+      "buy_shares": 177000,
+      "sell_shares": 357461
+    },
+    {
+      "code": "6831",
+      "name": "邁科",
+      "buy_sell_shares": -190000,
+      "buy_sell_lots": -190.0,
       "buy_shares": 0,
-      "sell_shares": 214000
+      "sell_shares": 190000
+    },
+    {
+      "code": "1477",
+      "name": "聚陽",
+      "buy_sell_shares": -202003,
+      "buy_sell_lots": -202.0,
+      "buy_shares": 38174,
+      "sell_shares": 240177
+    },
+    {
+      "code": "2344",
+      "name": "華邦電",
+      "buy_sell_shares": -208886,
+      "buy_sell_lots": -208.89,
+      "buy_shares": 254114,
+      "sell_shares": 463000
+    },
+    {
+      "code": "8210",
+      "name": "勤誠",
+      "buy_sell_shares": -212000,
+      "buy_sell_lots": -212.0,
+      "buy_shares": 0,
+      "sell_shares": 212000
+    },
+    {
+      "code": "4938",
+      "name": "和碩",
+      "buy_sell_shares": -232060,
+      "buy_sell_lots": -232.06,
+      "buy_shares": 210000,
+      "sell_shares": 442060
+    },
+    {
+      "code": "6715",
+      "name": "嘉基",
+      "buy_sell_shares": -265000,
+      "buy_sell_lots": -265.0,
+      "buy_shares": 70000,
+      "sell_shares": 335000
+    },
+    {
+      "code": "1605",
+      "name": "華新",
+      "buy_sell_shares": -282327,
+      "buy_sell_lots": -282.33,
+      "buy_shares": 0,
+      "sell_shares": 282327
     },
     {
       "code": "2637",
       "name": "慧洋-KY",
-      "buy_sell_shares": -291000,
-      "buy_sell_lots": -291.0,
-      "buy_shares": 120000,
-      "sell_shares": 411000
+      "buy_sell_shares": -316279,
+      "buy_sell_lots": -316.28,
+      "buy_shares": 0,
+      "sell_shares": 316279
     },
     {
-      "code": "2357",
-      "name": "華碩",
-      "buy_sell_shares": -298000,
-      "buy_sell_lots": -298.0,
-      "buy_shares": 243000,
-      "sell_shares": 541000
+      "code": "2498",
+      "name": "宏達電",
+      "buy_sell_shares": -344000,
+      "buy_sell_lots": -344.0,
+      "buy_shares": 0,
+      "sell_shares": 344000
     },
     {
-      "code": "3661",
-      "name": "世芯-KY",
-      "buy_sell_shares": -363500,
-      "buy_sell_lots": -363.5,
-      "buy_shares": 5000,
-      "sell_shares": 368500
+      "code": "2371",
+      "name": "大同",
+      "buy_sell_shares": -385000,
+      "buy_sell_lots": -385.0,
+      "buy_shares": 0,
+      "sell_shares": 385000
+    },
+    {
+      "code": "4919",
+      "name": "新唐",
+      "buy_sell_shares": -391000,
+      "buy_sell_lots": -391.0,
+      "buy_shares": 0,
+      "sell_shares": 391000
+    },
+    {
+      "code": "4958",
+      "name": "臻鼎-KY",
+      "buy_sell_shares": -432397,
+      "buy_sell_lots": -432.4,
+      "buy_shares": 1350899,
+      "sell_shares": 1783296
+    },
+    {
+      "code": "2006",
+      "name": "東和鋼鐵",
+      "buy_sell_shares": -483257,
+      "buy_sell_lots": -483.26,
+      "buy_shares": 0,
+      "sell_shares": 483257
     },
     {
       "code": "2472",
@@ -3297,156 +3809,236 @@
       "sell_shares": 500000
     },
     {
-      "code": "2006",
-      "name": "東和鋼鐵",
-      "buy_sell_shares": -527000,
-      "buy_sell_lots": -527.0,
-      "buy_shares": 0,
-      "sell_shares": 527000
-    },
-    {
-      "code": "4958",
-      "name": "臻鼎-KY",
-      "buy_sell_shares": -542000,
-      "buy_sell_lots": -542.0,
-      "buy_shares": 68000,
-      "sell_shares": 610000
-    },
-    {
-      "code": "2412",
-      "name": "中華電",
-      "buy_sell_shares": -563000,
-      "buy_sell_lots": -563.0,
-      "buy_shares": 14000,
-      "sell_shares": 577000
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "buy_sell_shares": -580500,
-      "buy_sell_lots": -580.5,
-      "buy_shares": 191000,
-      "sell_shares": 771500
-    },
-    {
       "code": "6005",
       "name": "群益證",
-      "buy_sell_shares": -667000,
-      "buy_sell_lots": -667.0,
-      "buy_shares": 1000,
-      "sell_shares": 668000
+      "buy_sell_shares": -540321,
+      "buy_sell_lots": -540.32,
+      "buy_shares": 13679,
+      "sell_shares": 554000
     },
     {
-      "code": "6715",
-      "name": "嘉基",
-      "buy_sell_shares": -671000,
-      "buy_sell_lots": -671.0,
-      "buy_shares": 0,
-      "sell_shares": 671000
+      "code": "2317",
+      "name": "鴻海",
+      "buy_sell_shares": -544169,
+      "buy_sell_lots": -544.17,
+      "buy_shares": 751389,
+      "sell_shares": 1295558
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "buy_sell_shares": -560598,
+      "buy_sell_lots": -560.6,
+      "buy_shares": 432238,
+      "sell_shares": 992836
     },
     {
       "code": "2383",
       "name": "台光電",
-      "buy_sell_shares": -743000,
-      "buy_sell_lots": -743.0,
-      "buy_shares": 6000,
-      "sell_shares": 749000
-    },
-    {
-      "code": "8422",
-      "name": "可寧衛*",
-      "buy_sell_shares": -1015000,
-      "buy_sell_lots": -1015.0,
-      "buy_shares": 0,
-      "sell_shares": 1015000
-    },
-    {
-      "code": "3481",
-      "name": "群創",
-      "buy_sell_shares": -1204000,
-      "buy_sell_lots": -1204.0,
-      "buy_shares": 0,
-      "sell_shares": 1204000
-    },
-    {
-      "code": "2345",
-      "name": "智邦",
-      "buy_sell_shares": -1210000,
-      "buy_sell_lots": -1210.0,
-      "buy_shares": 145000,
-      "sell_shares": 1355000
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "buy_sell_shares": -1395000,
-      "buy_sell_lots": -1395.0,
-      "buy_shares": 76000,
-      "sell_shares": 1471000
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "buy_sell_shares": -1519000,
-      "buy_sell_lots": -1519.0,
-      "buy_shares": 323000,
-      "sell_shares": 1842000
-    },
-    {
-      "code": "2492",
-      "name": "華新科",
-      "buy_sell_shares": -1523000,
-      "buy_sell_lots": -1523.0,
-      "buy_shares": 1000,
-      "sell_shares": 1524000
-    },
-    {
-      "code": "8039",
-      "name": "台虹",
-      "buy_sell_shares": -1585000,
-      "buy_sell_lots": -1585.0,
-      "buy_shares": 7000,
-      "sell_shares": 1592000
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
-      "buy_sell_shares": -1737000,
-      "buy_sell_lots": -1737.0,
-      "buy_shares": 93000,
-      "sell_shares": 1830000
-    },
-    {
-      "code": "1402",
-      "name": "遠東新",
-      "buy_sell_shares": -1860000,
-      "buy_sell_lots": -1860.0,
-      "buy_shares": 0,
-      "sell_shares": 1860000
-    },
-    {
-      "code": "2880",
-      "name": "華南金",
-      "buy_sell_shares": -2023000,
-      "buy_sell_lots": -2023.0,
-      "buy_shares": 0,
-      "sell_shares": 2023000
+      "buy_sell_shares": -580397,
+      "buy_sell_lots": -580.4,
+      "buy_shares": 150796,
+      "sell_shares": 731193
     },
     {
       "code": "2883",
       "name": "凱基金",
-      "buy_sell_shares": -2270000,
-      "buy_sell_lots": -2270.0,
-      "buy_shares": 153000,
-      "sell_shares": 2423000
+      "buy_sell_shares": -633893,
+      "buy_sell_lots": -633.89,
+      "buy_shares": 829614,
+      "sell_shares": 1463507
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "buy_sell_shares": -670784,
+      "buy_sell_lots": -670.78,
+      "buy_shares": 244280,
+      "sell_shares": 915064
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "buy_sell_shares": -677007,
+      "buy_sell_lots": -677.01,
+      "buy_shares": 162993,
+      "sell_shares": 840000
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "buy_sell_shares": -786715,
+      "buy_sell_lots": -786.72,
+      "buy_shares": 19996,
+      "sell_shares": 806711
+    },
+    {
+      "code": "4904",
+      "name": "遠傳",
+      "buy_sell_shares": -882567,
+      "buy_sell_lots": -882.57,
+      "buy_shares": 193402,
+      "sell_shares": 1075969
+    },
+    {
+      "code": "2356",
+      "name": "英業達",
+      "buy_sell_shares": -885339,
+      "buy_sell_lots": -885.34,
+      "buy_shares": 201661,
+      "sell_shares": 1087000
+    },
+    {
+      "code": "8422",
+      "name": "可寧衛*",
+      "buy_sell_shares": -909000,
+      "buy_sell_lots": -909.0,
+      "buy_shares": 0,
+      "sell_shares": 909000
+    },
+    {
+      "code": "1216",
+      "name": "統一",
+      "buy_sell_shares": -960975,
+      "buy_sell_lots": -960.98,
+      "buy_shares": 142000,
+      "sell_shares": 1102975
+    },
+    {
+      "code": "2357",
+      "name": "華碩",
+      "buy_sell_shares": -977208,
+      "buy_sell_lots": -977.21,
+      "buy_shares": 15954,
+      "sell_shares": 993162
+    },
+    {
+      "code": "2890",
+      "name": "永豐金",
+      "buy_sell_shares": -992176,
+      "buy_sell_lots": -992.18,
+      "buy_shares": 654382,
+      "sell_shares": 1646558
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
+      "buy_sell_shares": -1115255,
+      "buy_sell_lots": -1115.26,
+      "buy_shares": 541000,
+      "sell_shares": 1656255
+    },
+    {
+      "code": "2412",
+      "name": "中華電",
+      "buy_sell_shares": -1132314,
+      "buy_sell_lots": -1132.31,
+      "buy_shares": 82233,
+      "sell_shares": 1214547
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "buy_sell_shares": -1613535,
+      "buy_sell_lots": -1613.54,
+      "buy_shares": 2680474,
+      "sell_shares": 4294009
+    },
+    {
+      "code": "3481",
+      "name": "群創",
+      "buy_sell_shares": -1832293,
+      "buy_sell_lots": -1832.29,
+      "buy_shares": 66154,
+      "sell_shares": 1898447
+    },
+    {
+      "code": "5880",
+      "name": "合庫金",
+      "buy_sell_shares": -1878809,
+      "buy_sell_lots": -1878.81,
+      "buy_shares": 71389,
+      "sell_shares": 1950198
+    },
+    {
+      "code": "1402",
+      "name": "遠東新",
+      "buy_sell_shares": -1913390,
+      "buy_sell_lots": -1913.39,
+      "buy_shares": 946610,
+      "sell_shares": 2860000
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "buy_sell_shares": -1921652,
+      "buy_sell_lots": -1921.65,
+      "buy_shares": 70742,
+      "sell_shares": 1992394
+    },
+    {
+      "code": "8039",
+      "name": "台虹",
+      "buy_sell_shares": -1991000,
+      "buy_sell_lots": -1991.0,
+      "buy_shares": 20000,
+      "sell_shares": 2011000
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "buy_sell_shares": -2126268,
+      "buy_sell_lots": -2126.27,
+      "buy_shares": 42000,
+      "sell_shares": 2168268
+    },
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "buy_sell_shares": -2448561,
+      "buy_sell_lots": -2448.56,
+      "buy_shares": 85773,
+      "sell_shares": 2534334
+    },
+    {
+      "code": "6239",
+      "name": "力成",
+      "buy_sell_shares": -2618835,
+      "buy_sell_lots": -2618.84,
+      "buy_shares": 151165,
+      "sell_shares": 2770000
+    },
+    {
+      "code": "2880",
+      "name": "華南金",
+      "buy_sell_shares": -4364791,
+      "buy_sell_lots": -4364.79,
+      "buy_shares": 1000,
+      "sell_shares": 4365791
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "buy_sell_shares": -5024975,
+      "buy_sell_lots": -5024.98,
+      "buy_shares": 4042068,
+      "sell_shares": 9067043
     },
     {
       "code": "2885",
       "name": "元大金",
-      "buy_sell_shares": -8334690,
-      "buy_sell_lots": -8334.69,
-      "buy_shares": 8000,
-      "sell_shares": 8342690
+      "buy_sell_shares": -5834995,
+      "buy_sell_lots": -5834.99,
+      "buy_shares": 178997,
+      "sell_shares": 6013992
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
+      "buy_sell_shares": -8530045,
+      "buy_sell_lots": -8530.05,
+      "buy_shares": 31358,
+      "sell_shares": 8561403
     }
   ]
 }
