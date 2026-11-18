@@ -1,200 +1,284 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "ranges": [
     "day"
   ],
   "investmentTrust": {
     "day": [
       {
-        "code": "1326",
-        "name": "台化",
-        "buySell": 12535.23,
-        "amount": 0
-      },
-      {
-        "code": "1301",
-        "name": "台塑",
-        "buySell": 12076.0,
-        "amount": 0
-      },
-      {
         "code": "2027",
         "name": "大成鋼",
-        "buySell": 11978.0,
+        "buySell": 13172.0,
         "amount": 0
       },
       {
         "code": "2891",
         "name": "中信金",
-        "buySell": 10266.0,
-        "amount": 0
-      },
-      {
-        "code": "2882",
-        "name": "國泰金",
-        "buySell": 7007.0,
-        "amount": 0
-      },
-      {
-        "code": "2881",
-        "name": "富邦金",
-        "buySell": 6823.0,
-        "amount": 0
-      },
-      {
-        "code": "1216",
-        "name": "統一",
-        "buySell": 5265.0,
-        "amount": 0
-      },
-      {
-        "code": "0050",
-        "name": "元大台灣50",
-        "buySell": 3165.0,
-        "amount": 0
-      },
-      {
-        "code": "5876",
-        "name": "上海商銀",
-        "buySell": 2862.0,
-        "amount": 0
-      },
-      {
-        "code": "2603",
-        "name": "長榮",
-        "buySell": 2601.7,
-        "amount": 0
-      },
-      {
-        "code": "2330",
-        "name": "台積電",
-        "buySell": 2275.37,
+        "buySell": 7514.0,
         "amount": 0
       },
       {
         "code": "2409",
         "name": "友達",
-        "buySell": 1633.17,
+        "buySell": 6343.67,
         "amount": 0
       },
       {
-        "code": "8112",
-        "name": "至上",
-        "buySell": 1319.35,
+        "code": "3481",
+        "name": "群創",
+        "buySell": 6234.19,
+        "amount": 0
+      },
+      {
+        "code": "2882",
+        "name": "國泰金",
+        "buySell": 6202.0,
         "amount": 0
       },
       {
         "code": "2382",
         "name": "廣達",
-        "buySell": 1309.58,
+        "buySell": 5807.95,
         "amount": 0
       },
       {
-        "code": "2618",
-        "name": "長榮航",
-        "buySell": 1255.0,
+        "code": "1326",
+        "name": "台化",
+        "buySell": 5103.0,
         "amount": 0
       },
       {
-        "code": "1802",
-        "name": "台玻",
-        "buySell": 1201.0,
-        "amount": 0
-      },
-      {
-        "code": "2451",
-        "name": "創見",
-        "buySell": 1143.8,
-        "amount": 0
-      },
-      {
-        "code": "1476",
-        "name": "儒鴻",
-        "buySell": 1061.0,
-        "amount": 0
-      },
-      {
-        "code": "00410A",
-        "name": "主動永豐科技趨勢",
-        "buySell": 1039.0,
-        "amount": 0
-      },
-      {
-        "code": "2610",
-        "name": "華航",
-        "buySell": 939.0,
-        "amount": 0
-      },
-      {
-        "code": "2317",
-        "name": "鴻海",
-        "buySell": 866.47,
-        "amount": 0
-      },
-      {
-        "code": "3036",
-        "name": "文曄",
-        "buySell": 832.0,
-        "amount": 0
-      },
-      {
-        "code": "2474",
-        "name": "可成",
-        "buySell": 805.47,
-        "amount": 0
-      },
-      {
-        "code": "6415",
-        "name": "矽力*-KY",
-        "buySell": 651.0,
-        "amount": 0
-      },
-      {
-        "code": "2454",
-        "name": "聯發科",
-        "buySell": 635.19,
-        "amount": 0
-      },
-      {
-        "code": "00980A",
-        "name": "主動野村臺灣優選",
-        "buySell": 504.0,
-        "amount": 0
-      },
-      {
-        "code": "2354",
-        "name": "鴻準",
-        "buySell": 500.0,
-        "amount": 0
-      },
-      {
-        "code": "3030",
-        "name": "德律",
-        "buySell": 465.5,
+        "code": "0050",
+        "name": "元大台灣50",
+        "buySell": 5008.0,
         "amount": 0
       },
       {
         "code": "3231",
         "name": "緯創",
-        "buySell": 435.15,
+        "buySell": 4844.97,
         "amount": 0
       },
       {
-        "code": "2345",
-        "name": "智邦",
-        "buySell": 415.46,
+        "code": "6505",
+        "name": "台塑化",
+        "buySell": 4175.0,
+        "amount": 0
+      },
+      {
+        "code": "1301",
+        "name": "台塑",
+        "buySell": 4141.0,
+        "amount": 0
+      },
+      {
+        "code": "5876",
+        "name": "上海商銀",
+        "buySell": 3991.0,
+        "amount": 0
+      },
+      {
+        "code": "3711",
+        "name": "日月光投控",
+        "buySell": 3972.83,
+        "amount": 0
+      },
+      {
+        "code": "2881",
+        "name": "富邦金",
+        "buySell": 3847.0,
+        "amount": 0
+      },
+      {
+        "code": "00980A",
+        "name": "主動野村臺灣優選",
+        "buySell": 3411.0,
+        "amount": 0
+      },
+      {
+        "code": "2330",
+        "name": "台積電",
+        "buySell": 3383.13,
+        "amount": 0
+      },
+      {
+        "code": "2610",
+        "name": "華航",
+        "buySell": 2665.0,
+        "amount": 0
+      },
+      {
+        "code": "2441",
+        "name": "超豐",
+        "buySell": 1684.0,
+        "amount": 0
+      },
+      {
+        "code": "4904",
+        "name": "遠傳",
+        "buySell": 1654.0,
+        "amount": 0
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "buySell": 1402.56,
+        "amount": 0
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "buySell": 1298.07,
+        "amount": 0
+      },
+      {
+        "code": "2451",
+        "name": "創見",
+        "buySell": 1286.0,
+        "amount": 0
+      },
+      {
+        "code": "3028",
+        "name": "增你強",
+        "buySell": 1214.0,
+        "amount": 0
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "buySell": 1051.0,
+        "amount": 0
+      },
+      {
+        "code": "00631L",
+        "name": "元大台灣50正2",
+        "buySell": 1020.0,
+        "amount": 0
+      },
+      {
+        "code": "2368",
+        "name": "金像電",
+        "buySell": 958.1,
+        "amount": 0
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "buySell": 887.2,
+        "amount": 0
+      },
+      {
+        "code": "1513",
+        "name": "中興電",
+        "buySell": 864.43,
+        "amount": 0
+      },
+      {
+        "code": "3702",
+        "name": "大聯大",
+        "buySell": 819.1,
+        "amount": 0
+      },
+      {
+        "code": "1476",
+        "name": "儒鴻",
+        "buySell": 805.0,
+        "amount": 0
+      },
+      {
+        "code": "2354",
+        "name": "鴻準",
+        "buySell": 799.0,
+        "amount": 0
+      },
+      {
+        "code": "2474",
+        "name": "可成",
+        "buySell": 739.69,
+        "amount": 0
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "buySell": 669.0,
+        "amount": 0
+      },
+      {
+        "code": "8016",
+        "name": "矽創",
+        "buySell": 667.0,
+        "amount": 0
+      },
+      {
+        "code": "4938",
+        "name": "和碩",
+        "buySell": 664.65,
         "amount": 0
       },
       {
         "code": "2312",
         "name": "金寶",
-        "buySell": 401.0,
+        "buySell": 607.0,
+        "amount": 0
+      },
+      {
+        "code": "5522",
+        "name": "遠雄",
+        "buySell": 606.51,
+        "amount": 0
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "buySell": 595.0,
+        "amount": 0
+      },
+      {
+        "code": "1216",
+        "name": "統一",
+        "buySell": 567.0,
+        "amount": 0
+      },
+      {
+        "code": "3030",
+        "name": "德律",
+        "buySell": 511.0,
+        "amount": 0
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "buySell": 511.0,
+        "amount": 0
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "buySell": 484.0,
+        "amount": 0
+      },
+      {
+        "code": "8996",
+        "name": "高力",
+        "buySell": 478.28,
         "amount": 0
       },
       {
         "code": "6691",
         "name": "洋基工程",
-        "buySell": 363.0,
+        "buySell": 444.0,
+        "amount": 0
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "buySell": 407.47,
+        "amount": 0
+      },
+      {
+        "code": "0056",
+        "name": "元大高股息",
+        "buySell": 370.0,
         "amount": 0
       },
       {
@@ -204,357 +288,393 @@
         "amount": 0
       },
       {
-        "code": "6531",
-        "name": "愛普*",
-        "buySell": 331.4,
+        "code": "2454",
+        "name": "聯發科",
+        "buySell": 338.01,
         "amount": 0
       },
       {
-        "code": "2352",
-        "name": "佳世達",
-        "buySell": 308.0,
+        "code": "3406",
+        "name": "玉晶光",
+        "buySell": 338.0,
         "amount": 0
       },
       {
-        "code": "0056",
-        "name": "元大高股息",
-        "buySell": 300.0,
+        "code": "2351",
+        "name": "順德",
+        "buySell": 320.0,
         "amount": 0
       },
       {
-        "code": "3023",
-        "name": "信邦",
-        "buySell": 291.0,
-        "amount": 0
-      },
-      {
-        "code": "3711",
-        "name": "日月光投控",
-        "buySell": 257.18,
+        "code": "2412",
+        "name": "中華電",
+        "buySell": 311.0,
         "amount": 0
       },
       {
         "code": "3661",
         "name": "世芯-KY",
-        "buySell": 239.0,
-        "amount": 0
-      },
-      {
-        "code": "6139",
-        "name": "亞翔",
-        "buySell": 235.19,
-        "amount": 0
-      },
-      {
-        "code": "6005",
-        "name": "群益證",
-        "buySell": 234.0,
-        "amount": 0
-      },
-      {
-        "code": "2915",
-        "name": "潤泰全",
-        "buySell": 221.0,
-        "amount": 0
-      },
-      {
-        "code": "2855",
-        "name": "統一證",
-        "buySell": 214.2,
-        "amount": 0
-      },
-      {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "buySell": 209.0,
-        "amount": 0
-      },
-      {
-        "code": "1513",
-        "name": "中興電",
-        "buySell": 200.03,
-        "amount": 0
-      },
-      {
-        "code": "2368",
-        "name": "金像電",
-        "buySell": 197.56,
-        "amount": 0
-      },
-      {
-        "code": "5522",
-        "name": "遠雄",
-        "buySell": 185.79,
-        "amount": 0
-      },
-      {
-        "code": "3044",
-        "name": "健鼎",
-        "buySell": 170.0,
-        "amount": 0
-      },
-      {
-        "code": "5434",
-        "name": "崇越",
-        "buySell": 160.17,
-        "amount": 0
-      },
-      {
-        "code": "5388",
-        "name": "中磊",
-        "buySell": 149.01,
-        "amount": 0
-      },
-      {
-        "code": "2376",
-        "name": "技嘉",
-        "buySell": 148.0,
-        "amount": 0
-      },
-      {
-        "code": "6257",
-        "name": "矽格",
-        "buySell": 147.28,
-        "amount": 0
-      },
-      {
-        "code": "4904",
-        "name": "遠傳",
-        "buySell": 145.8,
-        "amount": 0
-      },
-      {
-        "code": "2912",
-        "name": "統一超",
-        "buySell": 144.0,
-        "amount": 0
-      },
-      {
-        "code": "00935",
-        "name": "野村臺灣新科技50",
-        "buySell": 142.0,
-        "amount": 0
-      },
-      {
-        "code": "2421",
-        "name": "建準",
-        "buySell": 139.0,
-        "amount": 0
-      },
-      {
-        "code": "7722",
-        "name": "LINEPAY",
-        "buySell": 137.0,
-        "amount": 0
-      },
-      {
-        "code": "4763",
-        "name": "材料*-KY",
-        "buySell": 136.0,
-        "amount": 0
-      },
-      {
-        "code": "2301",
-        "name": "光寶科",
-        "buySell": 135.76,
-        "amount": 0
-      },
-      {
-        "code": "6409",
-        "name": "旭隼",
-        "buySell": 131.52,
-        "amount": 0
-      },
-      {
-        "code": "6176",
-        "name": "瑞儀",
-        "buySell": 129.54,
-        "amount": 0
-      },
-      {
-        "code": "00646",
-        "name": "元大S&P500",
-        "buySell": 120.0,
-        "amount": 0
-      },
-      {
-        "code": "5880",
-        "name": "合庫金",
-        "buySell": 116.0,
-        "amount": 0
-      },
-      {
-        "code": "4739",
-        "name": "康普",
-        "buySell": 116.0,
-        "amount": 0
-      },
-      {
-        "code": "3042",
-        "name": "晶技",
-        "buySell": 110.0,
-        "amount": 0
-      },
-      {
-        "code": "3189",
-        "name": "景碩",
-        "buySell": 107.4,
+        "buySell": 309.0,
         "amount": 0
       },
       {
         "code": "1503",
         "name": "士電",
-        "buySell": 96.47,
+        "buySell": 301.04,
         "amount": 0
       },
       {
-        "code": "1477",
-        "name": "聚陽",
-        "buySell": 90.94,
-        "amount": 0
-      },
-      {
-        "code": "2880",
-        "name": "華南金",
-        "buySell": 90.0,
-        "amount": 0
-      },
-      {
-        "code": "1504",
-        "name": "東元",
-        "buySell": 87.27,
-        "amount": 0
-      },
-      {
-        "code": "00713",
-        "name": "元大台灣高息低波",
-        "buySell": 87.0,
+        "code": "6285",
+        "name": "啟碁",
+        "buySell": 290.2,
         "amount": 0
       },
       {
         "code": "1519",
         "name": "華城",
-        "buySell": 85.14,
+        "buySell": 285.81,
         "amount": 0
       },
       {
-        "code": "2385",
-        "name": "群光",
-        "buySell": 84.86,
+        "code": "2345",
+        "name": "智邦",
+        "buySell": 275.53,
         "amount": 0
       },
       {
-        "code": "6214",
-        "name": "精誠",
-        "buySell": 77.04,
+        "code": "5880",
+        "name": "合庫金",
+        "buySell": 274.0,
         "amount": 0
       },
       {
-        "code": "6239",
-        "name": "力成",
-        "buySell": 73.01,
+        "code": "3023",
+        "name": "信邦",
+        "buySell": 267.0,
         "amount": 0
       },
       {
-        "code": "3005",
-        "name": "神基",
-        "buySell": 71.28,
+        "code": "009803",
+        "name": "玉山市值動能50",
+        "buySell": 250.0,
         "amount": 0
       },
       {
-        "code": "2337",
-        "name": "旺宏",
-        "buySell": 70.0,
+        "code": "2880",
+        "name": "華南金",
+        "buySell": 250.0,
         "amount": 0
       },
       {
-        "code": "6282",
-        "name": "康舒",
-        "buySell": 69.0,
+        "code": "2492",
+        "name": "華新科",
+        "buySell": 248.0,
         "amount": 0
       },
       {
-        "code": "6414",
-        "name": "樺漢",
-        "buySell": 65.0,
+        "code": "6526",
+        "name": "達發",
+        "buySell": 232.0,
         "amount": 0
       },
       {
-        "code": "3045",
-        "name": "台灣大",
-        "buySell": 60.58,
+        "code": "6139",
+        "name": "亞翔",
+        "buySell": 231.51,
         "amount": 0
       },
       {
-        "code": "2379",
-        "name": "瑞昱",
-        "buySell": 57.87,
+        "code": "6005",
+        "name": "群益證",
+        "buySell": 231.0,
         "amount": 0
       },
       {
-        "code": "6277",
-        "name": "宏正",
-        "buySell": 57.1,
+        "code": "1723",
+        "name": "中碳",
+        "buySell": 229.0,
         "amount": 0
       },
       {
-        "code": "3029",
-        "name": "零壹",
-        "buySell": 53.98,
+        "code": "2915",
+        "name": "潤泰全",
+        "buySell": 228.0,
+        "amount": 0
+      },
+      {
+        "code": "4739",
+        "name": "康普",
+        "buySell": 200.0,
+        "amount": 0
+      },
+      {
+        "code": "2890",
+        "name": "永豐金",
+        "buySell": 192.0,
+        "amount": 0
+      },
+      {
+        "code": "00935",
+        "name": "野村臺灣新科技50",
+        "buySell": 174.0,
+        "amount": 0
+      },
+      {
+        "code": "2912",
+        "name": "統一超",
+        "buySell": 160.0,
         "amount": 0
       },
       {
         "code": "6446",
         "name": "藥華藥",
-        "buySell": 49.0,
+        "buySell": 155.0,
         "amount": 0
       },
       {
-        "code": "6805",
-        "name": "富世達",
-        "buySell": 47.0,
+        "code": "5388",
+        "name": "中磊",
+        "buySell": 150.0,
+        "amount": 0
+      },
+      {
+        "code": "00965",
+        "name": "元大航太防衛科技",
+        "buySell": 150.0,
         "amount": 0
       },
       {
         "code": "3015",
         "name": "全漢",
-        "buySell": 46.13,
+        "buySell": 147.0,
+        "amount": 0
+      },
+      {
+        "code": "4763",
+        "name": "材料*-KY",
+        "buySell": 143.0,
+        "amount": 0
+      },
+      {
+        "code": "2421",
+        "name": "建準",
+        "buySell": 134.0,
+        "amount": 0
+      },
+      {
+        "code": "6271",
+        "name": "同欣電",
+        "buySell": 133.0,
+        "amount": 0
+      },
+      {
+        "code": "6176",
+        "name": "瑞儀",
+        "buySell": 130.0,
         "amount": 0
       },
       {
         "code": "3708",
         "name": "上緯投控",
-        "buySell": 40.0,
+        "buySell": 130.0,
         "amount": 0
       },
       {
-        "code": "2441",
-        "name": "超豐",
-        "buySell": 40.0,
+        "code": "2467",
+        "name": "志聖",
+        "buySell": 129.0,
         "amount": 0
       },
       {
-        "code": "4967",
-        "name": "十銓",
-        "buySell": 38.6,
+        "code": "7788",
+        "name": "松川精密",
+        "buySell": 128.0,
         "amount": 0
       },
       {
-        "code": "2363",
-        "name": "矽統",
-        "buySell": 36.0,
+        "code": "2455",
+        "name": "全新",
+        "buySell": 124.1,
         "amount": 0
       },
       {
-        "code": "3443",
-        "name": "創意",
-        "buySell": 34.96,
+        "code": "2337",
+        "name": "旺宏",
+        "buySell": 124.0,
+        "amount": 0
+      },
+      {
+        "code": "3450",
+        "name": "聯鈞",
+        "buySell": 122.0,
+        "amount": 0
+      },
+      {
+        "code": "6805",
+        "name": "富世達",
+        "buySell": 105.0,
+        "amount": 0
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "buySell": 104.0,
+        "amount": 0
+      },
+      {
+        "code": "5234",
+        "name": "達興材料",
+        "buySell": 103.0,
+        "amount": 0
+      },
+      {
+        "code": "2385",
+        "name": "群光",
+        "buySell": 100.0,
+        "amount": 0
+      },
+      {
+        "code": "00713",
+        "name": "元大台灣高息低波",
+        "buySell": 100.0,
+        "amount": 0
+      },
+      {
+        "code": "0052",
+        "name": "富邦科技",
+        "buySell": 100.0,
+        "amount": 0
+      },
+      {
+        "code": "2606",
+        "name": "裕民",
+        "buySell": 97.0,
+        "amount": 0
+      },
+      {
+        "code": "5871",
+        "name": "中租-KY",
+        "buySell": 92.0,
+        "amount": 0
+      },
+      {
+        "code": "2404",
+        "name": "漢唐",
+        "buySell": 82.55,
+        "amount": 0
+      },
+      {
+        "code": "3005",
+        "name": "神基",
+        "buySell": 82.55,
+        "amount": 0
+      },
+      {
+        "code": "6414",
+        "name": "樺漢",
+        "buySell": 82.0,
+        "amount": 0
+      },
+      {
+        "code": "6282",
+        "name": "康舒",
+        "buySell": 75.0,
+        "amount": 0
+      },
+      {
+        "code": "1477",
+        "name": "聚陽",
+        "buySell": 74.59,
+        "amount": 0
+      },
+      {
+        "code": "6277",
+        "name": "宏正",
+        "buySell": 60.0,
+        "amount": 0
+      },
+      {
+        "code": "6873",
+        "name": "泓德能源",
+        "buySell": 60.0,
+        "amount": 0
+      },
+      {
+        "code": "3029",
+        "name": "零壹",
+        "buySell": 60.0,
+        "amount": 0
+      },
+      {
+        "code": "00646",
+        "name": "元大S&P500",
+        "buySell": 60.0,
+        "amount": 0
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "buySell": 54.28,
+        "amount": 0
+      },
+      {
+        "code": "1560",
+        "name": "中砂",
+        "buySell": 50.0,
+        "amount": 0
+      },
+      {
+        "code": "2324",
+        "name": "仁寶",
+        "buySell": 48.0,
         "amount": 0
       },
       {
         "code": "2637",
         "name": "慧洋-KY",
+        "buySell": 45.0,
+        "amount": 0
+      },
+      {
+        "code": "7722",
+        "name": "LINEPAY",
+        "buySell": 44.0,
+        "amount": 0
+      },
+      {
+        "code": "4967",
+        "name": "十銓",
+        "buySell": 42.0,
+        "amount": 0
+      },
+      {
+        "code": "2323",
+        "name": "中環",
+        "buySell": 41.0,
+        "amount": 0
+      },
+      {
+        "code": "2363",
+        "name": "矽統",
+        "buySell": 41.0,
+        "amount": 0
+      },
+      {
+        "code": "3042",
+        "name": "晶技",
+        "buySell": 38.0,
+        "amount": 0
+      },
+      {
+        "code": "3006",
+        "name": "晶豪科",
         "buySell": 34.0,
+        "amount": 0
+      },
+      {
+        "code": "9907",
+        "name": "統一實",
+        "buySell": 33.28,
         "amount": 0
       },
       {
@@ -564,39 +684,69 @@
         "amount": 0
       },
       {
-        "code": "6873",
-        "name": "泓德能源",
+        "code": "6214",
+        "name": "精誠",
+        "buySell": 33.0,
+        "amount": 0
+      },
+      {
+        "code": "1504",
+        "name": "東元",
+        "buySell": 31.12,
+        "amount": 0
+      },
+      {
+        "code": "2439",
+        "name": "美律",
         "buySell": 30.0,
         "amount": 0
       },
       {
-        "code": "4961",
-        "name": "天鈺",
-        "buySell": 30.0,
+        "code": "6239",
+        "name": "力成",
+        "buySell": 28.0,
         "amount": 0
       },
       {
         "code": "2504",
         "name": "國產",
-        "buySell": 24.75,
+        "buySell": 27.47,
         "amount": 0
       },
       {
-        "code": "1723",
-        "name": "中碳",
-        "buySell": 23.0,
+        "code": "6770",
+        "name": "力積電",
+        "buySell": 25.67,
         "amount": 0
       },
       {
         "code": "2547",
         "name": "日勝生",
-        "buySell": 22.66,
+        "buySell": 25.06,
         "amount": 0
       },
       {
-        "code": "3006",
-        "name": "晶豪科",
-        "buySell": 21.0,
+        "code": "3035",
+        "name": "智原",
+        "buySell": 22.0,
+        "amount": 0
+      },
+      {
+        "code": "2436",
+        "name": "偉詮電",
+        "buySell": 22.0,
+        "amount": 0
+      },
+      {
+        "code": "1709",
+        "name": "和益",
+        "buySell": 20.0,
+        "amount": 0
+      },
+      {
+        "code": "1514",
+        "name": "亞力",
+        "buySell": 20.0,
         "amount": 0
       },
       {
@@ -606,45 +756,9 @@
         "amount": 0
       },
       {
-        "code": "2645",
-        "name": "長榮航太",
+        "code": "8112",
+        "name": "至上",
         "buySell": 20.0,
-        "amount": 0
-      },
-      {
-        "code": "6526",
-        "name": "達發",
-        "buySell": 20.0,
-        "amount": 0
-      },
-      {
-        "code": "2436",
-        "name": "偉詮電",
-        "buySell": 20.0,
-        "amount": 0
-      },
-      {
-        "code": "8213",
-        "name": "志超",
-        "buySell": 19.6,
-        "amount": 0
-      },
-      {
-        "code": "2439",
-        "name": "美律",
-        "buySell": 19.32,
-        "amount": 0
-      },
-      {
-        "code": "8016",
-        "name": "矽創",
-        "buySell": 18.57,
-        "amount": 0
-      },
-      {
-        "code": "2480",
-        "name": "敦陽科",
-        "buySell": 18.13,
         "amount": 0
       },
       {
@@ -654,476 +768,290 @@
         "amount": 0
       },
       {
-        "code": "3035",
-        "name": "智原",
-        "buySell": 18.0,
+        "code": "2542",
+        "name": "興富發",
+        "buySell": 17.1,
         "amount": 0
       },
       {
-        "code": "6770",
-        "name": "力積電",
-        "buySell": 17.14,
-        "amount": 0
-      },
-      {
-        "code": "8210",
-        "name": "勤誠",
-        "buySell": 15.0,
-        "amount": 0
-      },
-      {
-        "code": "5234",
-        "name": "達興材料",
-        "buySell": 15.0,
-        "amount": 0
-      },
-      {
-        "code": "3533",
-        "name": "嘉澤",
-        "buySell": 14.25,
+        "code": "2855",
+        "name": "統一證",
+        "buySell": 16.0,
         "amount": 0
       },
       {
         "code": "2530",
         "name": "華建",
-        "buySell": 13.75,
+        "buySell": 15.31,
         "amount": 0
       },
       {
-        "code": "6177",
-        "name": "達麗",
-        "buySell": 13.47,
+        "code": "2379",
+        "name": "瑞昱",
+        "buySell": 15.03,
         "amount": 0
       },
       {
-        "code": "2542",
-        "name": "興富發",
-        "buySell": 12.5,
-        "amount": 0
-      },
-      {
-        "code": "1514",
-        "name": "亞力",
-        "buySell": 10.0,
+        "code": "3533",
+        "name": "嘉澤",
+        "buySell": 13.0,
         "amount": 0
       },
       {
         "code": "6670",
         "name": "復盛應用",
-        "buySell": 10.0,
+        "buySell": 13.0,
         "amount": 0
       },
       {
         "code": "2903",
         "name": "遠百",
-        "buySell": 10.0,
+        "buySell": 13.0,
+        "amount": 0
+      },
+      {
+        "code": "9938",
+        "name": "百和",
+        "buySell": 12.52,
+        "amount": 0
+      },
+      {
+        "code": "2204",
+        "name": "中華",
+        "buySell": 11.59,
         "amount": 0
       },
       {
         "code": "2528",
         "name": "皇普",
-        "buySell": 9.28,
+        "buySell": 11.26,
         "amount": 0
       },
       {
-        "code": "4766",
-        "name": "南寶",
-        "buySell": 9.0,
+        "code": "4532",
+        "name": "瑞智",
+        "buySell": 11.23,
         "amount": 0
       },
       {
-        "code": "2889",
-        "name": "國票金",
-        "buySell": 9.0,
+        "code": "6177",
+        "name": "達麗",
+        "buySell": 10.79,
         "amount": 0
       },
       {
-        "code": "1712",
-        "name": "興農",
-        "buySell": 8.94,
+        "code": "8210",
+        "name": "勤誠",
+        "buySell": 10.0,
         "amount": 0
       },
       {
         "code": "1210",
         "name": "大成",
+        "buySell": 10.0,
+        "amount": 0
+      },
+      {
+        "code": "2480",
+        "name": "敦陽科",
+        "buySell": 10.0,
+        "amount": 0
+      },
+      {
+        "code": "1712",
+        "name": "興農",
+        "buySell": 9.99,
+        "amount": 0
+      },
+      {
+        "code": "2493",
+        "name": "揚博",
+        "buySell": 9.0,
+        "amount": 0
+      },
+      {
+        "code": "6672",
+        "name": "騰輝電子-KY",
         "buySell": 8.0,
         "amount": 0
       },
       {
-        "code": "2331",
-        "name": "精英",
+        "code": "4766",
+        "name": "南寶",
         "buySell": 8.0,
         "amount": 0
       },
       {
-        "code": "00850",
-        "name": "元大臺灣ESG永續",
-        "buySell": 8.0,
+        "code": "2387",
+        "name": "精元",
+        "buySell": 7.79,
         "amount": 0
       },
       {
-        "code": "2489",
-        "name": "瑞軒",
-        "buySell": 6.1,
+        "code": "9945",
+        "name": "潤泰新",
+        "buySell": 7.0,
         "amount": 0
       },
       {
-        "code": "6196",
-        "name": "帆宣",
-        "buySell": 6.02,
+        "code": "2006",
+        "name": "東和鋼鐵",
+        "buySell": 7.0,
         "amount": 0
       },
       {
-        "code": "8021",
-        "name": "尖點",
+        "code": "6531",
+        "name": "愛普*",
+        "buySell": 6.31,
+        "amount": 0
+      },
+      {
+        "code": "2634",
+        "name": "漢翔",
         "buySell": 6.0,
         "amount": 0
       },
       {
-        "code": "7750",
-        "name": "新代",
+        "code": "2464",
+        "name": "盟立",
         "buySell": 6.0,
         "amount": 0
       },
       {
         "code": "9910",
         "name": "豐泰",
-        "buySell": 6.0,
-        "amount": 0
-      },
-      {
-        "code": "9945",
-        "name": "潤泰新",
-        "buySell": 6.0,
-        "amount": 0
-      },
-      {
-        "code": "9907",
-        "name": "統一實",
-        "buySell": 5.19,
-        "amount": 0
-      },
-      {
-        "code": "2369",
-        "name": "菱生",
         "buySell": 5.0,
-        "amount": 0
-      },
-      {
-        "code": "3062",
-        "name": "建漢",
-        "buySell": 5.0,
-        "amount": 0
-      },
-      {
-        "code": "3059",
-        "name": "華晶科",
-        "buySell": 5.0,
-        "amount": 0
-      },
-      {
-        "code": "4906",
-        "name": "正文",
-        "buySell": 5.0,
-        "amount": 0
-      },
-      {
-        "code": "2338",
-        "name": "光罩",
-        "buySell": 5.0,
-        "amount": 0
-      },
-      {
-        "code": "2204",
-        "name": "中華",
-        "buySell": 4.48,
-        "amount": 0
-      },
-      {
-        "code": "9938",
-        "name": "百和",
-        "buySell": 4.33,
-        "amount": 0
-      },
-      {
-        "code": "2329",
-        "name": "華泰",
-        "buySell": 4.0,
-        "amount": 0
-      },
-      {
-        "code": "2402",
-        "name": "毅嘉",
-        "buySell": 4.0,
-        "amount": 0
-      },
-      {
-        "code": "2450",
-        "name": "神腦",
-        "buySell": 4.0,
-        "amount": 0
-      },
-      {
-        "code": "8163",
-        "name": "達方",
-        "buySell": 4.0,
-        "amount": 0
-      },
-      {
-        "code": "2367",
-        "name": "燿華",
-        "buySell": 4.0,
-        "amount": 0
-      },
-      {
-        "code": "2897",
-        "name": "王道銀行",
-        "buySell": 4.0,
         "amount": 0
       },
       {
         "code": "2832",
         "name": "台產",
-        "buySell": 3.96,
+        "buySell": 4.37,
         "amount": 0
       },
       {
         "code": "9935",
         "name": "慶豐富",
-        "buySell": 3.78,
-        "amount": 0
-      },
-      {
-        "code": "6743",
-        "name": "安普新",
-        "buySell": 3.27,
-        "amount": 0
-      },
-      {
-        "code": "2477",
-        "name": "美隆電",
-        "buySell": 3.07,
-        "amount": 0
-      },
-      {
-        "code": "2498",
-        "name": "宏達電",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "3048",
-        "name": "益登",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2395",
-        "name": "研華",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2373",
-        "name": "震旦行",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "8110",
-        "name": "華東",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "6115",
-        "name": "鎰勝",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2362",
-        "name": "藍天",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2324",
-        "name": "仁寶",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2845",
-        "name": "遠東銀",
-        "buySell": 3.0,
-        "amount": 0
-      },
-      {
-        "code": "2548",
-        "name": "華固",
-        "buySell": 2.1,
-        "amount": 0
-      },
-      {
-        "code": "3715",
-        "name": "定穎投控",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "2476",
-        "name": "鉅祥",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "5269",
-        "name": "祥碩",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "1582",
-        "name": "信錦",
-        "buySell": 2.0,
+        "buySell": 4.18,
         "amount": 0
       },
       {
         "code": "6789",
         "name": "采鈺",
-        "buySell": 2.0,
+        "buySell": 4.0,
         "amount": 0
       },
       {
-        "code": "2478",
-        "name": "大毅",
-        "buySell": 2.0,
+        "code": "6515",
+        "name": "穎崴",
+        "buySell": 4.0,
         "amount": 0
       },
       {
-        "code": "6183",
-        "name": "關貿",
-        "buySell": 2.0,
+        "code": "6743",
+        "name": "安普新",
+        "buySell": 3.62,
         "amount": 0
       },
       {
-        "code": "6579",
-        "name": "研揚",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "4942",
-        "name": "嘉彰",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "5471",
-        "name": "松翰",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "2459",
-        "name": "敦吉",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "6281",
-        "name": "全國電",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "3003",
-        "name": "健和興",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "8131",
-        "name": "福懋科",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "2397",
-        "name": "友通",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "3019",
-        "name": "亞光",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "6191",
-        "name": "精成科",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "6456",
-        "name": "GIS-KY",
-        "buySell": 2.0,
-        "amount": 0
-      },
-      {
-        "code": "4137",
-        "name": "麗豐-KY",
-        "buySell": 1.84,
-        "amount": 0
-      },
-      {
-        "code": "8442",
-        "name": "威宏-KY",
-        "buySell": 1.07,
-        "amount": 0
-      },
-      {
-        "code": "2374",
-        "name": "佳能",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "3090",
-        "name": "日電貿",
-        "buySell": 1.0,
+        "code": "2477",
+        "name": "美隆電",
+        "buySell": 3.4,
         "amount": 0
       },
       {
         "code": "6197",
         "name": "佳必琪",
+        "buySell": 3.0,
+        "amount": 0
+      },
+      {
+        "code": "7750",
+        "name": "新代",
+        "buySell": 3.0,
+        "amount": 0
+      },
+      {
+        "code": "2353",
+        "name": "宏碁",
+        "buySell": 3.0,
+        "amount": 0
+      },
+      {
+        "code": "2105",
+        "name": "正新",
+        "buySell": 2.82,
+        "amount": 0
+      },
+      {
+        "code": "4137",
+        "name": "麗豐-KY",
+        "buySell": 2.03,
+        "amount": 0
+      },
+      {
+        "code": "2753",
+        "name": "八方雲集",
+        "buySell": 2.0,
+        "amount": 0
+      },
+      {
+        "code": "6957",
+        "name": "裕慶-KY",
+        "buySell": 2.0,
+        "amount": 0
+      },
+      {
+        "code": "8442",
+        "name": "威宏-KY",
+        "buySell": 1.18,
+        "amount": 0
+      },
+      {
+        "code": "1717",
+        "name": "長興",
+        "buySell": 1.1,
+        "amount": 0
+      },
+      {
+        "code": "6605",
+        "name": "帝寶",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "3016",
-        "name": "嘉晶",
+        "code": "6191",
+        "name": "精成科",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "2375",
-        "name": "凱美",
+        "code": "2101",
+        "name": "南港",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "6756",
-        "name": "威鋒電子",
+        "code": "2539",
+        "name": "櫻花建",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "6166",
-        "name": "凌華",
+        "code": "4961",
+        "name": "天鈺",
+        "buySell": 1.0,
+        "amount": 0
+      },
+      {
+        "code": "8454",
+        "name": "富邦媒",
+        "buySell": 1.0,
+        "amount": 0
+      },
+      {
+        "code": "9911",
+        "name": "櫻花",
         "buySell": 1.0,
         "amount": 0
       },
@@ -1134,146 +1062,74 @@
         "amount": 0
       },
       {
-        "code": "3376",
-        "name": "新日興",
+        "code": "8110",
+        "name": "華東",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "8464",
-        "name": "億豐",
+        "code": "7822",
+        "name": "倍利科",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "6230",
-        "name": "尼得科超眾",
+        "code": "1708",
+        "name": "東鹼",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "5285",
-        "name": "界霖",
+        "code": "2546",
+        "name": "根基",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "8114",
-        "name": "振樺電",
+        "code": "6024",
+        "name": "群益期",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "4994",
-        "name": "傳奇",
+        "code": "2851",
+        "name": "中再保",
         "buySell": 1.0,
         "amount": 0
       },
       {
-        "code": "6706",
-        "name": "惠特",
+        "code": "1802",
+        "name": "台玻",
         "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "2464",
-        "name": "盟立",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "6416",
-        "name": "瑞祺電通",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "3714",
-        "name": "富采",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "6271",
-        "name": "同欣電",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "2328",
-        "name": "廣宇",
-        "buySell": 1.0,
-        "amount": 0
-      },
-      {
-        "code": "3679",
-        "name": "新至陞",
-        "buySell": 0.86,
-        "amount": 0
-      },
-      {
-        "code": "2753",
-        "name": "八方雲集",
-        "buySell": 0.81,
-        "amount": 0
-      },
-      {
-        "code": "7769",
-        "name": "鴻勁",
-        "buySell": 0.48,
-        "amount": 0
-      },
-      {
-        "code": "2105",
-        "name": "正新",
-        "buySell": 0.26,
-        "amount": 0
-      },
-      {
-        "code": "3515",
-        "name": "華擎",
-        "buySell": -0.0,
         "amount": 0
       },
       {
         "code": "2247",
         "name": "汎德永業",
-        "buySell": -0.12,
+        "buySell": 0.97,
         "amount": 0
       },
       {
-        "code": "2387",
-        "name": "精元",
-        "buySell": -0.16,
+        "code": "3679",
+        "name": "新至陞",
+        "buySell": 0.95,
         "amount": 0
       },
       {
-        "code": "2472",
-        "name": "立隆電",
-        "buySell": -0.6,
+        "code": "6257",
+        "name": "矽格",
+        "buySell": 0.66,
         "amount": 0
       },
       {
-        "code": "3617",
-        "name": "碩天",
-        "buySell": -0.98,
+        "code": "2489",
+        "name": "瑞軒",
+        "buySell": 0.1,
         "amount": 0
       },
       {
         "code": "8422",
         "name": "可寧衛*",
-        "buySell": -1.0,
-        "amount": 0
-      },
-      {
-        "code": "2646",
-        "name": "星宇航空",
-        "buySell": -1.0,
-        "amount": 0
-      },
-      {
-        "code": "2727",
-        "name": "王品",
         "buySell": -1.0,
         "amount": 0
       },
@@ -1284,20 +1140,8 @@
         "amount": 0
       },
       {
-        "code": "6890",
-        "name": "來億-KY",
-        "buySell": -1.0,
-        "amount": 0
-      },
-      {
-        "code": "1104",
-        "name": "環泥",
-        "buySell": -1.0,
-        "amount": 0
-      },
-      {
-        "code": "2023",
-        "name": "燁輝",
+        "code": "2597",
+        "name": "潤弘",
         "buySell": -1.0,
         "amount": 0
       },
@@ -1308,27 +1152,57 @@
         "amount": 0
       },
       {
+        "code": "1104",
+        "name": "環泥",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
+        "code": "4441",
+        "name": "振大環球",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
+        "code": "2023",
+        "name": "燁輝",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
+        "code": "1773",
+        "name": "勝一",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
+        "code": "2645",
+        "name": "長榮航太",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
+        "code": "1319",
+        "name": "東陽",
+        "buySell": -1.0,
+        "amount": 0
+      },
+      {
         "code": "1434",
         "name": "福懋",
         "buySell": -1.0,
         "amount": 0
       },
       {
-        "code": "6206",
-        "name": "飛捷",
-        "buySell": -1.06,
+        "code": "3605",
+        "name": "宏致",
+        "buySell": -2.0,
         "amount": 0
       },
       {
-        "code": "3596",
-        "name": "智易",
-        "buySell": -1.29,
-        "amount": 0
-      },
-      {
-        "code": "5222",
-        "name": "全訊",
-        "buySell": -1.9,
+        "code": "2646",
+        "name": "星宇航空",
+        "buySell": -2.0,
         "amount": 0
       },
       {
@@ -1338,128 +1212,62 @@
         "amount": 0
       },
       {
-        "code": "9939",
-        "name": "宏全",
-        "buySell": -3.0,
-        "amount": 0
-      },
-      {
-        "code": "6442",
-        "name": "光聖",
-        "buySell": -3.0,
-        "amount": 0
-      },
-      {
-        "code": "2838",
-        "name": "聯邦銀",
-        "buySell": -3.0,
-        "amount": 0
-      },
-      {
-        "code": "7822",
-        "name": "倍利科",
-        "buySell": -3.0,
-        "amount": 0
-      },
-      {
-        "code": "2211",
-        "name": "長榮鋼",
-        "buySell": -3.0,
-        "amount": 0
-      },
-      {
-        "code": "6412",
-        "name": "群電",
-        "buySell": -3.77,
-        "amount": 0
-      },
-      {
-        "code": "3022",
-        "name": "威強電",
-        "buySell": -3.88,
-        "amount": 0
-      },
-      {
-        "code": "4532",
-        "name": "瑞智",
-        "buySell": -4.84,
-        "amount": 0
-      },
-      {
-        "code": "6669",
-        "name": "緯穎",
-        "buySell": -4.98,
-        "amount": 0
-      },
-      {
-        "code": "2634",
-        "name": "漢翔",
-        "buySell": -5.0,
-        "amount": 0
-      },
-      {
-        "code": "8271",
-        "name": "宇瞻",
-        "buySell": -5.6,
-        "amount": 0
-      },
-      {
-        "code": "9941",
-        "name": "裕融",
-        "buySell": -6.0,
-        "amount": 0
-      },
-      {
-        "code": "5515",
-        "name": "建國",
-        "buySell": -6.0,
-        "amount": 0
-      },
-      {
         "code": "3010",
         "name": "華立",
-        "buySell": -6.21,
-        "amount": 0
-      },
-      {
-        "code": "3653",
-        "name": "健策",
-        "buySell": -7.0,
+        "buySell": -3.0,
         "amount": 0
       },
       {
         "code": "9917",
         "name": "中保科",
+        "buySell": -4.0,
+        "amount": 0
+      },
+      {
+        "code": "2478",
+        "name": "大毅",
+        "buySell": -4.0,
+        "amount": 0
+      },
+      {
+        "code": "2838",
+        "name": "聯邦銀",
+        "buySell": -4.0,
+        "amount": 0
+      },
+      {
+        "code": "7795",
+        "name": "長廣",
+        "buySell": -5.0,
+        "amount": 0
+      },
+      {
+        "code": "4968",
+        "name": "立積",
+        "buySell": -5.0,
+        "amount": 0
+      },
+      {
+        "code": "2834",
+        "name": "臺企銀",
         "buySell": -7.0,
         "amount": 0
       },
       {
-        "code": "2006",
-        "name": "東和鋼鐵",
-        "buySell": -7.0,
-        "amount": 0
-      },
-      {
-        "code": "3028",
-        "name": "增你強",
-        "buySell": -7.15,
-        "amount": 0
-      },
-      {
-        "code": "3622",
-        "name": "洋華",
-        "buySell": -7.39,
-        "amount": 0
-      },
-      {
-        "code": "2031",
-        "name": "新光鋼",
+        "code": "8039",
+        "name": "台虹",
         "buySell": -9.0,
         "amount": 0
       },
       {
-        "code": "5871",
-        "name": "中租-KY",
+        "code": "6196",
+        "name": "帆宣",
+        "buySell": -9.0,
+        "amount": 0
+      },
+      {
+        "code": "6472",
+        "name": "保瑞",
         "buySell": -9.0,
         "amount": 0
       },
@@ -1470,63 +1278,51 @@
         "amount": 0
       },
       {
-        "code": "1612",
-        "name": "宏泰",
-        "buySell": -10.0,
+        "code": "7749",
+        "name": "意騰-KY",
+        "buySell": -11.0,
         "amount": 0
       },
       {
-        "code": "1608",
-        "name": "華榮",
-        "buySell": -10.0,
-        "amount": 0
-      },
-      {
-        "code": "6189",
-        "name": "豐藝",
-        "buySell": -11.59,
-        "amount": 0
-      },
-      {
-        "code": "1307",
-        "name": "三芳",
+        "code": "3592",
+        "name": "瑞鼎",
         "buySell": -12.0,
         "amount": 0
       },
       {
-        "code": "2609",
-        "name": "陽明",
-        "buySell": -14.0,
+        "code": "1590",
+        "name": "亞德客-KY",
+        "buySell": -13.0,
         "amount": 0
       },
       {
-        "code": "6515",
-        "name": "穎崴",
-        "buySell": -15.0,
-        "amount": 0
-      },
-      {
-        "code": "2493",
-        "name": "揚博",
+        "code": "2059",
+        "name": "川湖",
         "buySell": -16.0,
         "amount": 0
       },
       {
-        "code": "3033",
-        "name": "威健",
-        "buySell": -16.31,
+        "code": "5434",
+        "name": "崇越",
+        "buySell": -16.62,
         "amount": 0
       },
       {
-        "code": "2501",
-        "name": "國建",
+        "code": "3443",
+        "name": "創意",
+        "buySell": -16.93,
+        "amount": 0
+      },
+      {
+        "code": "6409",
+        "name": "旭隼",
         "buySell": -17.0,
         "amount": 0
       },
       {
         "code": "6533",
         "name": "晶心科",
-        "buySell": -17.0,
+        "buySell": -18.0,
         "amount": 0
       },
       {
@@ -1536,213 +1332,177 @@
         "amount": 0
       },
       {
-        "code": "6672",
-        "name": "騰輝電子-KY",
-        "buySell": -23.0,
+        "code": "2497",
+        "name": "怡利電",
+        "buySell": -20.0,
         "amount": 0
       },
       {
-        "code": "1717",
-        "name": "長興",
-        "buySell": -23.57,
+        "code": "2313",
+        "name": "華通",
+        "buySell": -26.0,
         "amount": 0
       },
       {
         "code": "6719",
         "name": "力智",
-        "buySell": -29.0,
+        "buySell": -26.0,
         "amount": 0
       },
       {
-        "code": "3592",
-        "name": "瑞鼎",
-        "buySell": -29.0,
-        "amount": 0
-      },
-      {
-        "code": "1590",
-        "name": "亞德客-KY",
-        "buySell": -29.0,
-        "amount": 0
-      },
-      {
-        "code": "4968",
-        "name": "立積",
-        "buySell": -29.0,
+        "code": "7769",
+        "name": "鴻勁",
+        "buySell": -27.66,
         "amount": 0
       },
       {
         "code": "8261",
         "name": "富鼎",
-        "buySell": -31.0,
-        "amount": 0
-      },
-      {
-        "code": "1319",
-        "name": "東陽",
-        "buySell": -32.0,
-        "amount": 0
-      },
-      {
-        "code": "6202",
-        "name": "盛群",
-        "buySell": -33.0,
-        "amount": 0
-      },
-      {
-        "code": "2049",
-        "name": "上銀",
-        "buySell": -38.0,
-        "amount": 0
-      },
-      {
-        "code": "2059",
-        "name": "川湖",
-        "buySell": -39.5,
-        "amount": 0
-      },
-      {
-        "code": "2371",
-        "name": "大同",
-        "buySell": -40.0,
-        "amount": 0
-      },
-      {
-        "code": "7749",
-        "name": "意騰-KY",
-        "buySell": -42.0,
-        "amount": 0
-      },
-      {
-        "code": "2408",
-        "name": "南亞科",
-        "buySell": -47.37,
-        "amount": 0
-      },
-      {
-        "code": "2497",
-        "name": "怡利電",
-        "buySell": -50.0,
-        "amount": 0
-      },
-      {
-        "code": "1605",
-        "name": "華新",
-        "buySell": -59.93,
-        "amount": 0
-      },
-      {
-        "code": "8070",
-        "name": "長華*",
-        "buySell": -60.14,
-        "amount": 0
-      },
-      {
-        "code": "8081",
-        "name": "致新",
-        "buySell": -63.09,
+        "buySell": -29.0,
         "amount": 0
       },
       {
         "code": "5236",
         "name": "凌陽創新",
-        "buySell": -65.0,
+        "buySell": -29.0,
         "amount": 0
       },
       {
-        "code": "3008",
-        "name": "大立光",
-        "buySell": -66.51,
+        "code": "6202",
+        "name": "盛群",
+        "buySell": -29.0,
         "amount": 0
       },
       {
-        "code": "1722",
-        "name": "台肥",
-        "buySell": -76.0,
+        "code": "2347",
+        "name": "聯強",
+        "buySell": -32.0,
         "amount": 0
       },
       {
-        "code": "1102",
-        "name": "亞泥",
-        "buySell": -78.01,
+        "code": "6669",
+        "name": "緯穎",
+        "buySell": -36.86,
+        "amount": 0
+      },
+      {
+        "code": "6415",
+        "name": "矽力*-KY",
+        "buySell": -37.0,
+        "amount": 0
+      },
+      {
+        "code": "8081",
+        "name": "致新",
+        "buySell": -38.0,
         "amount": 0
       },
       {
         "code": "3014",
         "name": "聯陽",
-        "buySell": -86.28,
+        "buySell": -38.23,
         "amount": 0
       },
       {
-        "code": "8996",
-        "name": "高力",
-        "buySell": -87.6,
+        "code": "6442",
+        "name": "光聖",
+        "buySell": -42.0,
         "amount": 0
       },
       {
-        "code": "2486",
-        "name": "一詮",
-        "buySell": -89.0,
+        "code": "2458",
+        "name": "義隆",
+        "buySell": -58.0,
+        "amount": 0
+      },
+      {
+        "code": "2231",
+        "name": "為升",
+        "buySell": -58.0,
+        "amount": 0
+      },
+      {
+        "code": "3583",
+        "name": "辛耘",
+        "buySell": -61.0,
+        "amount": 0
+      },
+      {
+        "code": "8021",
+        "name": "尖點",
+        "buySell": -72.87,
+        "amount": 0
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "buySell": -73.0,
+        "amount": 0
+      },
+      {
+        "code": "1722",
+        "name": "台肥",
+        "buySell": -74.0,
         "amount": 0
       },
       {
         "code": "6962",
         "name": "奕力-KY",
-        "buySell": -89.0,
+        "buySell": -83.0,
         "amount": 0
       },
       {
-        "code": "1560",
-        "name": "中砂",
-        "buySell": -99.0,
+        "code": "2371",
+        "name": "大同",
+        "buySell": -85.0,
         "amount": 0
       },
       {
-        "code": "2353",
-        "name": "宏碁",
-        "buySell": -105.47,
+        "code": "8150",
+        "name": "南茂",
+        "buySell": -101.0,
         "amount": 0
       },
       {
-        "code": "2467",
-        "name": "志聖",
-        "buySell": -119.38,
+        "code": "2383",
+        "name": "台光電",
+        "buySell": -101.94,
         "amount": 0
       },
       {
-        "code": "2002",
-        "name": "中鋼",
-        "buySell": -125.0,
-        "amount": 0
-      },
-      {
-        "code": "6285",
-        "name": "啟碁",
-        "buySell": -127.3,
-        "amount": 0
-      },
-      {
-        "code": "00881",
-        "name": "國泰台灣科技龍頭",
-        "buySell": -130.0,
+        "code": "2395",
+        "name": "研華",
+        "buySell": -106.0,
         "amount": 0
       },
       {
         "code": "4919",
         "name": "新唐",
-        "buySell": -140.1,
+        "buySell": -112.37,
         "amount": 0
       },
       {
-        "code": "2401",
-        "name": "凌陽",
-        "buySell": -144.0,
+        "code": "3034",
+        "name": "聯詠",
+        "buySell": -122.8,
+        "amount": 0
+      },
+      {
+        "code": "2352",
+        "name": "佳世達",
+        "buySell": -127.0,
+        "amount": 0
+      },
+      {
+        "code": "2355",
+        "name": "敬鵬",
+        "buySell": -130.0,
         "amount": 0
       },
       {
         "code": "1409",
         "name": "新纖",
-        "buySell": -150.0,
+        "buySell": -146.0,
         "amount": 0
       },
       {
@@ -1752,392 +1512,332 @@
         "amount": 0
       },
       {
-        "code": "2458",
-        "name": "義隆",
-        "buySell": -153.63,
-        "amount": 0
-      },
-      {
-        "code": "2072",
-        "name": "世紀能源",
-        "buySell": -160.0,
-        "amount": 0
-      },
-      {
-        "code": "3583",
-        "name": "辛耘",
-        "buySell": -161.0,
-        "amount": 0
-      },
-      {
         "code": "2388",
         "name": "威盛",
-        "buySell": -165.0,
-        "amount": 0
-      },
-      {
-        "code": "3605",
-        "name": "宏致",
-        "buySell": -166.0,
-        "amount": 0
-      },
-      {
-        "code": "2606",
-        "name": "裕民",
-        "buySell": -166.0,
-        "amount": 0
-      },
-      {
-        "code": "2355",
-        "name": "敬鵬",
-        "buySell": -176.2,
-        "amount": 0
-      },
-      {
-        "code": "1101",
-        "name": "台泥",
-        "buySell": -199.0,
-        "amount": 0
-      },
-      {
-        "code": "8150",
-        "name": "南茂",
-        "buySell": -201.0,
-        "amount": 0
-      },
-      {
-        "code": "2404",
-        "name": "漢唐",
-        "buySell": -209.21,
-        "amount": 0
-      },
-      {
-        "code": "3406",
-        "name": "玉晶光",
-        "buySell": -246.89,
-        "amount": 0
-      },
-      {
-        "code": "2351",
-        "name": "順德",
-        "buySell": -251.0,
-        "amount": 0
-      },
-      {
-        "code": "6278",
-        "name": "台表科",
-        "buySell": -260.56,
+        "buySell": -156.0,
         "amount": 0
       },
       {
         "code": "2393",
         "name": "億光",
-        "buySell": -261.22,
+        "buySell": -175.97,
         "amount": 0
       },
       {
-        "code": "00947",
-        "name": "台新臺灣IC設計",
-        "buySell": -267.0,
+        "code": "2072",
+        "name": "世紀能源",
+        "buySell": -189.0,
         "amount": 0
       },
       {
-        "code": "2313",
-        "name": "華通",
-        "buySell": -291.0,
+        "code": "3653",
+        "name": "健策",
+        "buySell": -192.9,
         "amount": 0
       },
       {
-        "code": "2383",
-        "name": "台光電",
-        "buySell": -291.67,
-        "amount": 0
-      },
-      {
-        "code": "2377",
-        "name": "微星",
-        "buySell": -296.91,
-        "amount": 0
-      },
-      {
-        "code": "3702",
-        "name": "大聯大",
-        "buySell": -321.83,
-        "amount": 0
-      },
-      {
-        "code": "3034",
-        "name": "聯詠",
-        "buySell": -340.42,
-        "amount": 0
-      },
-      {
-        "code": "3167",
-        "name": "大量",
-        "buySell": -341.0,
-        "amount": 0
-      },
-      {
-        "code": "3017",
-        "name": "奇鋐",
-        "buySell": -364.7,
-        "amount": 0
-      },
-      {
-        "code": "4958",
-        "name": "臻鼎-KY",
-        "buySell": -373.7,
-        "amount": 0
-      },
-      {
-        "code": "3450",
-        "name": "聯鈞",
-        "buySell": -413.0,
-        "amount": 0
-      },
-      {
-        "code": "8215",
-        "name": "明基材",
-        "buySell": -450.0,
-        "amount": 0
-      },
-      {
-        "code": "8039",
-        "name": "台虹",
-        "buySell": -461.0,
-        "amount": 0
-      },
-      {
-        "code": "2360",
-        "name": "致茂",
-        "buySell": -468.25,
-        "amount": 0
-      },
-      {
-        "code": "2347",
-        "name": "聯強",
-        "buySell": -523.46,
-        "amount": 0
-      },
-      {
-        "code": "5469",
-        "name": "瀚宇博",
-        "buySell": -561.0,
-        "amount": 0
-      },
-      {
-        "code": "2481",
-        "name": "強茂",
-        "buySell": -639.26,
-        "amount": 0
-      },
-      {
-        "code": "9933",
-        "name": "中鼎",
-        "buySell": -642.0,
-        "amount": 0
-      },
-      {
-        "code": "3532",
-        "name": "台勝科",
-        "buySell": -656.0,
+        "code": "6757",
+        "name": "台灣虎航",
+        "buySell": -200.0,
         "amount": 0
       },
       {
         "code": "2357",
         "name": "華碩",
-        "buySell": -715.57,
-        "amount": 0
-      },
-      {
-        "code": "6213",
-        "name": "聯茂",
-        "buySell": -816.0,
-        "amount": 0
-      },
-      {
-        "code": "6505",
-        "name": "台塑化",
-        "buySell": -817.0,
-        "amount": 0
-      },
-      {
-        "code": "8926",
-        "name": "台汽電",
-        "buySell": -883.0,
-        "amount": 0
-      },
-      {
-        "code": "2455",
-        "name": "全新",
-        "buySell": -1270.99,
-        "amount": 0
-      },
-      {
-        "code": "2344",
-        "name": "華邦電",
-        "buySell": -1394.17,
-        "amount": 0
-      },
-      {
-        "code": "2615",
-        "name": "萬海",
-        "buySell": -1510.0,
-        "amount": 0
-      },
-      {
-        "code": "2303",
-        "name": "聯電",
-        "buySell": -1568.3,
-        "amount": 0
-      },
-      {
-        "code": "4915",
-        "name": "致伸",
-        "buySell": -1711.0,
-        "amount": 0
-      },
-      {
-        "code": "4938",
-        "name": "和碩",
-        "buySell": -2099.76,
-        "amount": 0
-      },
-      {
-        "code": "3706",
-        "name": "神達",
-        "buySell": -2187.0,
-        "amount": 0
-      },
-      {
-        "code": "3026",
-        "name": "禾伸堂",
-        "buySell": -2233.4,
-        "amount": 0
-      },
-      {
-        "code": "2886",
-        "name": "兆豐金",
-        "buySell": -2270.0,
-        "amount": 0
-      },
-      {
-        "code": "2308",
-        "name": "台達電",
-        "buySell": -2270.09,
-        "amount": 0
-      },
-      {
-        "code": "1303",
-        "name": "南亞",
-        "buySell": -2354.0,
-        "amount": 0
-      },
-      {
-        "code": "2327",
-        "name": "國巨*",
-        "buySell": -2392.68,
-        "amount": 0
-      },
-      {
-        "code": "8046",
-        "name": "南電",
-        "buySell": -2484.01,
-        "amount": 0
-      },
-      {
-        "code": "2890",
-        "name": "永豐金",
-        "buySell": -2895.0,
-        "amount": 0
-      },
-      {
-        "code": "2412",
-        "name": "中華電",
-        "buySell": -3091.48,
-        "amount": 0
-      },
-      {
-        "code": "2801",
-        "name": "彰銀",
-        "buySell": -3293.0,
-        "amount": 0
-      },
-      {
-        "code": "2356",
-        "name": "英業達",
-        "buySell": -4467.0,
-        "amount": 0
-      },
-      {
-        "code": "3037",
-        "name": "欣興",
-        "buySell": -4800.87,
-        "amount": 0
-      },
-      {
-        "code": "2492",
-        "name": "華新科",
-        "buySell": -5673.0,
-        "amount": 0
-      },
-      {
-        "code": "2449",
-        "name": "京元電子",
-        "buySell": -5740.04,
-        "amount": 0
-      },
-      {
-        "code": "9904",
-        "name": "寶成",
-        "buySell": -6156.0,
-        "amount": 0
-      },
-      {
-        "code": "2892",
-        "name": "第一金",
-        "buySell": -6922.0,
-        "amount": 0
-      },
-      {
-        "code": "2885",
-        "name": "元大金",
-        "buySell": -8990.0,
-        "amount": 0
-      },
-      {
-        "code": "2884",
-        "name": "玉山金",
-        "buySell": -9431.0,
+        "buySell": -205.72,
         "amount": 0
       },
       {
         "code": "2883",
         "name": "凱基金",
-        "buySell": -13337.0,
+        "buySell": -227.0,
         "amount": 0
       },
       {
-        "code": "3481",
-        "name": "群創",
-        "buySell": -14187.98,
+        "code": "2401",
+        "name": "凌陽",
+        "buySell": -233.0,
+        "amount": 0
+      },
+      {
+        "code": "2603",
+        "name": "長榮",
+        "buySell": -239.0,
+        "amount": 0
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "buySell": -252.28,
+        "amount": 0
+      },
+      {
+        "code": "2002",
+        "name": "中鋼",
+        "buySell": -275.0,
+        "amount": 0
+      },
+      {
+        "code": "3617",
+        "name": "碩天",
+        "buySell": -287.0,
+        "amount": 0
+      },
+      {
+        "code": "3037",
+        "name": "欣興",
+        "buySell": -299.73,
+        "amount": 0
+      },
+      {
+        "code": "6278",
+        "name": "台表科",
+        "buySell": -330.0,
+        "amount": 0
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "buySell": -379.85,
+        "amount": 0
+      },
+      {
+        "code": "8215",
+        "name": "明基材",
+        "buySell": -430.0,
+        "amount": 0
+      },
+      {
+        "code": "3090",
+        "name": "日電貿",
+        "buySell": -592.0,
+        "amount": 0
+      },
+      {
+        "code": "1605",
+        "name": "華新",
+        "buySell": -608.27,
+        "amount": 0
+      },
+      {
+        "code": "5469",
+        "name": "瀚宇博",
+        "buySell": -620.0,
+        "amount": 0
+      },
+      {
+        "code": "1101",
+        "name": "台泥",
+        "buySell": -681.0,
+        "amount": 0
+      },
+      {
+        "code": "3167",
+        "name": "大量",
+        "buySell": -706.0,
+        "amount": 0
+      },
+      {
+        "code": "2428",
+        "name": "興勤",
+        "buySell": -748.0,
+        "amount": 0
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "buySell": -755.09,
+        "amount": 0
+      },
+      {
+        "code": "2486",
+        "name": "一詮",
+        "buySell": -778.0,
+        "amount": 0
+      },
+      {
+        "code": "2481",
+        "name": "強茂",
+        "buySell": -848.0,
+        "amount": 0
+      },
+      {
+        "code": "6213",
+        "name": "聯茂",
+        "buySell": -886.0,
+        "amount": 0
+      },
+      {
+        "code": "2476",
+        "name": "鉅祥",
+        "buySell": -904.0,
+        "amount": 0
+      },
+      {
+        "code": "8926",
+        "name": "台汽電",
+        "buySell": -943.0,
+        "amount": 0
+      },
+      {
+        "code": "2377",
+        "name": "微星",
+        "buySell": -1127.79,
+        "amount": 0
+      },
+      {
+        "code": "3532",
+        "name": "台勝科",
+        "buySell": -1132.0,
+        "amount": 0
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "buySell": -1160.33,
+        "amount": 0
+      },
+      {
+        "code": "2301",
+        "name": "光寶科",
+        "buySell": -1233.12,
+        "amount": 0
+      },
+      {
+        "code": "00992A",
+        "name": "主動群益科技創新",
+        "buySell": -1350.0,
+        "amount": 0
+      },
+      {
+        "code": "1102",
+        "name": "亞泥",
+        "buySell": -1380.55,
+        "amount": 0
+      },
+      {
+        "code": "2615",
+        "name": "萬海",
+        "buySell": -1493.0,
+        "amount": 0
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "buySell": -1499.78,
+        "amount": 0
+      },
+      {
+        "code": "4915",
+        "name": "致伸",
+        "buySell": -1540.0,
+        "amount": 0
+      },
+      {
+        "code": "3189",
+        "name": "景碩",
+        "buySell": -1901.52,
+        "amount": 0
+      },
+      {
+        "code": "3706",
+        "name": "神達",
+        "buySell": -1915.0,
+        "amount": 0
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "buySell": -1947.3,
+        "amount": 0
+      },
+      {
+        "code": "3045",
+        "name": "台灣大",
+        "buySell": -2058.0,
+        "amount": 0
+      },
+      {
+        "code": "3026",
+        "name": "禾伸堂",
+        "buySell": -2218.0,
+        "amount": 0
+      },
+      {
+        "code": "9933",
+        "name": "中鼎",
+        "buySell": -2245.37,
+        "amount": 0
+      },
+      {
+        "code": "2609",
+        "name": "陽明",
+        "buySell": -2294.0,
+        "amount": 0
+      },
+      {
+        "code": "8070",
+        "name": "長華*",
+        "buySell": -2321.0,
+        "amount": 0
+      },
+      {
+        "code": "2892",
+        "name": "第一金",
+        "buySell": -2978.0,
+        "amount": 0
+      },
+      {
+        "code": "2356",
+        "name": "英業達",
+        "buySell": -3876.0,
+        "amount": 0
+      },
+      {
+        "code": "2801",
+        "name": "彰銀",
+        "buySell": -3980.43,
+        "amount": 0
+      },
+      {
+        "code": "9904",
+        "name": "寶成",
+        "buySell": -5525.0,
         "amount": 0
       },
       {
         "code": "2887",
         "name": "台新新光金",
-        "buySell": -14632.0,
+        "buySell": -6435.0,
+        "amount": 0
+      },
+      {
+        "code": "2886",
+        "name": "兆豐金",
+        "buySell": -7595.0,
+        "amount": 0
+      },
+      {
+        "code": "2884",
+        "name": "玉山金",
+        "buySell": -8188.0,
+        "amount": 0
+      },
+      {
+        "code": "2885",
+        "name": "元大金",
+        "buySell": -9649.0,
         "amount": 0
       }
     ]
   },
   "threeInstitutions": [
     {
-      "date": "2026-11-17",
-      "foreign": -230284.01,
-      "investmentTrust": -42586.88,
-      "dealer": -2056363.0,
-      "total": -2329233.89
+      "date": "2026-11-18",
+      "foreign": -403374.89,
+      "investmentTrust": 32206.59,
+      "dealer": -1054588.35,
+      "total": -1425756.65
     }
   ],
   "activeEtfFlows": [],
